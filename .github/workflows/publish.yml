@@ -38,8 +38,11 @@ jobs:
           commit_info=`git describe --all --always --long`
           teedoc install
           teedoc build
+      # 部署
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: html # The branch the action should deploy to.
-          FOLDER: out # The folder the action should deploy.
+          FOLDER: out # The folder the action should deploy.  
           
