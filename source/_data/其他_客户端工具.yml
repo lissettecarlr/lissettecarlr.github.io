@@ -69,3 +69,9 @@
   url: https://github.com/usebruno/bruno/releases
   img: /images/logos/github.png
   description: Bruno 是一款全新且创新的 API 客户端，旨在颠覆 Postman 和其他类似工具
+
+
+- name: 【图片查看器】ImageGlass
+  url: https://github.com/d2phap/ImageGlass
+  img: /images/logos/github.png
+  description:  一款轻量级、多功能的图片查看器，Windows 

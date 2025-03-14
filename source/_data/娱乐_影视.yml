@@ -24,5 +24,8 @@
   img: /images/logos/github.png
   description: FongMi影视和tvbox配置文件
 
-
+- name: FreeTube
+  url: https://github.com/FreeTubeApp/FreeTube?tab=readme-ov-file
+  img: /images/logos/github.png
+  description: 一个用于隐私的开源 YouTube 应用
 

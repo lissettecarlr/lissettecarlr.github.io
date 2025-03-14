@@ -33,3 +33,8 @@
   url: https://github.com/imsnif/bandwhich
   img: /images/logos/github.png
   description: 这是一个 CLI 实用程序，用于按进程、连接和远程 IP/主机名显示当前的网络利用率
+
+- name: 【下载器】
+  url: https://github.com/soimort/you-get
+  img: /images/logos/github.png
+  description: 抓取网页的下载工具
