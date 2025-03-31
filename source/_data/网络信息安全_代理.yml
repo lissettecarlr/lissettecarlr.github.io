@@ -58,3 +58,14 @@
   img: /images/logos/github.png
   description: docker部署可以参考:https://hub.docker.com/r/agassiz/trojan
 
+- name: 【代理】v2rayNG
+  url: https://github.com/2dust/v2rayNG
+  img: /images/logos/github.png
+  description: Android客户端
+
+- name: 【代理】v2rayN
+  url: https://github.com/2dust/v2rayN
+  img: /images/logos/github.png
+  description: Windows、Linux、macOS客户端
+  
+
