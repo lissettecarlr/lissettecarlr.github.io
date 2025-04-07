@@ -2,3 +2,13 @@
   url: https://music.liuzhijin.cn/
   img: https://music.liuzhijin.cn/favicon.ico
   description: 音乐直链搜索
+
+- name: 歌曲宝
+  url: https://www.gequbao.com/
+  img: https://www.gequbao.com/favicon.ico
+  description: mp3歌曲下载
+
+- name: hifini
+  url: https://www.hifini.com/
+  img: https://www.hifini.com/favicon.ico
+  description: 歌曲下载，需要注册签到

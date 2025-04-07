@@ -1,0 +1,63 @@
+- name: 【磁力搜索】无极磁力
+  url: https://cili.st/
+  img: /images/favicon.ico
+  description: 
+
+- name: 【磁力搜索】磁力猫
+  url: https://xn--vur557cbpe6y0c.lol/
+  img: /images/favicon.ico
+  description: 
+
+- name: 【磁力搜索】anybt
+  url: https://anybt.eth.limo/
+  img: /images/favicon.ico
+  description: 
+
+- name: 【磁力搜索】磁力狐
+  url: https://bt31.foxs.vip/
+  img: /images/favicon.ico
+  description: 
+
+- name: 【网盘搜索】panyq
+  url: https://panyq.com
+  img: https://panyq.com/favicon.ico
+  description: 网盘资源搜索下载
+
+- name: 【网盘搜索】panyq
+  url: https://news.bqrdh.com/wp
+  img: https://news.bqrdh.com/favicon.ico
+  description: 网盘资源搜索下载
+
+
+
+- name: 【影视下载】电影天堂
+  url: https://www.dytt8.com
+  img: https://www.dytt8.com/favicon.ico
+  description:
+
+- name: 【影视在线】boju
+  url: https://www.boju.cc/
+  img: /images/favicon.ico
+  description:
+
+- name: 【影视在线】厂长资源在线 
+  url: https://www.czzy77.com
+  img: /images/favicon.ico
+  description:
+
+- name: 【影视在线】火车太堵
+  url: https://www.tdgo.shop/
+  img: /images/favicon.ico
+  description:
+
+
+- name: gaotianliuyun/gao
+  url: https://github.com/gaotianliuyun/gao
+  img: /images/logos/github.png
+  description: FongMi影视和tvbox配置文件
+
+- name: FreeTube
+  url: https://github.com/FreeTubeApp/FreeTube?tab=readme-ov-file
+  img: /images/logos/github.png
+  description: 一个用于隐私的开源 YouTube 应用
+

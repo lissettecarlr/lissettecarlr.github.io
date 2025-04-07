@@ -117,6 +117,9 @@ menu:
       - name: 搜索下载
         icon: fas fa-blog
         config: 娱乐_影视
+      - name: 影视在线
+        icon: fas fa-blog
+        config: 娱乐_影视在线
       - name: 动漫
         icon: fas fa-blog
         config: 娱乐_动漫        

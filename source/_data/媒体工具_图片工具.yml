@@ -45,6 +45,12 @@
   img: /images/favicon.ico
   description: 批量压缩
 
+- name: 【图片压缩】pic-smaller
+  url:   https://github.com/joye61/pic-smaller
+  img: /images/logos/github.png
+  description: 需要自部署的图片压缩web交互工具。
+
+
 
 - name: 【图片放大】upscayl/upscayl
   url: https://github.com/upscayl/upscayl
