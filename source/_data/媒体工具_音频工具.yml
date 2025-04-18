@@ -28,6 +28,11 @@
   img: /images/logos/github.png
   description: 基于Whisper的实时转录。
 
+- name: 【音频在线工具】audiotrimmer
+  url: https://audiotrimmer.com/cn/
+  img: /images/logos/github.png
+  description: 音频变速放大等在线工具
+
 - name: GoMusic
   url: https://github.com/Bistutu/GoMusic
   img: /images/logos/github.png

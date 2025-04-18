@@ -104,6 +104,12 @@
   img: /images/favicon.ico
   description: 动漫图片溯源。
 
+- name: 【图片搜索】animetrace
+  url: https://www.animetrace.com/
+  img: /images/favicon.ico
+  description: 动漫图片溯源。
+
+
 - name: 【图片搜索】pixiv
   url: https://pic-image-search.kituin.fun/zh/
   img: https://pic-image-search.kituin.fun/img/favicon.ico
