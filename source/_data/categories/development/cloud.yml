@@ -1,0 +1,136 @@
+# 开发工具
+
+- name: 云服务器
+  icon: fas fa-server
+  sites:
+    # 国内大厂
+    - name: 阿里云
+      url: https://home.console.aliyun.com/#/
+      img: /images/favicon.ico
+      description: 
+
+    - name: 腾讯云
+      url: https://console.cloud.tencent.com/cvm/instance/index
+      img: /images/favicon.ico
+      description: 
+
+    - name: 华为云
+      url: https://activity.huaweicloud.com
+      img: /images/favicon.ico
+      description:
+
+    - name: 优刻得
+      url: https://www.ucloud.cn/site/about/intro/
+      img: /images/favicon.ico
+      description: 优刻得，国内云计算服务服务商
+
+    # 国外主流
+    - name: AWS
+      url: https://aws.amazon.com/cn/
+      img: https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico
+      description: 
+
+    - name: Linode
+      url: https://www.linode.com/zh/pricing/
+      img: /images/favicon.ico
+      description: 被Akamai收购的国外云服务商
+
+    - name: DigitalOcean
+      url: https://www.digitalocean.com/
+      img: /images/favicon.ico
+      description: 国外云服务商，传闻性价比高
+
+    - name: Vultr
+      url: https://my.vultr.com/
+      img: /images/favicon.ico
+      description: 14年成立的的VPS提供商
+
+    # 便宜VPS
+    - name: 搬瓦工
+      url: https://bandwagonhost.com/services
+      img: /images/favicon.ico
+      description: 目前使用这家，稳定便宜
+
+    - name: DMIT
+      url: https://www.dmit.io/
+      img: /images/favicon.ico
+      description: 听说比搬瓦工能好，等打折的时候试试
+
+    - name: CloudCone
+      url: https://cloudcone.com/vps/#pricingtitle
+      img: /images/favicon.ico
+      description: VPS。圣诞节9.5美元买了个1CPU-0.5GB，部署了个代码，状态时好时坏
+
+    - name: RackNerd
+      url: https://my.racknerd.com/cart.php?a=view
+      img: /images/favicon.ico
+      description: vps。2C3G每年28美元，便宜是便宜，但国内基本没法用，卡爆
+
+    # 日本VPS
+    - name: ConoHa
+      url: https://www.conoha.jp/
+      img: /images/favicon.ico
+      description: 日本的云服务，注册需要绑定信用卡
+
+    - name: Alwyzon
+      url: https://www.alwyzon.com/en
+      img: /images/favicon.ico
+      description: 奥地利服务器。听说很快没试过
+
+    # 专业服务
+    - name: Kamatera
+      url: https://console.kamatera.com/
+      img: /images/favicon.ico
+      description: 一个按小时收费的VPS云服务器主机商
+
+    - name: SpartanHost
+      url: https://spartanhost.org/vps
+      img: /images/favicon.ico
+      description: 美国VPS
+
+    - name: AkkoCloud
+      url: https://www.akkocloud.com/cart.php
+      img: /images/favicon.ico
+      description: 二次元国人商家
+
+- name: 应用托管
+  icon: fas fa-cloud-upload-alt
+  sites:
+    - name: Vercel
+      url: https://vercel.com/dashboard
+      img: /images/favicon.ico
+      description: web应用托管平台
+
+    - name: Railway
+      url: https://railway.app/account/billing
+      img: /images/favicon.ico
+      description: 帮助快速构建应用的云服务。我之前是用来当作云数据库，有5美元免费额度
+
+    - name: Hostman
+      url: https://hostman.com/
+      img: /images/favicon.ico
+      description: 部署 Web 应用程序的托管平台
+
+- name: 数据库服务
+  icon: fas fa-database
+  sites:
+    - name: PlanetScale
+      url: https://planetscale.com/
+      img: /images/favicon.ico
+      description: MySQL云数据库
+
+- name: 在线编辑器
+  icon: fas fa-code
+  sites: []
+
+- name: API服务
+  icon: fas fa-plug
+  sites: []
+
+- name: 运维工具
+  icon: fas fa-cogs
+  sites: []
+
+- name: 云存储
+  icon: fas fa-cloud
+  sites: [] 

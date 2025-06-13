@@ -1,0 +1,275 @@
+# 媒体工具 - AI & 传统工具整合
+
+- name: 图像处理
+  icon: fas fa-images
+  sites:
+    # AI图像处理
+    - name: DragGAN
+      url: https://github.com/XingangPan/DragGAN
+      img: /images/logos/github.png
+      description: 通过拖动修改图像，例如更改表情，面朝方向等
+
+    - name: clipdrop
+      url: https://clipdrop.co/relight
+      img: https://clipdrop.co/favicon.ico
+      description: 图片光影变化
+
+    - name: lama-cleaner
+      url: https://github.com/Sanster/lama-cleaner
+      img: /images/logos/github.png
+      description: AI模型擦除多余物件
+
+    - name: IOPaint
+      url: https://github.com/Sanster/IOPaint
+      img: /images/logos/github.png
+      description: 从照片中删除任何不需要的物体、缺陷、人物，或擦除并替换
+
+    # 背景处理
+    - name: background-erase
+      url: https://background-erase.xyz/#about
+      img: https://background-erase.xyz/assets/favicon-32x32-QrfuIMp1.png
+      description: 在线图片背景消除
+
+    - name: remove.bg
+      url: https://www.remove.bg/zh
+      img: https://www.remove.bg/favicon.ico?v=fc0bfce6e1310f1539afec9729716721
+      description: 在线图片背景消除
+
+    # 图片压缩
+    - name: tinypng
+      url: https://tinypng.com/
+      img: /images/favicon.ico
+      description: 在线图片压缩。使用过效果很好
+
+    - name: compressjpeg
+      url: https://compressjpg.io/
+      img: /images/favicon.ico
+      description: 批量压缩
+
+    # 图片放大
+    - name: upscayl
+      url: https://github.com/upscayl/upscayl
+      img: /images/logos/github.png
+      description: AI图像放大器
+
+    - name: Final2x
+      url: https://github.com/Tohrusky/Final2x
+      img: /images/logos/github.png
+      description: 图像分辨率提升
+
+    - name: bigjpg
+      url: https://bigjpg.com/
+      img: /images/favicon.ico
+      description: 在线AI图片放大器
+
+    # 图片编辑
+    - name: squoosh
+      url: https://squoosh.app/editor
+      img: https://squoosh.app/c/favicon-c9cf50ef.ico
+      description: 在线图片尺寸质量修改
+
+    - name: photopea
+      url: https://www.photopea.com/
+      img: /images/favicon.ico
+      description: 图片在线编辑器
+
+    - name: svgco
+      url: https://svgco.de/
+      img: https://svgco.de/favicon.png
+      description: PNG 等格式的图片转换为 SVG 矢量图片
+
+    # 图片搜索
+    - name: yandex
+      url: https://yandex.com/
+      img: https://yandex.com/favicon.ico
+      description: 图片溯源
+
+    - name: trace.moe
+      url: https://trace.moe/
+      img: /images/favicon.ico
+      description: 动漫图片溯源
+
+    - name: pixiv识图
+      url: https://pic-image-search.kituin.fun/zh/
+      img: https://pic-image-search.kituin.fun/img/favicon.ico
+      description: 聚合识图引擎 用于以图搜源
+
+    # OCR识别
+    - name: simpletex
+      url: https://simpletex.cn/ai/latex_ocr
+      img: /images/favicon.ico
+      description: OCR公式识别
+
+    - name: LaTeX-OCR
+      url: https://github.com/lukas-blecher/LaTeX-OCR
+      img: /images/logos/github.png
+      description: 公式识别
+
+- name: 视频处理
+  icon: fas fa-video
+  sites:
+    # 视频编辑
+    - name: 剪映
+      url: https://www.capcut.cn
+      img: https://lf-cdn-tos.bytescm.com/obj/static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico
+      description: 剪辑软件
+
+    # 录屏工具
+    - name: recordscreen
+      url: https://recordscreen.io/
+      img: https://recordscreen.io/favicon.ico
+      description: 在线录屏
+
+    - name: OBS Studio
+      url: https://obsproject.com/
+      img: https://obsproject.com/favicon.ico
+      description: 录屏软件
+
+    # AI视频增强
+    - name: Real-ESRGAN
+      url: https://github.com/xinntao/Real-ESRGAN/blob/master/README_CN.md
+      img: /images/logos/github.png
+      description: 提升视频清晰度
+
+    - name: topazlabs
+      url: https://www.topazlabs.com/
+      img: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/66207d4875f767e21d812b11_tnb-favicon-32.png
+      description: 正版付费，巨贵无比，有破解，使用简单，效果也不错
+
+    - name: Squirrel-RIFE
+      url: https://github.com/Justin62628/Squirrel-RIFE/releases/tag/v3.20.4
+      img: /images/logos/github.png
+      description: 动漫补帧
+
+    # 视频修改
+    - name: DeepFaceLive
+      url: https://github.com/iperov/DeepFaceLive
+      img: /images/logos/github.png
+      description: 实时换脸
+
+    - name: ffmpeg在线
+      url: https://ffmpeg-online.vercel.app/?inputOptions=-i&output=output.mp4&outputOptions=
+      img: /images/favicon.ico
+      description: 在线ffmpeg
+
+    # 视频压缩
+    - name: videozip
+      url: https://www.videozip.online/
+      img: https://www.videozip.online/favicon.ico
+      description: 视频压缩、转码和导出音频功能
+
+- name: 音频处理
+  icon: fas fa-music
+  sites:
+    # 变声工具
+    - name: voice-changer
+      url: https://github.com/w-okada/voice-changer
+      img: /images/logos/github.png
+      description: 实时语音转换器
+
+    - name: RVC-WebUI
+      url: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI
+      img: /images/logos/github.png
+      description: 可通过web界面交互的变声框架，可推理可训练
+
+    # 音频编辑
+    - name: vocalremover
+      url: https://vocalremover.org/
+      img: https://vocalremover.org/favicon.ico
+      description: 在线音频编辑器
+
+    # 文本转语音
+    - name: GPT-SoVITS
+      url: https://github.com/RVC-Boss/GPT-SoVITS
+      img: /images/logos/github.png
+      description: 1分钟的语音数据也可以用来训练一个很好的TTS模型
+
+    - name: tortoise-tts
+      url: https://github.com/neonbjb/tortoise-tts
+      img: /images/logos/github.png
+      description: 注重质量的多语音 TTS 系统
+
+    # 语音转文本
+    - name: WhisperLive
+      url: https://github.com/collabora/WhisperLive
+      img: /images/logos/github.png
+      description: 基于Whisper的实时转录
+
+    # 在线音频工具
+    - name: audiotrimmer
+      url: https://audiotrimmer.com/cn/
+      img: /images/logos/github.png
+      description: 音频变速放大等在线工具
+
+    # 音乐工具
+    - name: GoMusic
+      url: https://github.com/Bistutu/GoMusic
+      img: /images/logos/github.png
+      description: 迁移网易云/QQ音乐歌单至 Apple/Youtube/Spotify Music
+
+- name: 文档处理
+  icon: fas fa-file-alt
+  sites:
+    # 数据可视化
+    - name: jsoncrack
+      url: https://github.com/AykutSarac/jsoncrack.com
+      img: /images/logos/github.png
+      description: 数据可视化应用程序，能够将JSON、YAML、XML、CSV等数据格式可视化为交互式图形
+
+    # 格式转换
+    - name: 时间戳转换
+      url: https://tool.lu/timestamp/
+      img: /images/favicon.ico
+      description: 时间戳(Unix timestamp)转换工具
+
+    - name: hex转str
+      url: https://tool.lu/hexstr/
+      img: /images/favicon.ico
+      description: hex转str
+
+    - name: markdowndown
+      url: https://markdowndown.vercel.app/
+      img: https://markdowndown.vercel.app/favicon.ico
+      description: 网页转化为markdown
+
+    - name: caption2text
+      url: https://f-loat.github.io/caption2text/
+      img: https://f-loat.github.io/caption2text/favicon.ico
+      description: 字幕转文本，也就是去除字幕文件中的时间
+
+    # 翻译工具
+    - name: 沉浸式翻译
+      url: https://immersivetranslate.com/
+      img: https://immersivetranslate.com/img/favicon.svg
+      description: 浏览器翻译插件。能够显示原本和翻译文本，非常好用
+
+    - name: STranslate
+      url: https://github.com/ZGGSONG/STranslate
+      img: /images/logos/github.png
+      description: 一款即开即用、即用即走的翻译、OCR工具
+
+    - name: 鬼才琪露诺翻译
+      url: https://afdian.net/@AdventCirno
+      img: https://static.afdiancdn.com/favicon.ico
+      description: 鬼才琪露诺的翻译引擎。目前日式RPG的云汉化基本全是用这个软件
+
+    - name: 团子翻译器
+      url: https://translator.dango.cloud/
+      img: https://translator.dango.cloud/favicon.ico
+      description: 团子翻译器，属于OCR识别后翻译
+
+    # PDF工具
+    - name: Stirling-PDF
+      url: https://github.com/Stirling-Tools/Stirling-PDF
+      img: /images/favicon.ico
+      description: 本地托管的 Web 应用程序，允许您对 PDF 文件执行各种操作
+
+    - name: MinerU
+      url: https://github.com/opendatalab/MinerU
+      img: /images/logos/github.png
+      description: 站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式
+
+    - name: PDFMathTranslate
+      url: https://github.com/Byaidu/PDFMathTranslate/blob/main/README_zh-CN.md
+      img: /images/logos/github.png
+      description: 基于 AI 完整保留排版的 PDF 文档全文双语翻译 

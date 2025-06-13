@@ -1,0 +1,101 @@
+# 隐私工具
+
+- name: 临时服务
+  icon: fas fa-user-secret
+  sites:
+    # SMS接收
+    - name: receive-smss
+      url: https://receive-smss.com/
+      img: /images/favicon.ico
+      description: SMS接收短信
+
+    - name: sms-activate
+      url: https://sms-activate.org/cn
+      img: /images/favicon.ico
+      description: SMS接收短信
+
+    - name: sms-man
+      url: https://sms-man.com/cn
+      img: /images/favicon.ico
+      description: SMS接收短信
+
+    - name: grizzlysms
+      url: https://grizzlysms.com/cn/countries/japan
+      img: /images/favicon.ico
+      description: SMS接收短信
+
+    - name: tiger-sms
+      url: https://tiger-sms.com/#howitworks
+      img: /images/favicon.ico
+      description: SMS接收短信
+
+    # 邮件服务
+    - name: resend
+      url: https://resend.com/
+      img: /images/favicon.ico
+      description: 邮件代发服务
+
+    - name: Firefox Relay
+      url: https://relay.firefox.com/
+      img: /images/favicon.ico
+      description: 邮件转发服务
+
+    # 假数据生成
+    - name: fauxid
+      url: https://fauxid.com/fake-name-generator
+      img: /images/favicon.ico
+      description: 生成虚假个人信息
+
+    - name: usaddrgen
+      url: https://www.usaddrgen.com/zh/
+      img: /images/favicon.ico
+      description: 虚假地址生成
+
+- name: 网络代理
+  icon: fas fa-shield-alt
+  sites:
+    # 代理脚本
+    - name: v2ray-agent
+      url: https://github.com/mack-a/v2ray-agent?tab=readme-ov-file
+      img: /images/logos/github.png
+      description: Xray、Tuic、hysteria2、sing-box 八合一一键脚本
+
+    - name: SSPanel-Uim
+      url: https://github.com/Anankke/SSPanel-Uim
+      img: /images/logos/github.png
+      description: 代理服务管理平台
+
+    - name: clash-rules
+      url: https://github.com/Loyalsoldier/clash-rules
+      img: /images/logos/github.png
+      description: Clash Premium 规则集(RULE-SET)，兼容 ClashX Pro、Clash for Windows 客户端
+
+    # 代理客户端
+    - name: v2rayNG
+      url: https://github.com/2dust/v2rayNG
+      img: /images/logos/github.png
+      description: Android客户端
+
+    - name: v2rayN
+      url: https://github.com/2dust/v2rayN
+      img: /images/logos/github.png
+      description: Windows、Linux、macOS客户端
+
+    # Trojan
+    - name: trojan
+      url: https://github.com/Jrohy/trojan
+      img: /images/logos/github.png
+      description: docker部署可web交互的代理
+
+- name: Docker代理
+  icon: fas fa-docker
+  sites:
+    - name: docker代理监控
+      url: https://github.com/cmliu/CF-Workers-docker.io
+      img: /images/logos/github.png
+      description: 一个github代码仓库的issues
+
+    - name: docker服务状态
+      url: https://status.1panel.top/status/docker
+      img: /images/favicon.ico
+      description: 国内 Docker 服务状态 & 镜像加速监控 

@@ -1,0 +1,72 @@
+# 网络工具
+
+- name: 网络测试
+  icon: fas fa-network-wired
+  sites:
+    # 网速测试
+    - name: speedtest
+      url: https://www.speedtest.net/
+      img: /images/favicon.ico
+      description: 外部网络测试
+
+    - name: 自部署speedtest
+      url: https://github.com/librespeed/speedtest
+      img: /images/logos/github.png
+      description: 可自部署的网速测试工具
+
+    # 连通性测试
+    - name: ping.pe
+      url: https://ping.pe/
+      img: /images/favicon.ico
+      description: 输入目标地址，能够查看不同地方能否连通
+
+    - name: ipip工具
+      url: https://tools.ipip.net/traceroute.php
+      img: https://tools.ipip.net/favicon.ico
+      description: 测试国内不同区域运营商到指定地址的连通性
+
+    # 端口测试
+    - name: 站长工具
+      url: https://tool.chinaz.com/port/
+      img: /images/favicon.ico
+      description: 这是查看指定端口是否打开的工具
+
+    # IPv6测试
+    - name: test-ipv6
+      url: https://test-ipv6.com/index.html.zh_CN
+      img: /images/favicon.ico
+      description: 检测你本机是否是ipv6
+
+    # HTTP测试
+    - name: httpie
+      url: https://httpie.io/app
+      img: /images/favicon.ico
+      description: 在线的http请求测试工具
+
+    # 区域限制测试
+    - name: RegionRestrictionCheck
+      url: https://github.com/lmc999/RegionRestrictionCheck
+      img: /images/logos/github.png
+      description: 测试IPv4解锁情况，流媒体平台及游戏区域限制测试
+
+    # CDN测试
+    - name: CloudflareSpeedTest
+      url: https://github.com/XIU2/CloudflareSpeedTest
+      img: /images/logos/github.png
+      description: 测试 Cloudflare CDN 延迟和速度，获取最快 IP
+
+- name: 信息查询
+  icon: fas fa-search
+  sites: []
+
+- name: 监控工具
+  icon: fas fa-chart-line
+  sites: []
+
+- name: 数据传输
+  icon: fas fa-exchange-alt
+  sites: []
+
+- name: 多功能集合
+  icon: fas fa-toolbox
+  sites: [] 

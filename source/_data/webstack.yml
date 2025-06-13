@@ -6,11 +6,11 @@ logo:
   # collapsed: /images/logo-collapsed@2x.png
   # dark: /images/logo_dark@2x.png
 
-flag:
-  - name: Chinese
-    default: true
-    icon: flag-cn
-    index: /index.html
+# flag:  # 已删除语言选择器功能，此配置不再需要
+#   - name: Chinese
+#     default: true
+#     icon: flag-cn
+#     index: /index.html
 
 search: False
 
