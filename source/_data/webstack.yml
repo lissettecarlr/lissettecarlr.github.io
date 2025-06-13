@@ -34,16 +34,16 @@ menu:
     submenu:
       - name: 视频工具
         icon: fas fa-video
-        config: 媒体工具_视频工具
+        config: 媒体工具/视频工具
       - name: 音频工具
         icon: fas fa-headphones
-        config: 媒体工具_音频工具
+        config: 媒体工具/音频工具
       - name: 图片工具
         icon: fas fa-image
-        config: 媒体工具_图片工具
+        config: 媒体工具/图片工具
       - name: 文本工具
         icon: fas fa-blog
-        config: 媒体工具_文本工具
+        config: 媒体工具/文本工具
 
   - name: 网络通信
     icon: fas fa-tools

@@ -1,128 +1,151 @@
-
 - name: DragGAN
-  url: 【内容修改】https://github.com/XingangPan/DragGAN
+  url: https://github.com/XingangPan/DragGAN
   img: /images/logos/github.png
   description: 通过拖动修改图像，例如更改表情，面朝方向等。挺有趣的，纠正摆姿什么的。
+  tags: ["AI编辑", "开源", "GitHub"]
 
-- name: 【内容修改】clipdrop
+- name: clipdrop
   url: https://clipdrop.co/relight
   img: https://clipdrop.co/favicon.ico
   description: 图片光影变化。
+  tags: ["光影调整", "在线工具", "AI"]
 
-- name: 【内容修改】lama-cleaner
+- name: lama-cleaner
   url: https://github.com/Sanster/lama-cleaner
   img: /images/logos/github.png
   description: AI模型擦除多余物件。
+  tags: ["图片修复", "AI", "开源"]
 
-- name: 【内容修改】IOPaint
+- name: IOPaint
   url: https://github.com/Sanster/IOPaint
   img: /images/logos/github.png
   description: 从照片中删除任何不需要的物体、缺陷、人物，或擦除并替换。
+  tags: ["图片修复", "AI", "开源", "物体移除"]
 
-- name: 【内容修改】gpupixel
+- name: gpupixel
   url: https://github.com/pixpark/gpupixel
   img: /images/logos/github.png
   description: 实时图像滤镜和美颜。
+  tags: ["滤镜", "美颜", "实时处理"]
 
-- name: 【内容修改】background-erase
+- name: background-erase
   url: https://background-erase.xyz/#about
   img: https://background-erase.xyz/assets/favicon-32x32-QrfuIMp1.png
   description: 在线图片背景消除
+  tags: ["背景移除", "在线工具"]
 
-- name: 【内容修改】remove
+- name: remove.bg
   url: https://www.remove.bg/zh
   img: https://www.remove.bg/favicon.ico?v=fc0bfce6e1310f1539afec9729716721
   description: 在线图片背景消除
+  tags: ["背景移除", "在线工具", "商业"]
 
 
-- name: 【图片压缩】tinypng
+- name: tinypng
   url: https://tinypng.com/
   img: /images/favicon.ico
   description: 在线图片压缩。使用过效果很好。
+  tags: ["图片压缩", "在线工具", "PNG", "JPG"]
 
-- name: 【图片压缩】ompressjpg
-  url:   https://compressjpg.io/
+- name: compressjpg
+  url: https://compressjpg.io/
   img: /images/favicon.ico
   description: 批量压缩
+  tags: ["图片压缩", "批量处理", "JPG"]
 
-- name: 【图片压缩】pic-smaller
-  url:   https://github.com/joye61/pic-smaller
+- name: pic-smaller
+  url: https://github.com/joye61/pic-smaller
   img: /images/logos/github.png
   description: 需要自部署的图片压缩web交互工具。
+  tags: ["图片压缩", "自部署", "开源"]
 
 
 
-- name: 【图片放大】upscayl/upscayl
+- name: upscayl
   url: https://github.com/upscayl/upscayl
   img: /images/logos/github.png
   description: AI图像放大器。
+  tags: ["图片放大", "AI", "开源", "超分辨率"]
 
-- name: 【图片放大】Tohrusky/Final2x
+- name: Final2x
   url: https://github.com/Tohrusky/Final2x
   img: /images/logos/github.png
   description: 图像分辨率提升。
+  tags: ["图片放大", "超分辨率", "开源"]
 
-- name: 【图片放大】bigjpg
+- name: bigjpg
   url: https://bigjpg.com/
   img: /images/favicon.ico
   description: 在线AI图片放大器。
+  tags: ["图片放大", "AI", "在线工具", "动漫优化"]
 
-- name: 【图片放大】inpaint-web
+- name: inpaint-web
   url: https://github.com/lxfater/inpaint-web
   img: /images/logos/github.png
   description: 开源的图片修复和超分辨率工具。
+  tags: ["图片修复", "超分辨率", "开源", "Web"]
 
-- name: 【图片编辑】squoosh
+- name: squoosh
   url: https://squoosh.app/editor
   img: https://squoosh.app/c/favicon-c9cf50ef.ico
   description: 在线图片尺寸质量修改。
+  tags: ["图片编辑", "在线工具", "Google", "格式转换"]
 
-- name: 【图片编辑】photopea
+- name: photopea
   url: https://www.photopea.com/
   img: /images/favicon.ico
   description: 图片在线编辑器。
+  tags: ["图片编辑", "在线工具", "PSD支持", "专业"]
 
-- name: 【图片编辑】svgco
+- name: svgco
   url: https://svgco.de/
   img: https://svgco.de/favicon.png
   description: PNG 等格式的图片转换为 SVG 矢量图片
+  tags: ["格式转换", "SVG", "矢量化"]
 
-- name: 【图片编辑】svg.la
+- name: svg.la
   url: https://svg.la/zh/
   img: https://svg.la/images/logo.svg
   description: 文本图片转 SVG 矢量图片
+  tags: ["格式转换", "SVG", "文字识别", "矢量化"]
 
 
 
-- name: 【图片搜索】yandex
+- name: yandex
   url: https://yandex.com/
   img: https://yandex.com/favicon.ico
   description: 图片溯源。
+  tags: ["图片搜索", "反向搜索", "溯源"]
 
-- name: 【图片搜索】trace.moe
+- name: trace.moe
   url: https://trace.moe/
   img: /images/favicon.ico
   description: 动漫图片溯源。
+  tags: ["图片搜索", "动漫", "溯源", "截图识别"]
 
-- name: 【图片搜索】animetrace
+- name: animetrace
   url: https://www.animetrace.com/
   img: /images/favicon.ico
   description: 动漫图片溯源。
+  tags: ["图片搜索", "动漫", "溯源"]
 
 
-- name: 【图片搜索】pixiv
+- name: pic-image-search
   url: https://pic-image-search.kituin.fun/zh/
   img: https://pic-image-search.kituin.fun/img/favicon.ico
   description: 聚合识图引擎 用于以图搜源。
+  tags: ["图片搜索", "聚合搜索", "多引擎"]
 
-- name: 【图片识别】simpletex
+- name: simpletex
   url: https://simpletex.cn/ai/latex_ocr
   img: /images/favicon.ico
   description: OCR公式识别。
+  tags: ["OCR", "公式识别", "LaTeX", "AI"]
 
-- name: 【图片识别】LaTeX-OCR
+- name: LaTeX-OCR
   url: https://github.com/lukas-blecher/LaTeX-OCR
   img: /images/logos/github.png
   description: 公式识别。
+  tags: ["OCR", "公式识别", "LaTeX", "开源"]
 
 

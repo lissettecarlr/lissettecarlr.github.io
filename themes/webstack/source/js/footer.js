@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   //img lazy loaded
   const observer = lozad();
@@ -222,9 +221,10 @@ $(document).ready(function() {
       var $card = $(this);
       var title = $card.find('.xe-user-name strong').text().toLowerCase();
       var description = $card.find('.xe-comment p').text().toLowerCase();
+      var tags = $card.attr('data-tags') ? $card.attr('data-tags').toLowerCase() : '';
       var searchQuery = query.toLowerCase();
       
-      if (title.includes(searchQuery) || description.includes(searchQuery)) {
+      if (title.includes(searchQuery) || description.includes(searchQuery) || tags.includes(searchQuery)) {
         $card.show();
         $card.parent().show();
         visibleCount++;
@@ -285,5 +285,13 @@ $(document).ready(function() {
     };
     return keywords[category] || '';
   }
+  
+  // 标签点击筛选功能
+  $(document).on('click', '.tag-item', function(e) {
+    e.stopPropagation(); // 阻止事件冒泡到卡片点击事件
+    var tagText = $(this).text();
+    $('#txt').val(tagText).trigger('input');
+    $('#txt').focus();
+  });
   
 });

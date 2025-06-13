@@ -687,3 +687,77 @@ body.night .filter-tag.active {
     background: #64B5F6;
     color: #1a1a1a;
 }
+
+/* 书签标签样式 */
+.bookmark-tags {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    align-items: center;
+}
+
+.tag-item {
+    display: inline-block;
+    padding: 2px 8px;
+    background: rgba(33, 136, 255, 0.1);
+    color: #2196F3;
+    border: 1px solid rgba(33, 136, 255, 0.2);
+    border-radius: 12px;
+    font-size: 11px;
+    line-height: 1.2;
+    white-space: nowrap;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.tag-item:hover {
+    background: rgba(33, 136, 255, 0.2);
+    border-color: rgba(33, 136, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.tag-more {
+    display: inline-block;
+    padding: 2px 6px;
+    background: rgba(108, 117, 125, 0.1);
+    color: #6c757d;
+    border-radius: 10px;
+    font-size: 10px;
+    line-height: 1.2;
+}
+
+/* 夜间模式下的标签样式 */
+body.night .tag-item {
+    background: rgba(100, 181, 246, 0.15);
+    color: #64B5F6;
+    border-color: rgba(100, 181, 246, 0.3);
+}
+
+body.night .tag-item:hover {
+    background: rgba(100, 181, 246, 0.25);
+    border-color: rgba(100, 181, 246, 0.5);
+}
+
+body.night .tag-more {
+    background: rgba(255, 255, 255, 0.1);
+    color: #bdc3c7;
+}
+
+/* 响应式标签显示 */
+@media (max-width: 768px) {
+    .bookmark-tags {
+        margin-top: 6px;
+        gap: 3px;
+    }
+    
+    .tag-item {
+        padding: 1px 6px;
+        font-size: 10px;
+    }
+    
+    .tag-more {
+        padding: 1px 4px;
+        font-size: 9px;
+    }
+}
