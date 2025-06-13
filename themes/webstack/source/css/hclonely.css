@@ -412,3 +412,278 @@ body.night .go-up a:hover {
 .sidebar-menu .main-menu a>i{
   width: 16px;
 }
+
+/* ==========================================================================
+   交互增强样式 - 书签网站优化
+   ========================================================================== */
+
+/* 卡片悬停效果优化 */
+.xe-widget.xe-conversations {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    backdrop-filter: blur(10px);
+    position: relative;
+    overflow: hidden;
+}
+
+.xe-widget.xe-conversations:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border-color: rgba(33, 136, 255, 0.3);
+}
+
+.xe-widget.xe-conversations::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, #2196F3, #21CBF3);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.xe-widget.xe-conversations:hover::before {
+    opacity: 1;
+}
+
+/* 图标优化 */
+.xe-user-img img {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+}
+
+.xe-widget.xe-conversations:hover .xe-user-img img {
+    transform: scale(1.1);
+    border-color: rgba(33, 136, 255, 0.3);
+}
+
+/* 文字内容优化 */
+.xe-user-name {
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.xe-widget.xe-conversations:hover .xe-user-name {
+    color: #2196F3;
+}
+
+.xe-comment p {
+    color: #666;
+    font-size: 13px;
+    line-height: 1.5;
+    transition: color 0.3s ease;
+}
+
+.xe-widget.xe-conversations:hover .xe-comment p {
+    color: #555;
+}
+
+/* 分类标题优化 */
+h4.text-gray {
+    position: relative;
+    padding: 20px 0 15px 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    color: #2c3e50;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+h4.text-gray::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #2196F3, #21CBF3);
+    border-radius: 1px;
+}
+
+h4.text-gray i {
+    margin-right: 10px;
+    color: #2196F3;
+    font-size: 18px;
+}
+
+/* 响应式网格优化 */
+@media (max-width: 1200px) {
+    .col-sm-3 {
+        width: 50%;
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-3 {
+        width: 100%;
+        padding: 0 5px;
+        margin-bottom: 15px;
+    }
+    
+    h4.text-gray {
+        font-size: 16px;
+        padding: 15px 0 10px 0;
+    }
+}
+
+/* 侧边栏菜单优化 */
+.sidebar-menu .main-menu li {
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu .main-menu li:hover {
+    background-color: rgba(33, 136, 255, 0.08);
+}
+
+.sidebar-menu .main-menu li > a {
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 2px 8px;
+    padding: 12px 16px;
+}
+
+.sidebar-menu .main-menu li > a:hover {
+    background-color: rgba(33, 136, 255, 0.1);
+    color: #2196F3;
+    transform: translateX(5px);
+}
+
+.sidebar-menu .main-menu li > a i {
+    transition: all 0.3s ease;
+    width: 20px;
+    text-align: center;
+}
+
+.sidebar-menu .main-menu li:hover > a i {
+    transform: scale(1.1);
+    color: #2196F3;
+}
+
+/* 页面加载动画 */
+.row {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ripple {
+    to {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+/* 快速筛选标签 */
+.quick-filter {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.filter-tag {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px;
+    background: rgba(33, 136, 255, 0.1);
+    color: #2196F3;
+    border: 1px solid rgba(33, 136, 255, 0.3);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 12px;
+}
+
+.filter-tag:hover,
+.filter-tag.active {
+    background: #2196F3;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(33, 136, 255, 0.3);
+}
+
+/* 分类切换动画 */
+.bookmark-grid {
+    transition: opacity 0.3s ease;
+}
+
+.bookmark-grid.category-hidden {
+    display: none;
+}
+
+/* 分类切换按钮优化 */
+.category-toggle {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.category-toggle:hover {
+    opacity: 1 !important;
+    transform: scale(1.1) !important;
+}
+
+/* 平滑滚动 */
+html {
+    scroll-behavior: smooth;
+}
+
+/* 夜间模式优化 */
+body.night .xe-widget.xe-conversations {
+    background: rgba(44, 46, 47, 0.9);
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+body.night .xe-widget.xe-conversations:hover {
+    background: rgba(44, 46, 47, 0.95);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+    border-color: rgba(33, 136, 255, 0.5);
+}
+
+body.night h4.text-gray {
+    color: #ecf0f1;
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+body.night .xe-user-name {
+    color: #ecf0f1;
+}
+
+body.night .xe-widget.xe-conversations:hover .xe-user-name {
+    color: #64B5F6;
+}
+
+body.night .xe-comment p {
+    color: #bdc3c7;
+}
+
+body.night .xe-widget.xe-conversations:hover .xe-comment p {
+    color: #ecf0f1;
+}
+
+body.night .filter-tag {
+    background: rgba(100, 181, 246, 0.2);
+    color: #64B5F6;
+    border-color: rgba(100, 181, 246, 0.3);
+}
+
+body.night .filter-tag:hover,
+body.night .filter-tag.active {
+    background: #64B5F6;
+    color: #1a1a1a;
+}

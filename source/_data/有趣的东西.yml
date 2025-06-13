@@ -49,3 +49,9 @@
   url: https://styleof.com/s/remix-yourself
   img: https://styleof.com/favicon.ico
   description: 根据图片合成新图片
+
+
+- name: 互动桌面宠物
+  url: https://github.com/ayangweb/BongoCat
+  img: /images/favicon.ico
+  description: 

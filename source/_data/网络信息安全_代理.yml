@@ -53,6 +53,12 @@
   img: /images/logos/github.png
   description: 一个github代码仓库的issues
 
+- name: 【docker代理】代理状态
+  url: https://status.1panel.top/status/docker
+  img: /images/favicon.ico
+  description: 国内 Docker 服务状态 & 镜像加速监控
+
+
 - name: 【代理】trojan可web交互的代理
   url: https://github.com/Jrohy/trojan
   img: /images/logos/github.png
@@ -68,4 +74,12 @@
   img: /images/logos/github.png
   description: Windows、Linux、macOS客户端
   
+- name: 【假数据】fauxid
+  url: https://fauxid.com/fake-name-generator
+  img: /images/favicon.ico
+  description: 生成虚假个人信息
 
+- name: 【假数据】usaddrgen
+  url: https://www.usaddrgen.com/zh/
+  img: /images/favicon.ico
+  description: 虚假地址
