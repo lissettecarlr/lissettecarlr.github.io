@@ -1,0 +1,87 @@
+- name: windows系统
+  url: https://www.microsoft.com/zh-cn/software-download/windows11
+  img: https://www.microsoft.com/favicon.ico
+  description: 下windows系统就去microsoft官网下载
+  tags: ["系统下载","微软","windows"]
+
+- name: Microsoft-Activation-Scripts
+  url: https://github.com/massgravel/Microsoft-Activation-Scripts
+  img: /images/logos/github.png
+  description: Windows 和 Office 激活器。
+  tags: ["windows激活","开源"]
+
+
+- name: massgrave
+  url: https://massgrave.dev/genuine-installation-media
+  img: /images/favicon.ico
+  description: 破解工具massgrave提供的下载
+  tags: ["系统下载","微软","windows","office"]
+
+- name: Ventoy
+  url: https://github.com/ventoy/Ventoy
+  img: /images/logos/github.png
+  description: 启动盘工具
+  tags: ["启动盘工具","开源","客户端"]
+
+- name: devtoys
+  url: https://devtoys.app/
+  img: https://devtoys.app/favicon/favicon-32x32.png
+  description: windows开发者工具箱。
+  tags: ["开发者工具箱","windows","开源","客户端"]
+
+- name: gopeed
+  url: https://github.com/GopeedLab/gopeed/blob/main/README_zh-CN.md
+  img: /images/logos/github.png
+  description: 全平台开源下载器，目前正在使用，还不错，但是如果创建大量下载任务，会卡顿。
+  tags: ["下载器","开源","客户端"]
+
+
+- name: ImageGlass
+  url: https://imageglass.org/
+  img: https://imageglass.org/img/iglogo.svg
+  description:  一款轻量级、多功能的图片查看器，Windows。
+  tags: ["图片查看器","开源","客户端"]
+
+- name: QtScrcpy
+  url: https://github.com/barry-ran/QtScrcpy/blob/dev/README_zh.md
+  img: /images/logos/github.png
+  description: QtScrcpy 可以通过 USB / 网络连接Android设备，并进行显示和控制。无需root权限。
+  tags: ["安卓投屏","多设备同屏","开源","客户端"]
+
+- name: Hitomi-Downloader
+  url: https://github.com/KurtBestor/Hitomi-Downloader
+  img: /images/logos/github.png
+  description: 一个下载器，从各种网站下载图像/视频/音乐/文本等。
+  tags: ["下载器","开源","客户端"]
+
+
+- name: sharemouse
+  url: https://www.sharemouse.com/
+  img: https://www.sharemouse.com/site/assets/files/1094/android-icon-192x192_1.32x0.png
+  description: 多个计算机共享鼠标和键盘。  
+  tags: ["鼠标共享","键盘共享","客户端"]
+
+- name: symless
+  url: https://symless.com/synergy
+  img: https://cdn.prod.website-files.com/5cb7274cc3cc0c1bc1771305/663e09c3c051e46d58a4989f_favicon.png
+  description: 多个计算机共享鼠标和键盘。  
+  tags: ["鼠标共享","键盘共享","客户端"]
+
+- name: tunderbird
+  url: https://www.thunderbird.net/zh-CN/
+  img: https://www.thunderbird.net/media/img/thunderbird/favicon.ico
+  description: 邮件客户端，将不同邮箱的邮件集中管理。
+  tags: ["邮件客户端","开源","客户端"]
+
+- name: Sunshine  
+  url: https://github.com/LizardByte/Sunshine
+  img: /images/logos/github.png
+  description: 低延迟的视频串流工具，可以从各种设备上的任何Moonlight客户端连接到Sunshine
+  tags: ["视频串流","开源","客户端"]
+
+- name: 在线显示器测试  
+  url: https://www.eizo.be/monitor-test/
+  img: /images/favicon.ico
+  description: 在线显示器测试
+  tags: ["显示器测试","在线"]
+

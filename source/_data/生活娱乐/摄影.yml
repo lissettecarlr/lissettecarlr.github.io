@@ -1,0 +1,44 @@
+- name: worldpressphoto
+  url: https://www.worldpressphoto.org/
+  img: https://www.worldpressphoto.org/favicon.ico
+  description: 世界新闻摄影比赛官方网站，展示全球最佳新闻摄影作品及获奖信息。
+  tags: ["新闻摄影", "比赛", "国际", "纪实"]
+
+- name: 蜂鸟网
+  url: https://bbs.fengniao.com/jinghua-101.html#p=2
+  img: https://bbs.fengniao.com/favicon.ico
+  description: 蜂鸟网摄影论坛，国内大型摄影爱好者交流与作品分享社区。
+  tags: ["摄影论坛", "交流", "社区", "国内"]
+
+- name: 500px
+  url: https://500px.com/
+  img: https://500px.com/favicon.ico
+  description: 国际知名摄影社区，汇聚全球高质量摄影作品与摄影师。
+  tags: ["摄影社区", "作品展示", "国际", "高质量"]
+
+- name: 图虫摄影网
+  url: https://portrait.tuchong.com/
+  img: /images/favicon.ico
+  description: 国内领先的摄影作品分享与交流平台，涵盖多种题材与风格。
+  tags: ["摄影平台", "作品分享", "国内", "人像"]
+
+- name: 1x
+  url: https://1x.com/
+  img: https://1x.com/favicon.ico
+  description: 国际高端摄影作品社区，精选全球顶级摄影师的艺术级照片。
+  tags: ["艺术摄影", "精选", "国际", "高端"]
+
+
+- name: camarts
+  url: https://camarts.app/
+  img: https://camarts.app/favicon.ico
+  description: 摄影作品分享平台，精选全球顶级摄影师的艺术级照片。
+  tags: ["艺术摄影"]
+
+
+
+- name: Pinterest
+  url: https://www.pinterest.com/
+  img: https://www.pinterest.com/favicon.ico
+  description: 图片分享平台，可以用来参考风格和摆姿
+  tags: ["图片分享"]

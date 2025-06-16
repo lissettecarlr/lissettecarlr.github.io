@@ -1,0 +1,75 @@
+# 网络信息查询相关
+
+- name: web-check
+  url: https://web-check.xyz/
+  img: https://web-check.xyz/favicon.svg
+  description: 分析任何网站的开源情报
+  tags: ["网站分析", "在线","开源"]
+
+- name: 站长之家
+  url: https://tool.chinaz.com/
+  img: https://csstools.chinaz.com/favicon.ico
+  description: 站长之家的域名信息查询页面
+  tags: ["域名信息查询", "在线"]
+
+- name: dnsdumpster
+  url: https://dnsdumpster.com
+  img: https://dnsdumpster.com/favicon.ico
+  description: dns侦察和研究、查找和查询dns记录，可以发现与域名相关的主机。
+  tags: ["域名信息查询", "在线"]
+
+
+- name: subdomain
+  url: https://www.subdomain.center/
+  img: https://www.subdomain.center/images/logo.png
+  description: 全球最大的子域名与影子 IT 情报数据库
+  tags: ["子域名查询", "在线"]
+
+- name: osint
+  url: https://osint.sh/
+  img: https://osint.sh/img/favicon.png
+  description: 开源情报网，多合一信息收集工具
+  tags: ["站点信息查询", "在线","工具合集"]
+
+- name: infosniper
+  url: https://www.infosniper.net
+  img: https://www.infosniper.net/favicon.ico
+  description: 通过IP定位地图坐标的工具
+  tags: ["IP定位", "在线"]
+
+
+- name: idcrawl
+  url: https://www.idcrawl.com
+  img: /images/favicon.ico
+  description: 通过用户名在多个社交平台上搜索相关用户，国外的。
+  tags: ["用户名关联搜索", "在线"]
+
+
+- name: facecheck
+  url: https://facecheck.id
+  img: /images/favicon.ico
+  description: 通过照片在线查找人员，基本也是国外的媒体图中找。
+  tags: ["人脸查询", "在线"]
+
+- name: namebeta
+  url: https://namebeta.com/
+  img: https://namebeta.com/favicon.ico
+  description: 查询域名在不同注册商的价格
+  tags: ["域名查价", "在线"]
+
+- name: browserscan
+  url: https://www.browserscan.net/zh
+  img: https://www.browserscan.net/favicon.ico
+  description: 浏览器指纹查询，显示本机的地址、浏览器、硬件等信息
+  tags: ["浏览器指纹", "在线"]
+
+- name: 2ip
+  url: https://2ip.io/
+  img: https://2ip.io/favicon.ico
+  description: 包含很多网络信息查询和检测工具
+  tags: ["网络信息查询","在线"]
+
+
+
+
+

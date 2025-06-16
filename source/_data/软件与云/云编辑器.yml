@@ -1,0 +1,44 @@
+- name: tldraw
+  url: https://github.com/tldraw/tldraw
+  img: /images/logos/github.png
+  description: 
+  tags: ["白板绘图","在线","部署","开源"]
+
+- name: excalidraw
+  url: https://excalidraw.com/
+  img: https://excalidraw.com/favicon.ico
+  description: 
+  tags: ["白板绘图","在线"]
+
+- name: desmos
+  url: https://www.desmos.com/calculator?lang=zh-CN
+  img: https://www.desmos.com/favicon.ico
+  description: 个功能强大的在线图形计算器，主要用于绘制函数图像、进行数学建模和数据可视化。
+  tags: ["公式图像绘制","在线"]
+
+- name: latexlive
+  url: https://www.latexlive.com/##
+  img: https://latexlive-resourse.oss-cn-beijing.aliyuncs.com/img/favicon.png
+  description: 在线LaTeX公式编辑器。
+  tags: ["公式编辑","在线"]
+
+- name: hexed
+  url: https://hexed.it/
+  img: https://hexed.it/favicon.ico
+  description: 在线Hex编辑器。
+  tags: ["Hex编辑","在线"]
+
+- name: drawio
+  url: https://app.diagrams.net/
+  img: https://app.diagrams.net/favicon.ico
+  description: 在线流程图工具，能够保存到本地或加载本地文件。
+  tags: ["流程图","在线"]
+
+- name: pythononlinecompiler
+  url: https://pythononlinecompiler.com/
+  img: https://pythononlinecompiler.com/favicon.ico
+  description: 在线python编译器
+  tags: ["python编译器","在线"]
+
+
+

@@ -1,9 +1,0 @@
-- name: 【运维】1Panel
-  url: https://github.com/1Panel-dev/1Panel
-  img: /images/logos/github.png
-  description: Linux 服务器运维管理面板。
-  
-- name: netdata
-  url: https://github.com/netdata/netdata
-  img: /images/logos/github.png
-  description: 开源服务器监控平台

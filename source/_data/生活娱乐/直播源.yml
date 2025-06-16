@@ -2,18 +2,22 @@
   url: https://github.com/Ftindy/IPTV-URL
   img: /images/favicon.ico
   description: 直播源列表
+  tags: ["直播源","开源"]
 
 - name: 【直播源】HerbertHe/iptv-sources
   url: https://github.com/HerbertHe/iptv-sources
   img: /images/favicon.ico
   description: 一个自动更新直播源的脚本
+  tags: ["直播源","开源"]
 
 - name: 【直播源】joevess/IPTV
   url: https://github.com/joevess/IPTV
   img: /images/logos/github.png
   description: IPTV直播源抓取
+  tags: ["直播源","开源"]
 
 - name: 【直播源】fanmingming
   url: https://github.com/fanmingming/live
   img: /images/logos/github.png
   description: 一个国内可直连的直播源
+  tags: ["直播源","开源"]

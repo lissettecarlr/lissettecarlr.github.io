@@ -699,13 +699,13 @@ body.night .filter-tag.active {
 
 .tag-item {
     display: inline-block;
-    padding: 2px 8px;
+    padding: 3px 10px; /* 增加标签内边距 */
     background: rgba(33, 136, 255, 0.1);
     color: #2196F3;
     border: 1px solid rgba(33, 136, 255, 0.2);
-    border-radius: 12px;
-    font-size: 11px;
-    line-height: 1.2;
+    border-radius: 14px; /* 增加圆角 */
+    font-size: 12px; /* 增大标签字体 */
+    line-height: 1.3;
     white-space: nowrap;
     transition: all 0.2s ease;
     cursor: pointer;
@@ -760,4 +760,154 @@ body.night .tag-more {
         padding: 1px 4px;
         font-size: 9px;
     }
+}
+
+/* 修改后的书签卡片布局样式 */
+.xe-comment {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.xe-user-name-fixed {
+    flex-shrink: 0;
+    margin-bottom: 8px; /* 增加底部间距 */
+    height: 24px; /* 增加高度 */
+    display: flex;
+    align-items: center;
+}
+
+.xe-user-name-fixed .xe-user-name {
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.xe-user-name-fixed .xe-user-name strong {
+    font-size: 15px; /* 增大标题字体 */
+    font-weight: 600;
+}
+
+.bookmark-tags {
+    flex-shrink: 0;
+    margin-top: 0;
+    margin-bottom: 8px; /* 增加底部间距 */
+    min-height: 22px; /* 增加最小高度 */
+    max-height: 44px; /* 增加最大高度，允许最多2行标签 */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* 增加标签间距 */
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.xe-comment-description {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+}
+
+.xe-comment-description p {
+    margin: 0;
+    line-height: 1.5;
+    height: auto;
+    max-height: 3.0em; /* 增加高度限制 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 14px; /* 增大描述字体 */
+    color: #666;
+}
+
+/* 确保卡片高度一致 */
+.xe-widget.xe-conversations {
+    height: 140px; /* 等比例放大卡片高度 */
+    display: flex;
+    flex-direction: column;
+}
+
+.xe-comment-entry {
+    display: flex;
+    height: 100%;
+    padding: 12px; /* 增加内边距 */
+}
+
+.xe-user-img {
+    flex-shrink: 0;
+    width: 50px; /* 增大图标区域 */
+    margin-right: 12px; /* 增加右边距 */
+}
+
+.xe-user-img img {
+    width: 50px !important; /* 增大图标尺寸 */
+    height: 50px !important;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .xe-widget.xe-conversations {
+        height: 120px; /* 移动端也等比例放大 */
+    }
+    
+    .xe-comment-entry {
+        padding: 10px; /* 移动端稍小的内边距 */
+    }
+    
+    .xe-user-img {
+        width: 45px;
+        margin-right: 10px;
+    }
+    
+    .xe-user-img img {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    
+    .xe-user-name-fixed {
+        height: 22px; /* 增加移动端标题高度 */
+        margin-bottom: 6px;
+    }
+    
+    .xe-user-name-fixed .xe-user-name strong {
+        font-size: 14px; /* 移动端标题字体 */
+    }
+    
+    .bookmark-tags {
+        margin-bottom: 6px;
+        min-height: 20px;
+        max-height: 40px; /* 移动端标签区域等比例放大 */
+        gap: 4px;
+    }
+    
+    .tag-item {
+        padding: 2px 8px;
+        font-size: 11px;
+        border-radius: 12px;
+    }
+    
+    .xe-comment-description p {
+        font-size: 13px; /* 移动端描述字体 */
+        line-height: 1.4;
+        max-height: 2.8em;
+    }
+}
+
+/* 夜间模式适配 */
+body.night .xe-user-name-fixed .xe-user-name {
+    color: #ecf0f1;
+}
+
+body.night .xe-widget.xe-conversations:hover .xe-user-name-fixed .xe-user-name {
+    color: #64B5F6;
+}
+
+body.night .xe-comment-description p {
+    color: #bdc3c7;
+}
+
+body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
+    color: #ecf0f1;
 }

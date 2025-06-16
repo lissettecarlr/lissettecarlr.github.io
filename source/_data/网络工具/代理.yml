@@ -1,0 +1,81 @@
+- name: trojan
+  url: https://github.com/Jrohy/trojan
+  img: /images/logos/github.png
+  description: docker部署可以参考:https://hub.docker.com/r/agassiz/trojan
+  tags: ["代理服务端","部署","开源"]
+
+- name: v2rayN
+  url: https://github.com/2dust/v2rayN
+  img: /images/logos/github.png
+  description: 一个适用于Windows、Linux和macOS的GUI客户端，支持Xray、sing-box等。
+  tags: ["代理客户端","PC","开源"]
+
+- name: v2rayNG
+  url: https://github.com/2dust/v2rayNG
+  img: /images/logos/github.png
+  description: 适用于安卓的V2Ray客户端，支持Xray核心和v2fly核心。
+  tags: ["代理客户端","Android","开源"]
+
+- name: docker代理
+  url: https://github.com/cmliu/CF-Workers-docker.io
+  img: /images/logos/github.png
+  description: 一个github代码仓库的issues
+  tags: ["docker代理","开源文档"]
+
+- name: docker代理状态
+  url: https://status.1panel.top/status/docker
+  img: /images/favicon.ico
+  description: 国内 Docker 服务状态 & 镜像加速监控
+  tags: ["docker代理","连通性"]
+
+
+- name: receive-smss
+  url: https://receive-smss.com/
+  img: /images/favicon.ico
+  description: SMS接收短信
+  tags: ["短信接收","在线"]
+
+- name: sms-activate
+  url: https://sms-activate.org/cn
+  img: /images/favicon.ico
+  description: SMS接收短信
+  tags: ["短信接收","在线"]
+
+- name: sms-man
+  url: https://sms-man.com/cn
+  img: /images/favicon.ico
+  description: SMS接收短信
+  tags: ["短信接收","在线"]
+
+- name: grizzlysms
+  url: https://grizzlysms.com/cn/countries/japan
+  img: /images/favicon.ico
+  description: SMS接收短信
+  tags: ["短信接收","在线"]
+
+- name: tiger-sms
+  url: https://tiger-sms.com/#howitworks
+  img: /images/favicon.ico
+  description: SMS接收短信
+  tags: ["短信接收","在线"]
+
+
+- name: fauxid
+  url: https://fauxid.com/fake-name-generator
+  img: /images/favicon.ico
+  description: 生成虚假个人信息
+  tags: ["假数据","在线","个人信息"]
+
+- name: usaddrgen
+  url: https://www.usaddrgen.com/zh/
+  img: /images/favicon.ico
+  description: 生成虚假地址
+  tags: ["假数据","在线","地址"]
+
+
+- name: pakikiproxy
+  url: https://pakikiproxy.com/
+  img: /images/favicon.ico
+  description: 一款拦截代理，旨在让你能够快速、轻松地对你自己或客户的应用程序进行安全审计。
+  tags: ["代理","客户端","开源"]
+

@@ -1,68 +1,54 @@
-- name: 【本文展示】jsoncrack
-  url: https://github.com/AykutSarac/jsoncrack.com
+- name: jsoncrack
+  url: https://jsoncrack.com/
   img: /images/logos/github.png
   description: 数据可视化应用程序，能够将JSON、YAML、XML、CSV等数据格式可视化为交互式图形。
+  tags: ["数据可视化", "在线","开源"]
 
-- name: 【本文转换】tool.lu
-  url: https://tool.lu/timestamp/
-  img: /images/favicon.ico
-  description: 时间戳(Unix timestamp)转换工具。
 
-- name: 【本文转换】tool.lu
-  url: https://tool.lu/hexstr/
-  img: /images/favicon.ico
-  description: hex转str。
-
-- name: 【本文转换】markdowndown
-  url: https://markdowndown.vercel.app/
-  img: https://markdowndown.vercel.app/favicon.ico
-  description: 网页转化为markdown。
-
-- name: 【本文转换】f-loat
+- name: caption2text
   url: https://f-loat.github.io/caption2text/
   img: https://f-loat.github.io/caption2text/favicon.ico
   description: 字幕转文本，也就是去除字幕文件中的时间。
+  tags: ["字幕转文本", "在线","开源"]
 
-- name: 【翻译】immersivetranslate
+
+- name: 沉浸式翻译
   url: https://immersivetranslate.com/
   img: https://immersivetranslate.com/img/favicon.svg
   description: 浏览器翻译插件。能够显示原本和翻译文本，非常好用。
+  tags: ["翻译", "浏览器插件"]
 
-- name: 【翻译】STranslate
+
+- name: STranslate
   url: https://github.com/ZGGSONG/STranslate
-  img: /images/logos/github.png
+  img: https://stranslate.zggsong.com/logo/favicon.ico
   description: 一款即开即用、即用即走的翻译、OCR工具。网易云翻译经常卡死，于是找了个替换的。
+  tags: ["翻译", "客户端","开源"]
 
-- name: 【翻译】afdian
+
+- name: 鬼才琪露诺
   url: https://afdian.net/@AdventCirno
   img: https://static.afdiancdn.com/favicon.ico
   description: 鬼才琪露诺的翻译引擎。目前日式RPG的云汉化基本全是用这个软件。
+  tags: ["RPG游戏翻译", "客户端"]
 
-- name: 【翻译】dango
+- name: 团子翻译器
   url: https://translator.dango.cloud/
   img: https://translator.dango.cloud/favicon.ico
-  description: 团子翻译器，属于OCR识别后翻译。
-
-- name: 【翻译】zggsong/stranslate
-  url: https://github.com/zggsong/stranslate
-  img: /images/logos/github.png
-  description: 开源翻译器。
+  description: 一款基于OCR和翻译功能的实时屏幕区域翻译软件
+  tags: ["GAL游戏翻译", "客户端","开源"]
 
 
-- name: 【PDF】Stirling-PDF
+- name: Stirling-PDF
   url: https://github.com/Stirling-Tools/Stirling-PDF
-  img: /images/favicon.ico
+  img: /images/logos/github.png
   description: 本地托管的 Web 应用程序，允许您对 PDF 文件执行各种操作。
+  tags: ["PDF编辑", "部署","开源"]
 
 
-- name: 【PDF】MinerU
-  url: https://github.com/opendatalab/MinerU
-  img: /images/logos/github.png
-  description: 站式开源高质量数据提取工具，将PDF转换成Markdown和JSON格式。
 
-- name: 【PDF】PDFMathTranslate
-  url: https://github.com/Byaidu/PDFMathTranslate/blob/main/README_zh-CN.md
-  img: /images/logos/github.png
-  description: 基于 AI 完整保留排版的 PDF 文档全文双语翻译。
-
-
+- name: 可爱的颜文字
+  url: https://ikaomoji.com/
+  img: https://ikaomoji.com/favicon.ico
+  description: (｡•ω- ｡) ⌒♡
+  tags: ["颜文字", "在线"]

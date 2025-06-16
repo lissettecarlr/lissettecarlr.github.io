@@ -1,0 +1,59 @@
+- name: examcoo
+  url: https://www.examcoo.com/index/ku
+  img: https://www.examcoo.com/favicon.ico
+  description: 考试酷-免费的考试信息，能开不能下
+  tags: ["考试","在线","国内"]
+
+- name: oalib
+  url: https://www.oalib.com/
+  img: https://www.oalib.com/favicon.ico
+  description: 一个开放的论文期刊图书馆
+  tags: ["论文","在线","期刊"]
+
+- name: arxiv
+  url: https://arxiv.org/
+  img: https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png
+  description: 开放的论文存储库
+  tags: ["论文","在线","期刊"]
+
+- name: 奇客资讯网
+  url: https://www.solidot.org/
+  img: https://www.solidot.org/favicon.ico
+  description: 
+  tags: ["技术新闻"]
+
+- name: 科技爱好者周刊
+  url: https://github.com/ruanyf/weekly
+  img: /images/logos/github.png
+  description: 每周五更新的技术周刊
+  tags: ["技术新闻"]
+
+- name: Hacker News
+  url: https://news.ycombinator.com/
+  img: /images/favicon.ico
+  description: 专注于科技、创业、编程、互联网等领域新闻和讨论的社交新闻网站
+  tags: ["技术新闻"]
+
+- name: V2EX
+  url: https://www.v2ex.com/
+  img: https://www.v2ex.com/static/favicon.ico
+  description: 一个关于分享和探索创意的社区
+  tags: ["技术论坛"]
+
+- name: LINUX DO
+  url: https://linux.do/
+  img: /images/favicon.ico
+  description: 一个关于分享和探索创意的社区
+  tags: ["技术论坛"]
+
+- name: chinese-independent-developer
+  url: https://github.com/1c7/chinese-independent-developer
+  img: /images/logos/github.png
+  description: 中国独立开发者项目列表
+  tags: ["github文章"]
+
+- name: HelloGitHub
+  url: https://github.com/521xueweihan/HelloGitHub/tree/master
+  img: /images/logos/github.png
+  description: 分享 GitHub 上有趣、入门级的开源项目
+  tags: ["github文章"]

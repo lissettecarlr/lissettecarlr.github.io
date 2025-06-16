@@ -2,108 +2,131 @@
   url: https://home.console.aliyun.com/#/
   img: /images/favicon.ico
   description: 
+  tags: ["云服务商","国内"]
 
 - name: 腾讯云
   url: https://console.cloud.tencent.com/cvm/instance/index
   img: /images/favicon.ico
   description: 
+  tags: ["云服务商","国内"]
 
 - name: 华为云
   url: https://activity.huaweicloud.com
   img: /images/favicon.ico
   description:
+  tags: ["云服务商","国内"]
 
 - name: 搬瓦工
   url: https://bandwagonhost.com/services
   img: /images/favicon.ico
   description: 目前使用这家，稳定便宜
+  tags: ["云服务商","国外"]
 
 - name: dmit
   url: https://www.dmit.io/
   img: /images/favicon.ico
   description: 听说比搬瓦工能好，等打折的时候试试
+  tags: ["云服务商","国外"]
 
 - name: aws
   url: https://aws.amazon.com/cn/
   img: https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico
   description:
+  tags: ["云服务商","国外"]
 
 - name: linode
   url: https://www.linode.com/zh/pricing/
   img: /images/favicon.ico
   description: 被Akamai收购的国外云服务商
+  tags: ["云服务商","国外"]
 
 - name: digitalocean
   url: https://www.digitalocean.com/
   img: /images/favicon.ico
   description: 国外云服务商，传闻性价比高
+  tags: ["云服务商","国外"]
 
 - name: conoha
   url: https://www.conoha.jp/
   img: /images/favicon.ico
   description: 日本的云服务，注册需要绑定信用卡
+  tags: ["云服务商","国外"]
 
 - name: kamatera
   url: https://console.kamatera.com/
   img: /images/favicon.ico
   description: 一个按小时收费的VPS云服务器主机商
+  tags: ["云服务商","国外"]
 
 - name: akkocloud
   url: https://www.akkocloud.com/cart.php
   img: /images/favicon.ico
   description: 二次元国人商家
+  tags: ["云服务商","国内"]
 
 - name: vultr
   url: https://my.vultr.com/
   img: /images/favicon.ico
   description: 14年成立的的VPS提供商。最开始使用的一家，用来搭梯子，然后被频繁封IP了- -
+  tags: ["云服务商","国外"]
 
 - name: ucloud
   url: https://www.ucloud.cn/site/about/intro/
   img: /images/favicon.ico
   description: 优刻得，国内云计算服务服务商
+  tags: ["云服务商","国内"]
 
 - name: hostman
   url: https://hostman.com/
   img: /images/favicon.ico
   description: 部署 Web 应用程序的托管平台
+  tags: ["云服务商","国外"]
 
 - name: cloudcone
   url: https://cloudcone.com/vps/#pricingtitle
   img: /images/favicon.ico
   description: VPS。圣诞节9.5美元买了个1CPU-0.5GB，部署了个代码，状态时好时坏，当主代理故障时，临时用用还是行
+  tags: ["云服务商","国外"]
 
 - name: railway
   url: https://railway.app/account/billing
   img: /images/favicon.ico
   description: 帮助快速构建应用的云服务。我之前是用来当作云数据库，有5美元免费额度，后来AI火了后很多项目应用也是有这个的部署示例
+  tags: ["云服务商","国外"]
 
 - name: PlanetScale
   url: https://planetscale.com/
   img: /images/favicon.ico
   description: MySQL云数据库
+  tags: ["云服务商","国外"]
 
 - name: vercel
   url: https://vercel.com/dashboard
   img: /images/favicon.ico
   description: web应用托管平台
+  tags: ["云服务商","国外"]
 
 - name: godaddy
   url: https://www.godaddy.com/
   img: /images/favicon.ico
   description: 云服务器
+  tags: ["云服务商","国外"]
+
 
 - name: spartanhost
   url: https://spartanhost.org/vps
   img: /images/favicon.ico
   description: 美国VPS
+  tags: ["云服务商","国外"]
 
 - name: racknerd
   url: https://my.racknerd.com/cart.php?a=view
   img: /images/favicon.ico
   description: vps。2C3G每年28美元，便宜是便宜，但国内基本没法用，卡爆。试着用国外服务器访问则还行
+  tags: ["云服务商","国外"]
 
 - name: alwyzon
   url: https://www.alwyzon.com/en
   img: /images/favicon.ico
   description: 奥地利服务器。听说很快没试过
+  tags: ["云服务商","国外"] 

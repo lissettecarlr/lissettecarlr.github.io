@@ -1,0 +1,35 @@
+- name: Depay
+  url: https://www.dupay.one/web-app/register-h5?invitCode=487304&lang=zh-cn
+  img: https://www.dupay.one/favicon.ico
+  description: 提供海外虚拟信用卡服务，可用于国际支付和网络消费。
+  tags: ["虚拟信用卡", "海外支付", "金融工具"]
+
+- name: onekey
+  url: https://card.onekey.so/
+  img: https://asset.onekey-asset.com/card/_next/static/media/favicon-32x32.9bea6f4b.png
+  description: 提供数字钱包和虚拟卡服务，支持多种加密货币支付。
+  tags: ["虚拟信用卡", "加密货币", "支付工具"]
+
+- name: nobepay
+  url: https://www.nobepay.com/app/login
+  img: https://www.nobepay.com/static/logoAzmIcon.0315b02c7a403d7ba44aec9e1eb0e3cd.svg
+  description: 海外虚拟信用卡平台，常用于OpenAI等国际服务充值。
+  tags: ["虚拟信用卡", "海外支付", "OpenAI充值"]
+
+- name: okx欧易
+  url: https://www.okx.com/cn
+  img: https://www.okx.com/cdn/assets/imgs/226/EB771F0EE8994DD5.png
+  description: 全球领先的数字货币交易平台，支持多种加密货币的买卖与理财。
+  tags: ["数字货币", "交易所", "加密货币"]
+
+- name: panelook
+  url: https://www.panelook.cn/
+  img: https://www.panelook.cn/favicon.ico
+  description: 专业的显示屏原板查询与采购平台，涵盖各类液晶屏参数信息。
+  tags: ["液晶屏", "显示器", "采购"]
+
+- name: ebay
+  url: http://www.ebay.cn/
+  img: https://www.ebay.cn/favicon.ico
+  description: 全球知名的跨境电商平台，支持商品买卖与国际贸易。
+  tags: ["电商", "外贸", "跨境购物"]

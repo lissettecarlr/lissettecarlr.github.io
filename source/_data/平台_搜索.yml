@@ -1,9 +1,0 @@
-- name: 猴油脚本搜索
-  url: https://www.zhaojiaoben.cn/
-  img: https://www.zhaojiaoben.cn/favicon.ico
-  description: 
-
-- name: tgscan-dev/tgscan
-  url: https://github.com/tgscan-dev/tgscan
-  img: /images/logos/github.png
-  description: telegram搜索

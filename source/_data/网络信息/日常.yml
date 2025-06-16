@@ -1,0 +1,24 @@
+- name: 城市租房手册
+  url: https://zufang.ababtools.com/guide
+  img: /images/favicon.ico
+  description: 城市租房手册
+  tags: ["租房","在线"]
+
+- name: web.archive
+  url: https://web.archive.org/
+  img: /images/favicon.ico
+  description: 能够通过域名查看web页面的历史样式。
+  tags: ["网页历史","在线"]
+
+- name: 快捷键备忘录
+  url: https://hotkeycheatsheet.com/zh
+  img: /images/favicon.ico
+  description: 通过提供常用快捷键的快速访问来帮助用户提高生产力。
+  tags: ["快捷键表","在线"]
+
+
+- name: 科学辟谣
+  url: https://www.cdstm.cn/subjects/kxlyb/
+  img: /images/favicon.ico
+  description: 中国数字科技馆
+  tags: ["辟谣","在线"]

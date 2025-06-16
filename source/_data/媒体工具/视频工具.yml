@@ -2,37 +2,49 @@
   url: https://www.capcut.cn
   img: https://lf-cdn-tos.bytescm.com/obj/static/ies/ulike/web/resource/fe_official/assets/imgs/lv/favicon.ico
   description: 国内的一款视频桌面剪辑软件
-  tags: ["视频剪辑", "客户端软件"]
+  tags: ["视频剪辑", "客户端"]
 
 - name: recordscreen
   url: https://recordscreen.io/
   img: https://recordscreen.io/favicon.ico
   description: 免费在线录屏工具，无需安装，支持一键录制浏览器画面。但是分辨率低。
-  tags: ["录屏", "在线使用"]
+  tags: ["录屏", "在线"]
 
 - name: OBS Studio
   url: https://obsproject.com/
   img: https://obsproject.com/favicon.ico
   description: 开源且强大的录屏与直播推流软件，支持多平台。
-  tags: ["录屏", "客户端软件","直播", "开源"]
+  tags: ["录屏", "客户端","直播", "开源"]
 
+
+- name: screensharing
+  url: https://screensharing.net/
+  img: https://screensharing.net/favicon.ico
+  description: 一款轻量级、基于浏览器的屏幕共享解决方案。无需下载，立即与任何人共享你的屏幕。非常适合快速远程协作。
+  tags: ["分析屏幕", "在线"]
+
+- name: remotedesktop
+  url: https://remotedesktop.google.com/support
+  img: https://remotedesktop.google.com/favicon.ico
+  description: 谷歌的分析屏幕工具
+  tags: ["分析屏幕", "在线"]
 
 - name: topazlabs
   url: https://www.topazlabs.com/
   img: https://cdn.prod.website-files.com/6005fac27a49a9cd477afb63/66207d4875f767e21d812b11_tnb-favicon-32.png
   description: 商业级 AI 视频增强软件，操作简单，效果出色。正版付费，巨贵无比，有破解
-  tags: ["视频增强", "客户端软件","付费软件"]
+  tags: ["视频增强", "客户端","付费软件"]
 
 
 - name: ffmpeg-online
   url: https://ffmpeg-online.vercel.app/?inputOptions=-i&output=output.mp4&outputOptions=
   img: /images/favicon.ico
   description: 在线 FFmpeg 工具，支持视频格式转换与处理。
-  tags: ["视频处理", "在线使用", "FFmpeg"]
+  tags: ["视频处理", "在线", "FFmpeg"]
 
 
 - name: videozip
   url: https://www.videozip.online/
   img: https://www.videozip.online/favicon.ico
   description: 线视频压缩、转码及音频提取工具，操作便捷。
-  tags: ["视频压缩", "在线使用","支持MP4和MKV"]
+  tags: ["视频压缩", "在线","支持MP4和MKV"]

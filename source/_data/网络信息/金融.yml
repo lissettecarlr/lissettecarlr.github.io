@@ -1,0 +1,38 @@
+
+
+- name: HelloGitHub
+  url: https://cn.tradingview.com/#main-market-summary
+  img: /images/favicon.ico
+  description: 追踪所有市场
+  tags: ["金融","在线"]
+
+- name: 世界银行
+  url: https://data.worldbank.org.cn/
+  img: /images/favicon.ico
+  description: 世界银行数据
+  tags: ["金融","在线"]
+
+
+- name: 看财报
+  url: https://www.kancaibao.com/index.asp
+  img: /images/favicon.ico
+  description: 看财报-价值投资分析工具
+  tags: ["金融","在线"]
+
+
+- name: 金十数据
+  url: https://www.jin10.com/
+  img: /images/favicon.ico
+  description: 金十数据-全球实时金融信息
+  tags: ["金融","在线"]
+
+
+- name: 东方财富
+  url: https://data.eastmoney.com/dxf/default.html
+  img: /images/favicon.ico
+  description: 东方财富-股票数据
+  tags: ["金融","在线"]
+
+
+
+

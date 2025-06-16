@@ -1,0 +1,19 @@
+- name: sm.ms
+  url: https://sm.ms/
+  img: https://sm.ms/favicon-32x32.png
+  description: 在线图床，需要登录使用
+  tags: ["图床","在线"]
+
+- name: imgse
+  url: https://imgse.com/
+  img: https://imgse.com/content/images/system/favicon_1587118523486_91617a.png
+  description: 路过图床，可以访客使用
+  tags: ["图床","在线"]
+
+- name: sda1
+  url: https://p.sda1.dev/
+  img: https://p.sda1.dev/favicon.ico
+  description: 流浪图床，可以访客使用
+  tags: ["图床","在线"]
+
+

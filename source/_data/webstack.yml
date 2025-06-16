@@ -45,112 +45,72 @@ menu:
         icon: fas fa-blog
         config: 媒体工具/文本工具
 
-  - name: 网络通信
+  - name: 网络工具
     icon: fas fa-tools
     submenu:
-      - name: 网络测试
-        icon: fas fa-blog
-        config: 网络通信_网络测试
       - name: 信息查询
         icon: fas fa-blog
-        config: 网络通信_信息查询
-      - name: 多工具集合
-        icon: fas fa-blog
-        config: 网络通信_多工具集合
-      - name: 监控
-        icon: fas fa-blog
-        config: 网络通信_监控
+        config: 网络工具/信息搜索
       - name: 数据传输
         icon: fas fa-blog
-        config: 网络通信_数据传输
-  - name: 云服务
-    icon: fas fa-tools
-    submenu:
-      - name: 在线编辑器
-        icon: fas fa-blog
-        config: 云服务_在线编辑器
-      - name: 服务器商
-        icon: fas fa-blog
-        config: 云服务_服务器商
-      - name: 云存储
-        icon: fas fa-blog
-        config: 云服务_云存储
-      - name: 接口服务
-        icon: fas fa-blog
-        config: 云服务_接口服务
-      - name: 运维
-        icon: fas fa-blog
-        config: 云服务_运维
-      - name: 云应用
-        icon: fas fa-blog
-        config: 云服务_云应用
-  - name: 网络信息安全
-    icon: fas fa-tools
-    submenu:
-      - name: 破解
-        icon: fas fa-blog
-        config: 网络信息安全_破解
-      - name: 加密
-        icon: fas fa-blog
-        config: 网络信息安全_加密
+        config: 网络工具/数据传输
       - name: 代理
         icon: fas fa-blog
-        config: 网络信息安全_代理
-      - name: 攻防
-        icon: fas fa-blog
-        config: 网络信息安全_攻防
-  - name: 娱乐
+        config: 网络工具/代理
+
+
+  - name: 软件与云
     icon: fas fa-tools
     submenu:
+      - name: 云编辑器
+        icon: fas fa-blog
+        config: 软件与云/云编辑器
+      - name: 云存储
+        icon: fas fa-blog
+        config: 软件与云/云存储
+      - name: 云服务商
+        icon: fas fa-blog
+        config: 软件与云/云服务商
+      - name: 系统软件
+        icon: fas fa-blog
+        config: 软件与云/系统软件
+
+  - name: 生活娱乐
+    icon: fas fa-tools
+    submenu:
+      - name: ACG
+        icon: fas fa-blog
+        config: 生活娱乐/ACG
       - name: 摄影
         icon: fas fa-blog
-        config: 娱乐_摄影
-      - name: 游戏
+        config: 生活娱乐/摄影
+      - name: 影视剧
         icon: fas fa-blog
-        config: 娱乐_游戏
-      - name: 音乐
-        icon: fas fa-blog
-        config: 娱乐_音乐
+        config: 生活娱乐/影视剧
       - name: 直播源
         icon: fas fa-blog
-        config: 娱乐_直播源
-      - name: 搜索下载
+        config: 生活娱乐/直播源
+      - name: 音乐
         icon: fas fa-blog
-        config: 娱乐_影视
-      - name: 影视在线
-        icon: fas fa-blog
-        config: 娱乐_影视在线
-      - name: 动漫
-        icon: fas fa-blog
-        config: 娱乐_动漫        
-  - name: 平台
+        config: 生活娱乐/音乐
+
+  - name: 网络信息
     icon: fas fa-tools
     submenu:
-      - name: 信息
+      - name: 专业
         icon: fas fa-blog
-        config: 平台_信息
-      - name: 资源
-        icon: fas fa-tools
-        config: 平台_资源
-      - name: 搜索
+        config: 网络信息/专业
+      - name: 日常
         icon: fas fa-blog
-        config: 平台_搜索
+        config: 网络信息/日常
+      - name: 交易购物
+        icon: fas fa-blog
+        config: 网络信息/交易购物
       - name: 金融
         icon: fas fa-blog
-        config: 平台_金融
-  - name: 其他
-    icon: fas fa-tools
-    submenu:
-      - name: 有趣的东西
-        icon: fas fa-blog
-        config: 有趣的东西
-      - name: 终端工具
-        icon: fas fa-blog
-        config: 终端工具
-      - name: 客户端工具
-        icon: fas fa-blog
-        config: 其他_客户端工具
-  
+        config: 网络信息/金融
+
+
 
 
 

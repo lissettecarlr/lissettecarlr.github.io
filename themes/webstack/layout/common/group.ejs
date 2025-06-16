@@ -6,22 +6,25 @@
     <div class="xe-widget xe-conversations box2 label-info bookmark-card" onclick="window.open('<%= url_for(menu.url) %>', '_blank')" data-toggle="tooltip" data-placement="bottom" title="<%= menu.description %>" data-original-title="<%= url_for(menu.url) %>" data-category="<%= e.name %>" data-name="<%= menu.name %>" <% if (menu.tags) { %>data-tags="<%= Array.isArray(menu.tags) ? menu.tags.join(',') : menu.tags %>"<% } %>>
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="<%= url_for(menu.img) %>" class="lozad img-circle" width="40" alt="<%= menu.name %>">
+          <img data-src="<%= url_for(menu.img) %>" class="lozad img-circle" width="50" alt="<%= menu.name %>">
         </a>
         <div class="xe-comment">
-          <a href="#" class="xe-user-name overflowClip_1">
-            <strong><%= menu.name %></strong>
-          </a>
-          <p class="overflowClip_2"><%= menu.description %></p>
+          <div class="xe-user-name-fixed">
+            <a href="#" class="xe-user-name overflowClip_1">
+              <strong><%= menu.name %></strong>
+            </a>
+          </div>
           <% if (menu.tags && menu.tags.length > 0) { %>
           <div class="bookmark-tags">
             <% const tags = Array.isArray(menu.tags) ? menu.tags : [menu.tags]; %>
             <% tags.forEach(function(tag, tagIndex) { %>
-              <% if (tagIndex < 3) { %><span class="tag-item"><%= tag %></span><% } %>
+              <span class="tag-item"><%= tag %></span>
             <% }) %>
-            <% if (tags.length > 3) { %><span class="tag-more">+<%= tags.length - 3 %></span><% } %>
           </div>
           <% } %>
+          <div class="xe-comment-description">
+            <p class="overflowClip_2"><%= menu.description %></p>
+          </div>
         </div>
       </div>
     </div>

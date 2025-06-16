@@ -1,0 +1,85 @@
+- name: speedtest
+  url: https://www.speedtest.net/
+  img: https://www.speedtest.net/favicon.ico
+  description: 外部网速上下行测试
+  tags: ["网速测试","在线"]
+
+
+- name: ping.pe
+  url: https://ping.pe/
+  img: /images/favicon.ico
+  description: 输入目标地址，能够查看不同地方能否连通。
+  tags: ["连通性测试","在线"]
+
+
+- name: ipip
+  url: https://tools.ipip.net/traceroute.php
+  img: https://tools.ipip.net/favicon.ico
+  description: 测试国内不同区域运营商到指定地址的连通性
+  tags: ["连通性测试","在线"]
+
+
+- name: 【ipv6】test-ipv6
+  url: https://test-ipv6.com/index.html.zh_CN
+  img: https://test-ipv6.com/images/favicon.ico
+  description: 检测你本机是否是ipv6。
+  tags: ["ipv6测试","在线"]
+
+- name: httpie
+  url: https://httpie.io/app
+  img: https://httpie.io/app/Favicons/favicon-32x32.png
+  description: 一个在线的http请求测试工具
+  tags: ["http测试","在线"]
+
+
+- name: tailscale
+  url: https://tailscale.com/kb/1151/what-is-tailscale
+  img: https://tailscale.com/favicon.png
+  description: 零配置虚拟专用网络（VPN），使安装了tailscale的设备在一个局域网中。
+  tags: ["内网穿透","组网"]
+
+
+- name: enclosed
+  url: https://github.com/CorentinTh/enclosed
+  img: /images/logos/github.png
+  description: 设计用于发送私人和安全笔记的极简网络应用程序。
+  tags: ["加密通信","在线","部署","开源"]
+
+- name: Chitchatter
+  url: https://chitchatter.im/
+  img: https://chitchatter.im/favicon.ico
+  description: 加密通信工具，退出后删除聊天记录。可直接使用也可以自部署。
+  tags: ["加密通信","在线","部署"]
+
+- name: wormhole
+  url: https://wormhole.app/
+  img: https://wormhole.app/favicon.ico
+  description: 文件快传。最大支持10G
+  tags: ["文件快传","在线"]
+
+- name: send.vis.ee
+  url: https://send.vis.ee/
+  img: https://send.vis.ee/favicon-32x32.93522728.png
+  description: 文件快传。最大支持2.5G
+  tags: ["文件快传","在线"]
+
+
+- name: itdog
+  url: https://www.itdog.cn/
+  img: https://www.itdog.cn/favicon.ico
+  description: 多功能的网络传输测试工具箱
+  tags: ["传输测试合集","在线"]
+
+
+- name: reqable
+  url: https://reqable.com/zh-CN/docs/introduction
+  img: https://reqable.com/zh-CN/img/favicon.ico
+  description: 一款跨平台的专业HTTP开发和调试工具，适合开发、测试、网络、安全、爬虫
+  tags: ["抓包","客户端"]
+
+
+- name: localsend
+  url: https://github.com/localsend/localsend
+  img: /images/logos/github.png
+  description: 开源跨平台传输工具。我目前将ipad数据导到电脑上就是用它，挺方便的。
+  tags: ["局域网传输","开源","客户端"]
