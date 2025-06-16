@@ -42,72 +42,72 @@ menu:
         icon: fas fa-image
         config: 媒体工具/图片工具
       - name: 文本工具
-        icon: fas fa-blog
+        icon: fas fa-file
         config: 媒体工具/文本工具
 
   - name: 网络工具
     icon: fas fa-tools
     submenu:
       - name: 信息查询
-        icon: fas fa-blog
+        icon: fas fa-search
         config: 网络工具/信息搜索
       - name: 数据传输
-        icon: fas fa-blog
+        icon: fas fa-exchange-alt
         config: 网络工具/数据传输
       - name: 代理
-        icon: fas fa-blog
+        icon: fas fa-network-wired
         config: 网络工具/代理
 
 
   - name: 软件与云
-    icon: fas fa-tools
+    icon: fas fa-cloud
     submenu:
       - name: 云编辑器
-        icon: fas fa-blog
+        icon: fas fa-code
         config: 软件与云/云编辑器
       - name: 云存储
-        icon: fas fa-blog
+        icon: fas fa-cloud
         config: 软件与云/云存储
       - name: 云服务商
-        icon: fas fa-blog
+        icon: fas fa-cloud
         config: 软件与云/云服务商
       - name: 系统软件
-        icon: fas fa-blog
+        icon: fas fa-desktop
         config: 软件与云/系统软件
 
   - name: 生活娱乐
-    icon: fas fa-tools
+    icon: fas fa-heart
     submenu:
       - name: ACG
-        icon: fas fa-blog
+        icon: fas fa-gamepad
         config: 生活娱乐/ACG
       - name: 摄影
-        icon: fas fa-blog
+        icon: fas fa-camera
         config: 生活娱乐/摄影
       - name: 影视剧
-        icon: fas fa-blog
+        icon: fas fa-film
         config: 生活娱乐/影视剧
       - name: 直播源
-        icon: fas fa-blog
+        icon: fas fa-video
         config: 生活娱乐/直播源
       - name: 音乐
-        icon: fas fa-blog
+        icon: fas fa-music
         config: 生活娱乐/音乐
 
   - name: 网络信息
-    icon: fas fa-tools
+    icon: fas fa-network-wired
     submenu:
       - name: 专业
-        icon: fas fa-blog
+        icon: fas fa-microscope
         config: 网络信息/专业
       - name: 日常
-        icon: fas fa-blog
+        icon: fas fa-globe
         config: 网络信息/日常
       - name: 交易购物
-        icon: fas fa-blog
+        icon: fas fa-shopping-cart
         config: 网络信息/交易购物
       - name: 金融
-        icon: fas fa-blog
+        icon: fas fa-money-bill-alt
         config: 网络信息/金融
 
 
