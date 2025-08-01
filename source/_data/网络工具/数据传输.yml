@@ -83,3 +83,10 @@
   img: /images/logos/github.png
   description: 开源跨平台传输工具。我目前将ipad数据导到电脑上就是用它，挺方便的。
   tags: ["局域网传输","开源","客户端"]
+
+- name: sniffnet
+  url: https://github.com/GyulyVGC/sniffnet
+  img: /images/logos/github.png
+  description: 轻松监控您的互联网流量
+  tags: ["流量情况","开源","客户端"]
+  

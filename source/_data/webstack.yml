@@ -115,7 +115,7 @@ menu:
 
 
 myBlog:
-  - name: lissetteacrlr
+  - name: kuon
     url: https://kala.love/
     img: /images/logos/favicon-32x32.png
     description: 
@@ -131,7 +131,7 @@ aboutPage:
     html: '<blockquote><p>用于保存平日收藏的各个网站和仓库，减少浏览器书签栏负担</p></blockquote>'
   webmaster:
     head: 关于我
-    name: lissettecarlr
+    name: kuon
     url: https://blog.kala.love/
     img: /images/logos/favicon-32x32.png
     description: 点击进入我的博客

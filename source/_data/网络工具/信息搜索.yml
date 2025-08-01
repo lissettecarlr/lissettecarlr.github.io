@@ -37,6 +37,12 @@
   description: 通过IP定位地图坐标的工具
   tags: ["IP定位", "在线"]
 
+- name: ipdata
+  url: https://ipdata.co/
+  img: https://ipdata.co/favicon.ico
+  description: 通过IP定位地图坐标的工具
+  tags: ["IP定位", "在线"]
+
 
 - name: idcrawl
   url: https://www.idcrawl.com

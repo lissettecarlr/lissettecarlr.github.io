@@ -26,19 +26,6 @@
   tags: ["翻译", "客户端","开源"]
 
 
-- name: 鬼才琪露诺
-  url: https://afdian.net/@AdventCirno
-  img: https://static.afdiancdn.com/favicon.ico
-  description: 鬼才琪露诺的翻译引擎。目前日式RPG的云汉化基本全是用这个软件。
-  tags: ["RPG游戏翻译", "客户端"]
-
-- name: 团子翻译器
-  url: https://translator.dango.cloud/
-  img: https://translator.dango.cloud/favicon.ico
-  description: 一款基于OCR和翻译功能的实时屏幕区域翻译软件
-  tags: ["GAL游戏翻译", "客户端","开源"]
-
-
 - name: Stirling-PDF
   url: https://github.com/Stirling-Tools/Stirling-PDF
   img: /images/logos/github.png
