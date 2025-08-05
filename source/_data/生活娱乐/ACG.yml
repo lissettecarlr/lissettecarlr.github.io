@@ -22,6 +22,13 @@
   description: 一个壁纸网，能够下载多种大小的图片
   tags: ["壁纸"]
 
+- name: wallhaven
+  url: https://www.2dwallpapers.com/
+  img: https://www.2dwallpapers.com/favicon.ico
+  description: 一个由动漫文化爱好者运营的免费壁纸共享平台。
+  tags: ["壁纸"]
+
+
 - name: 蜜柑计划
   url: https://mikanime.tv/
   img: https://mikanani.me/images/favicon.ico
@@ -41,7 +48,7 @@
   tags: ["番剧","客户端","开源"]
 
 - name: AGE动漫
-  url: https://www.agedm.org/
+  url: https://github.com/agefanscom/website
   img: /images/favicon.ico
   description: 高清动漫，资源较全。没用过，现收藏。
   tags: ["番剧","在线"]

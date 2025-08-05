@@ -73,3 +73,10 @@
   img: https://styleof.com/favicon.ico
   description: 根据构图、风格、角色三合一成新的图片
   tags: ["照片合成", "在线","AI"]
+
+- name: Polarr Next AI
+  url: https://colormatch.polarr.com/
+  img: https://colormatch.polarr.com/assets/favicon-32x32-DGC-q7zH.png
+  description: 从图片中提取配色方案，将其作用与lightroom
+  tags: ["照片配色提取"]
+

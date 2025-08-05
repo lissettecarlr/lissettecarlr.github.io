@@ -34,10 +34,16 @@
   description: 网盘资源搜索下载
   tags: ["网盘", "搜索", "下载"]
 
-- name: 电影天堂
-  url: https://www.dytt8.com
-  img: https://www.dytt8.com/favicon.ico
-  description: 经典电影下载站
+- name: 网盘资源
+  url: https://news.bqrdh.com/wp
+  img: https://news.bqrdh.com/favicon.ico
+  description: 网盘资源搜索下载
+  tags: ["网盘", "搜索", "下载"]
+
+- name: 即刻盘
+  url: https://jikepan.xyz
+  img: https://jikepan.xyz/favicon.ico
+  description: 网盘资源搜索下载
   tags: ["影视", "下载", "电影", "电视剧"]
 
 - name: boju

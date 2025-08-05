@@ -21,3 +21,10 @@
   img: /images/logos/github.png
   description: 一个国内可直连的直播源
   tags: ["直播源","开源"]
+
+- name: 【电视频道】电视公园
+  url: https://github.com/fanmingming/live
+  img: https://tv.garden/assets/favicons/favicon.svg
+  description: 一个可以让你收看全世界电视频道的网站，转动地球选择国家后就可以选台收看了
+  tags: ["电视频道"]
+
