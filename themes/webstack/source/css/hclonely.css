@@ -911,3 +911,47 @@ body.night .xe-comment-description p {
 body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
     color: #ecf0f1;
 }
+
+/* 兼容性修复：覆盖 nav.min.css 对卡片布局的绝对定位，避免标题贴边/错位 */
+.xe-widget.xe-conversations .xe-comment {
+    position: static !important;
+    transform: none !important;
+    margin-left: 0 !important;
+    top: auto !important;
+}
+
+.xe-comment-entry .xe-user-img img {
+    float: none !important;
+}
+
+.xe-widget.xe-conversations .xe-comment {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* 统一卡片内边距与对齐，防止内容顶边 */
+.xe-comment-entry {
+    align-items: flex-start;
+}
+
+/* 覆盖 .box2 高度，使用最小高度保证一致性，避免被 nav.min.css 的 86px 限制压扁 */
+.xe-widget.xe-conversations.box2 {
+    height: auto !important;
+    min-height: 140px !important;
+    padding: 0 !important;
+}
+
+@media (max-width: 768px) {
+    .xe-widget.xe-conversations.box2 {
+        min-height: 120px !important;
+    }
+}
+
+/* 文本长词换行，防止溢出撑破布局 */
+.xe-comment,
+.xe-comment a,
+.xe-comment p,
+.bookmark-tags .tag-item {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
