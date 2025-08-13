@@ -955,3 +955,64 @@ body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
     word-break: break-word;
     overflow-wrap: anywhere;
 }
+
+/* ==========================================
+   侧边栏比例与排版优化
+   - 放大导航文本
+   - 增强图标视觉权重
+   - 优化层级与间距
+   ========================================== */
+.sidebar-menu .main-menu li > a {
+    padding: 14px 18px !important;
+}
+
+.sidebar-menu .main-menu li > a .title {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+}
+
+.sidebar-menu .main-menu li > a i {
+    font-size: 18px !important;
+    width: 22px !important;
+    min-width: 22px !important;
+}
+
+/* 子菜单稍降一级视觉权重，并增加缩进 */
+.sidebar-menu .main-menu li ul {
+    padding-left: 6px !important;
+}
+
+.sidebar-menu .main-menu li ul li > a {
+    padding: 10px 16px 10px 26px !important;
+}
+
+.sidebar-menu .main-menu li ul li > a .title {
+    font-size: 14px !important;
+}
+
+/* 统计区域与特殊入口对齐放大 */
+.sidebar-menu .main-menu li.submit-tag > a .tooltip-blue,
+.sidebar-menu .main-menu #busuanzi_container_site_pv,
+.sidebar-menu .main-menu #busuanzi_container_site_uv {
+    font-size: 14px !important;
+}
+
+/* Hover 与当前项可读性增强 */
+.sidebar-menu .main-menu li > a:hover {
+    background-color: rgba(33, 136, 255, 0.08) !important;
+}
+
+/* 夜间模式：避免字体偏灰导致显小的错觉 */
+body.night .sidebar-menu .main-menu li > a .title {
+    color: #e6e6e6 !important;
+}
+
+/* 窄屏适配：略微回调字号，保持层级对比 */
+@media (max-width: 992px) {
+    .sidebar-menu .main-menu li > a .title {
+        font-size: 14px !important;
+    }
+    .sidebar-menu .main-menu li ul li > a .title {
+        font-size: 13px !important;
+    }
+}
