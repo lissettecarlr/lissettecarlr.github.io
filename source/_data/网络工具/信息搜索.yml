@@ -76,6 +76,10 @@
   tags: ["网络信息查询","在线"]
 
 
-
+- name: maigret
+  url: https://github.com/soxoj/maigret
+  img: /images/logos/github.png
+  description: 通过用户名从数千个网站收集某人的档案
+  tags: ["用户搜索","开源"]
 
 

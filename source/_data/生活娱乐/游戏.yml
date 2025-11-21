@@ -1,0 +1,6 @@
+- name: blue_archive_auto_script
+  url: https://github.com/pur1fying/blue_archive_auto_script
+  img: /images/logos/github.png
+  description: 支持按轴凹总力战, 无缝制造三解, 用于实现蔚蓝档案自动化的程序(
+  tags: ["蔚蓝档案自动化","开源","客户端"]
+

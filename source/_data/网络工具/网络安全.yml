@@ -5,7 +5,6 @@
   description: 分析可疑文件、域、IP 和 URL，以检测恶意软件和其他漏洞，并自动与安全社区共享。
   tags: ["恶意软件检测","在线"]
 
-
 - name: haveibeenpwned
   url: https://haveibeenpwned.com/
   img: https://haveibeenpwned.com/favicon.ico
@@ -13,6 +12,23 @@
   tags: ["密码泄露检测","在线"]
 
 
+- name: steganography
+  url: https://github.com/7thSamurai/steganography
+  img: /images/logos/github.png
+  description: 简单的C++图像隐写工具，使用最低有效位编码加密并隐藏文件到图像中。
+  tags: ["文件加密","开源"]
+
+- name: MHDDoS
+  url: https://github.com/MatrixTM/MHDDoS
+  img: /images/logos/github.png
+  description: 最佳DDoS攻击脚本 Python3，（网络/分布式拒绝服务）攻击，包含56种方法
+  tags: ["DDoS攻击","开源"]
+
+- name: RustScan
+  url: https://github.com/bee-san/RustScan
+  img: /images/logos/github.png
+  description: 命令行的端口扫描工具
+  tags: ["端口扫描","开源"]
 
 
 

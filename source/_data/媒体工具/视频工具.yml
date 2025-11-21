@@ -48,3 +48,11 @@
   img: https://www.videozip.online/favicon.ico
   description: 线视频压缩、转码及音频提取工具，操作便捷。
   tags: ["视频压缩", "在线","支持MP4和MKV"]
+
+
+- name: VideoLingo
+  url: https://github.com/Huanshere/VideoLingo
+  img: https://github.com/Sanster/IOPaint
+  description: 一站式视频翻译本地化配音工具，能够一键生成 Netflix 级别的高质量字幕。
+  tags: ["视频翻译", "开源"]
+

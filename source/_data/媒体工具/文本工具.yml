@@ -33,9 +33,32 @@
   tags: ["PDF编辑", "部署","开源"]
 
 
-
 - name: 可爱的颜文字
   url: https://ikaomoji.com/
   img: https://ikaomoji.com/favicon.ico
   description: (｡•ω- ｡) ⌒♡
   tags: ["颜文字", "在线"]
+
+- name: LaTeX-OCR
+  url: https://github.com/lukas-blecher/LaTeX-OCR
+  img: /images/logos/github.png
+  description: 数学公式图片OCR工具，使用 ViT 将方程图像转换为 LaTeX 代码
+  tags: ["OCR", "LaTeX ","开源"]
+
+- name: MinerU
+  url: https://github.com/opendatalab/MinerU
+  img: /images/logos/github.png
+  description: 将复杂文档如 PDF 转换为适用于您的 Agentic 工作流的 LLM 准备好的 markdown/JSON。
+  tags: ["PDF转markdown", "AI","开源"]
+
+- name: maxun
+  url: https://github.com/getmaxun/maxun
+  img: /images/logos/github.png
+  description: 将任何网站转化为干净、具备上下文的数据流水线，助力您的工作流程
+  tags: ["网页内容爬取", "AI","开源"]
+
+- name: firecrawl
+  url: https://github.com/firecrawl/firecrawl
+  img: /images/logos/github.png
+  description: 面向人工智能的网页数据API——将整个网站转换为适合大模型使用的Markdown或结构化数据
+  tags: ["网页内容爬取", "AI","开源"]

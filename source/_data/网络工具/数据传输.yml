@@ -90,3 +90,16 @@
   description: 轻松监控您的互联网流量
   tags: ["流量情况","开源","客户端"]
   
+
+- name: bruno
+  url: https://github.com/usebruno/bruno/blob/main/docs/readme/readme_cn.md
+  img: /images/logos/github.png
+  description: 全新且创新的 API 客户端，旨在颠覆 Postman 和其他类似工具
+  tags: ["API接口测试","开源","客户端"]
+  
+- name: hoppscotch
+  url: https://github.com/hoppscotch/hoppscotch
+  img: /images/logos/github.png
+  description: 开源 API 开发生态系统支持离线、本地部署和云端 • 支持网页、桌面和命令行 • Postman、Insomnia 的开源替代方案
+  tags: ["API接口测试","开源","客户端"]
+  

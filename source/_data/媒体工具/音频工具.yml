@@ -21,3 +21,21 @@
   tags: ["音频转换", "客户端","开源"]
 
 
+- name: Retrieval-based-Voice-Conversion-WebUI
+  url: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI
+  img: /images/logos/github.png
+  description: 一个基于VITS的简单易用的变声框架
+  tags: ["变声器","开源"]
+
+- name: GPT-SoVITS
+  url: https://github.com/RVC-Boss/GPT-SoVITS
+  img: /images/logos/github.png
+  description: 1 分钟语音数据也能用来训练出优秀的 TTS 模型！（少量样本语音克隆）
+  tags: ["文本转语音","开源"]
+
+
+- name: meeting-minutes
+  url: https://github.com/Zackriya-Solutions/meeting-minutes
+  img: /images/logos/github.png
+  description: 基于AI的实时会议记录和会议纪要生成器
+  tags: ["会议纪要","开源","客户端"]

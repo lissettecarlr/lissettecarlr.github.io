@@ -85,3 +85,9 @@
   description: 在线显示器测试
   tags: ["显示器测试","在线"]
 
+- name: netdata
+  url: https://github.com/netdata/netdata
+  img: /images/logos/github.png
+  description: 通往 AI 驱动的全栈可观测性的最快路径，即使是精简团队也能轻松实现。
+  tags: ["服务器监控面板","开源"]
+

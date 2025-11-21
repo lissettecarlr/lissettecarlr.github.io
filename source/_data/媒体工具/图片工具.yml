@@ -80,3 +80,20 @@
   description: 从图片中提取配色方案，将其作用与lightroom
   tags: ["照片配色提取"]
 
+- name: IOPaint
+  url: https://github.com/Sanster/IOPaint
+  img: /images/logos/github.png
+  description: 从照片中删除任何不需要的物体、缺陷、人物，或擦除并替换。
+  tags: ["照片修改","开源"]
+
+- name: manga-image-translator
+  url: https://github.com/zyddnys/manga-image-translator
+  img: /images/logos/github.png
+  description: 一键翻译各类图片内文字
+  tags: ["图片翻译","开源","有演示"]
+
+- name: BallonsTranslator
+  url: https://github.com/dmMaze/BallonsTranslator
+  img: /images/logos/github.png
+  description: 深度学习辅助漫画翻译工具, 支持一键机翻和简单的图像/文本编辑
+  tags: ["图片翻译","开源","客户端"]
