@@ -102,4 +102,10 @@
   img: /images/logos/github.png
   description: 开源 API 开发生态系统支持离线、本地部署和云端 • 支持网页、桌面和命令行 • Postman、Insomnia 的开源替代方案
   tags: ["API接口测试","开源","客户端"]
-  
+
+
+- name: opentrace
+  url: https://github.com/Archeb/opentrace
+  img: /images/logos/github.png
+  description: 可视化路由追踪工具
+  tags: ["网络路径测试","开源","客户端"]

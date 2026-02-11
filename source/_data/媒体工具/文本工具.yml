@@ -62,3 +62,9 @@
   img: /images/logos/github.png
   description: 面向人工智能的网页数据API——将整个网站转换为适合大模型使用的Markdown或结构化数据
   tags: ["网页内容爬取", "AI","开源"]
+
+- name: Dolphin
+  url: https://github.com/ByteDance/Dolphin
+  img: /images/logos/github.png
+  description: 文档结构化
+  tags: ["文档处理", "AI","开源"]

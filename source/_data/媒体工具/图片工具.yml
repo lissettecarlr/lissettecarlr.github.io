@@ -97,3 +97,9 @@
   img: /images/logos/github.png
   description: 深度学习辅助漫画翻译工具, 支持一键机翻和简单的图像/文本编辑
   tags: ["图片翻译","开源","客户端"]
+
+- name: bgsweep
+  url: https://bgsweep.com/zh
+  img: https://bgsweep.com/favicon.ico
+  description: 免费在线AI批量背景去除工具 - 无需登录
+  tags: ["图片背景去除","在线"]

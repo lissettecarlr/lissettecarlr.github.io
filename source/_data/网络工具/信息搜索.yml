@@ -82,4 +82,10 @@
   description: 通过用户名从数千个网站收集某人的档案
   tags: ["用户搜索","开源"]
 
+- name: pansou
+  url: https://github.com/fish2018/pansou
+  img: /images/logos/github.png
+  description: 一款高性能的网盘资源搜索API服务
+  tags: ["网盘资源搜索","开源"]
+
 

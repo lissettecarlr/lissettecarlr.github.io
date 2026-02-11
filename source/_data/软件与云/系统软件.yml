@@ -91,3 +91,15 @@
   description: 通往 AI 驱动的全栈可观测性的最快路径，即使是精简团队也能轻松实现。
   tags: ["服务器监控面板","开源"]
 
+- name: deskreen
+  url: https://deskreen.com/zh-CN/
+  img: https://deskreen.com/favicon.ico
+  description: 屏幕共享和屏幕演示：将任何设备转换为计算机的辅助屏幕
+  tags: ["分屏","客户端"]
+
+- name: spacedesk
+  url: https://www.spacedesk.net/
+  img: https://www.spacedesk.net/wp-content/themes/spacedesk-theme/img/logo-holo.svg
+  description: 免费 USB 和 WiFi 显示扩展软件
+  tags: ["分屏","客户端"]
+
