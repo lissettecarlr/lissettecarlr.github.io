@@ -79,10 +79,3 @@
   tags: ["假数据","在线","开源","地址"]
 
 
-
-- name: pakikiproxy
-  url: https://pakikiproxy.com/
-  img: /images/favicon.ico
-  description: 一款拦截代理，旨在让你能够快速、轻松地对你自己或客户的应用程序进行安全审计。
-  tags: ["代理","客户端","开源"]
-
