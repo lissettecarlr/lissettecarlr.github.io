@@ -1,8 +1,3 @@
-- name: Depay
-  url: https://www.dupay.one/web-app/register-h5?invitCode=487304&lang=zh-cn
-  img: https://www.dupay.one/favicon.ico
-  description: 提供海外虚拟信用卡服务，可用于国际支付和网络消费。
-  tags: ["虚拟信用卡", "海外支付", "金融工具"]
 
 - name: onekey
   url: https://card.onekey.so/
@@ -10,11 +5,6 @@
   description: 提供数字钱包和虚拟卡服务，支持多种加密货币支付。
   tags: ["虚拟信用卡", "加密货币", "支付工具"]
 
-- name: nobepay
-  url: https://www.nobepay.com/app/login
-  img: https://www.nobepay.com/static/logoAzmIcon.0315b02c7a403d7ba44aec9e1eb0e3cd.svg
-  description: 海外虚拟信用卡平台，常用于OpenAI等国际服务充值。
-  tags: ["虚拟信用卡", "海外支付", "OpenAI充值"]
 
 - name: okx欧易
   url: https://www.okx.com/cn

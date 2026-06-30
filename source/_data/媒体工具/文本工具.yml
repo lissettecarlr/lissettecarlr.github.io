@@ -1,7 +1,6 @@
 - name: jsoncrack
   url: https://jsoncrack.com/
-  img: /images/logos/github.png
-  description: 数据可视化应用程序，能够将JSON、YAML、XML、CSV等数据格式可视化为交互式图形。
+  description: 开源数据可视化工具，将JSON、YAML、XML、CSV转为可交互树形图，支持格式互转、JSON Schema生成及TypeScript类型代码生成。
   tags: ["数据可视化", "在线","开源"]
 
 
@@ -10,6 +9,30 @@
   img: https://f-loat.github.io/caption2text/favicon.ico
   description: 字幕转文本，也就是去除字幕文件中的时间。
   tags: ["字幕转文本", "在线","开源"]
+
+- name: 字幕库
+  url: https://srtku.com/
+  img: https://srtku.com/favicon.ico
+  description: 字幕库（SrtKu/zimuku），国内知名影视字幕下载平台，涵盖电影、美剧、日剧、韩剧等，支持简繁双语及SRT/ASS等多种格式。
+  tags: ["字幕下载", "在线", "多语种", "国内"]
+
+- name: OpenSubtitles
+  url: https://www.opensubtitles.com/
+  img: https://www.opensubtitles.com/favicon.ico
+  description: 全球最大的字幕数据库之一，收录40+种语言的海量影视字幕，支持按片名、IMDB ID等方式搜索下载。
+  tags: ["字幕下载", "在线", "多语种", "国际"]
+
+- name: 33字幕
+  url: https://www.33subs.com/
+  img: https://www.33subs.com/favicon.ico
+  description: 新一代AI字幕工具，支持视频转字幕、AI翻译字幕、逐字稿转写及播客转文稿，覆盖90+种语言，每月赠送5000免费算力。
+  tags: ["AI字幕", "字幕生成", "在线", "多语言"]
+
+- name: 字幕共享计划
+  url: https://github.com/foxofice/sub_share
+  img: /images/logos/github.png
+  description: 开源字幕共享计划，提供 Subtitles DataBase 工具，主要收录动画字幕，支持高级查找与SQL式查询语法，可整体检出仓库下载全量字幕。
+  tags: ["字幕下载", "开源", "动漫字幕"]
 
 
 - name: 沉浸式翻译
@@ -36,7 +59,7 @@
 - name: 可爱的颜文字
   url: https://ikaomoji.com/
   img: https://ikaomoji.com/favicon.ico
-  description: (｡•ω- ｡) ⌒♡
+  description: 日本颜文字大全网站（iKaomoji），按情感分类收录大量颜文字，点击即可复制，方便日常聊天使用。
   tags: ["颜文字", "在线"]
 
 - name: LaTeX-OCR
@@ -63,8 +86,14 @@
   description: 面向人工智能的网页数据API——将整个网站转换为适合大模型使用的Markdown或结构化数据
   tags: ["网页内容爬取", "AI","开源"]
 
+- name: Scrapling
+  url: https://github.com/D4Vinci/Scrapling
+  img: /images/logos/github.png
+  description: 自适应 Python 网页爬取框架，可在页面结构变化后自动定位元素，内置绕过 Cloudflare 等反爬机制，支持并发爬取与代理轮换。⭐67.2k
+  tags: ["网页内容爬取", "爬虫框架", "开源"]
+
 - name: Dolphin
   url: https://github.com/ByteDance/Dolphin
   img: /images/logos/github.png
-  description: 文档结构化
+  description: 字节跳动开源的文档结构化解析框架，将 PDF、Word 等文档转换为结构化数据，适用于 AI 数据预处理。
   tags: ["文档处理", "AI","开源"]

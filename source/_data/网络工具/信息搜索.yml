@@ -3,8 +3,14 @@
 - name: web-check
   url: https://web-check.xyz/
   img: https://web-check.xyz/favicon.svg
-  description: 分析任何网站的开源情报
-  tags: ["网站分析", "在线","开源"]
+  description: 开源网站安全情报工具，20秒内检测DNS记录、SSL证书、开放端口、HTTP安全头、技术栈等30+项指标。
+  tags: ["网站安全检测", "在线","开源"]
+
+- name: LinkChecker
+  url: https://link-checker.itea.dev/
+  img: https://link-checker.itea.dev/favicon.ico
+  description: 网站链接检测工具，检测页面内所有链接并标记失效链接，支持内外链分类、域名分组统计和RSS源发现，实时显示进度。
+  tags: ["链接检测", "网站分析", "在线"]
 
 - name: 站长之家
   url: https://tool.chinaz.com/
@@ -28,20 +34,26 @@
 - name: osint
   url: https://osint.sh/
   img: https://osint.sh/img/favicon.png
-  description: 开源情报网，多合一信息收集工具
-  tags: ["站点信息查询", "在线","工具合集"]
+  description: 多合一OSINT情报收集平台，集成子域名查找、DNS历史、反向IP、证书搜索、Whois历史等20+工具，无需注册。
+  tags: ["OSINT", "在线","工具合集","情报收集"]
 
 - name: infosniper
   url: https://www.infosniper.net
   img: https://www.infosniper.net/favicon.ico
-  description: 通过IP定位地图坐标的工具
+  description: 通过 IP 地址在地图上精确标注地理坐标，直观展示 IP 归属位置。
+  tags: ["IP定位", "在线"]
+
+- name: worldip
+  url: https://worldip.io/zh
+  img: https://worldip.io/assets/images/logo.svg
+  description: IP 地理定位工具，查询 IP 地址的归属国家、城市及运营商信息，支持中文界面。
   tags: ["IP定位", "在线"]
 
 - name: ipdata
   url: https://ipdata.co/
   img: https://ipdata.co/favicon.ico
-  description: 通过IP定位地图坐标的工具
-  tags: ["IP定位", "在线"]
+  description: 全球 IP 数据查询服务，提供精准的 IP 地理位置、ASN、威胁情报等详细信息，支持 API 调用。
+  tags: ["IP定位", "在线", "API"]
 
 
 - name: idcrawl
@@ -54,8 +66,8 @@
 - name: facecheck
   url: https://facecheck.id
   img: /images/favicon.ico
-  description: 通过照片在线查找人员，基本也是国外的媒体图中找。
-  tags: ["人脸查询", "在线"]
+  description: AI人脸识别搜索引擎，通过照片搜索社交媒体、新闻、博客及犯罪档案中的相关人物信息，主要覆盖国外平台。
+  tags: ["人脸查询", "在线","AI"]
 
 - name: namebeta
   url: https://namebeta.com/
@@ -68,12 +80,6 @@
   img: https://www.browserscan.net/favicon.ico
   description: 浏览器指纹查询，显示本机的地址、浏览器、硬件等信息
   tags: ["浏览器指纹", "在线"]
-
-- name: 2ip
-  url: https://2ip.io/
-  img: https://2ip.io/favicon.ico
-  description: 包含很多网络信息查询和检测工具
-  tags: ["网络信息查询","在线"]
 
 
 - name: maigret

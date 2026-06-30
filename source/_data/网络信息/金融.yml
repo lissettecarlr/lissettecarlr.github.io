@@ -1,37 +1,31 @@
 
 
-- name: HelloGitHub
+- name: TradingView
   url: https://cn.tradingview.com/#main-market-summary
-  img: /images/favicon.ico
-  description: 追踪所有市场
-  tags: ["金融","在线"]
+  img: https://static.tradingview.com/static/images/favicon.ico
+  description: 全球专业金融图表平台，提供股票、加密货币、外汇等各类市场的实时行情与技术分析工具。
+  tags: ["金融","行情","在线","图表"]
 
 - name: 世界银行
   url: https://data.worldbank.org.cn/
   img: /images/favicon.ico
-  description: 世界银行数据
-  tags: ["金融","在线"]
+  description: 世界银行开放数据平台，提供全球各国经济发展指标、贫困率、GDP等宏观统计数据。
+  tags: ["金融","宏观数据","在线"]
 
-
-- name: 看财报
-  url: https://www.kancaibao.com/index.asp
-  img: /images/favicon.ico
-  description: 看财报-价值投资分析工具
-  tags: ["金融","在线"]
 
 
 - name: 金十数据
   url: https://www.jin10.com/
   img: /images/favicon.ico
-  description: 金十数据-全球实时金融信息
-  tags: ["金融","在线"]
+  description: 实时推送全球金融市场快讯与数据，涵盖外汇、贵金属、原油、股指等品种。
+  tags: ["金融","快讯","在线"]
 
 
 - name: 东方财富
   url: https://data.eastmoney.com/dxf/default.html
   img: /images/favicon.ico
-  description: 东方财富-股票数据
-  tags: ["金融","在线"]
+  description: 东方财富数据中心，提供A股大宗交易、龙虎榜、资金流向等详细股票数据分析。
+  tags: ["金融","A股","数据","在线"]
 
 
 

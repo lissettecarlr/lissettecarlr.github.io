@@ -1,0 +1,49 @@
+# 隐私保护相关工具：接码、假数据生成等
+
+- name: receive-smss
+  url: https://receive-smss.com/
+  img: /images/favicon.ico
+  description: 免费在线接收短信验证码，无需注册，公共共享号码，多国可选
+  tags: ["接码","免费","临时号码","多国","无需注册"]
+
+- name: sms-activate
+  url: https://sms-activate.org/cn
+  img: /images/favicon.ico
+  description: 付费虚拟手机号接码平台，支持180+国家、700+平台，优先物理SIM卡，支持API调用
+  tags: ["接码","付费","虚拟号码","多国","API"]
+
+- name: sms-man
+  url: https://sms-man.com/cn
+  img: /images/favicon.ico
+  description: 付费虚拟号码接码服务，覆盖195国1500+平台，支持一次性激活或最长3个月长租
+  tags: ["接码","付费","虚拟号码","多国","API","租号"]
+
+- name: grizzlysms
+  url: https://grizzlysms.com/cn/countries/japan
+  img: /images/favicon.ico
+  description: 灰熊SMS，购买海外虚拟手机号用于各平台注册验证，支持多国号码，匿名付款
+  tags: ["接码","付费","虚拟号码","多国","匿名"]
+
+- name: tiger-sms
+  url: https://tiger-sms.com/#howitworks
+  img: /images/favicon.ico
+  description: TigerSMS，买虚拟手机号接收验证码，覆盖260+国家200+服务，按收到短信计费
+  tags: ["接码","付费","虚拟号码","多国","API"]
+
+- name: fauxid
+  url: https://fauxid.com/fake-name-generator
+  img: /images/favicon.ico
+  description: 免费生成完整虚假身份，含姓名、地址、SSN、信用卡、加密货币地址及公司信息，支持JSON/CSV导出
+  tags: ["假数据","身份生成","隐私保护","免费","测试数据"]
+
+- name: usaddrgen
+  url: https://www.usaddrgen.com/zh/
+  img: /images/favicon.ico
+  description: 专业美国地址生成器，含姓名、电话、邮箱、SSN、信用卡等完整信息，支持按州筛选及API调用
+  tags: ["假数据","地址生成","美国","免费","API","测试数据"]
+
+- name: Real-Address-Generator
+  url: https://github.com/Adonis142857/Real-Address-Generator
+  img: /images/logos/github.png
+  description: 开源地址生成器，支持中国、美国、英国、德国、法国等26个国家的真实格式地址填充
+  tags: ["假数据","地址生成","开源","多国","GitHub"]

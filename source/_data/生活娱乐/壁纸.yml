@@ -1,0 +1,17 @@
+- name: wallhaven
+  url: https://wallhaven.cc/
+  img: https://wallhaven.cc/images/layout/logo.png
+  description: 一个壁纸网，能够下载多种大小的图片
+  tags: ["壁纸"]
+
+- name: 2dwallpapers
+  url: https://www.2dwallpapers.com/
+  img: https://www.2dwallpapers.com/favicon.ico
+  description: 一个由动漫文化爱好者运营的免费壁纸共享平台。
+  tags: ["壁纸","动漫"]
+
+- name: Pinterest
+  url: https://www.pinterest.com/
+  img: https://www.pinterest.com/favicon.ico
+  description: 图片分享平台，可以用来参考风格和摆姿
+  tags: ["图片分享","壁纸"]

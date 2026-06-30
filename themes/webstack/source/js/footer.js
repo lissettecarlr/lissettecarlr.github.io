@@ -1,3 +1,46 @@
+/* ─── 响应式侧边栏折叠（≤ 1100px） ─── */
+(function () {
+  var BREAKPOINT = 1100;
+  var hamburger = document.getElementById('sidebar-hamburger');
+  var overlay   = document.getElementById('sidebar-overlay');
+  var sidebar   = document.querySelector('.sidebar-menu');
+  if (!hamburger || !overlay || !sidebar) return;
+
+  function openSidebar() {
+    sidebar.classList.add('sidebar-open');
+    overlay.classList.add('active');
+    hamburger.innerHTML = '<i class="fas fa-times"></i>';
+  }
+
+  function closeSidebar() {
+    sidebar.classList.remove('sidebar-open');
+    overlay.classList.remove('active');
+    hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+  }
+
+  hamburger.addEventListener('click', function () {
+    sidebar.classList.contains('sidebar-open') ? closeSidebar() : openSidebar();
+  });
+
+  overlay.addEventListener('click', closeSidebar);
+
+  /* 侧边栏内导航链接点击后自动收起 */
+  sidebar.addEventListener('click', function (e) {
+    if (window.innerWidth <= BREAKPOINT && e.target.closest('a.smooth')) {
+      setTimeout(closeSidebar, 200);
+    }
+  });
+
+  /* 窗口放大超过断点时自动复位 */
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > BREAKPOINT) {
+      sidebar.classList.remove('sidebar-open');
+      overlay.classList.remove('active');
+      hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+    }
+  });
+})();
+
 $(document).ready(function () {
   //img lazy loaded
   const observer = lozad();

@@ -7,7 +7,7 @@
 - name: recordscreen
   url: https://recordscreen.io/
   img: https://recordscreen.io/favicon.ico
-  description: 免费在线录屏工具，无需安装，支持一键录制浏览器画面。但是分辨率低。
+  description: 免费在线录屏工具，无需安装，直接在浏览器中录制屏幕，视频在本地处理不上传服务器，保护隐私。
   tags: ["录屏", "在线"]
 
 - name: OBS Studio
@@ -20,14 +20,14 @@
 - name: screensharing
   url: https://screensharing.net/
   img: https://screensharing.net/favicon.ico
-  description: 一款轻量级、基于浏览器的屏幕共享解决方案。无需下载，立即与任何人共享你的屏幕。非常适合快速远程协作。
-  tags: ["分析屏幕", "在线"]
+  description: 轻量级浏览器屏幕共享工具，无需安装，立即与他人共享屏幕，适合快速远程协作。
+  tags: ["屏幕共享", "在线"]
 
 - name: remotedesktop
   url: https://remotedesktop.google.com/support
   img: https://remotedesktop.google.com/favicon.ico
-  description: 谷歌的分析屏幕工具
-  tags: ["分析屏幕", "在线"]
+  description: Google 远程桌面，支持通过浏览器远程控制或共享他人电脑屏幕，操作简便。
+  tags: ["屏幕共享", "远程桌面", "在线"]
 
 - name: topazlabs
   url: https://www.topazlabs.com/
@@ -46,8 +46,8 @@
 - name: videozip
   url: https://www.videozip.online/
   img: https://www.videozip.online/favicon.ico
-  description: 线视频压缩、转码及音频提取工具，操作便捷。
-  tags: ["视频压缩", "在线","支持MP4和MKV"]
+  description: 在线视频压缩、转码及音频提取工具，支持 MP4/MKV 等常见格式，操作便捷无需安装。
+  tags: ["视频压缩", "在线", "视频转码"]
 
 
 - name: VideoLingo
@@ -55,4 +55,22 @@
   img: https://github.com/Sanster/IOPaint
   description: 一站式视频翻译本地化配音工具，能够一键生成 Netflix 级别的高质量字幕。
   tags: ["视频翻译", "开源"]
+
+- name: openscreen
+  url: https://github.com/siddharthvaddem/openscreen
+  img: /images/logos/github.png
+  description: 免费创建惊艳的演示。开源、无需订阅、无水印、可免费用于商业用途。Screen Studio 的替代方案。
+  tags: ["录屏","客户端"]
+
+- name: AIComicBuilder
+  url: https://github.com/LingyiChen-AI/AIComicBuilder
+  img: /images/logos/github.png
+  description: AI驱动的漫剧/动画视频生成器，从剧本导入到视频合成全流程自动化，支持分镜生成、角色四视图、首尾帧插值，对接 Kling/Seedance/Veo 等视频模型，可 Docker 部署。
+  tags: ["AI视频生成", "漫画", "开源", "部署"]
+
+- name: Lada
+  url: https://github.com/ladaapp/lada
+  img: /images/logos/github.png
+  description: 开源 AI 视频马赛克/打码还原工具，基于深度学习去除视频中的像素化区域，支持 GUI 和 CLI，需要 GPU 运行，支持 Windows/Linux（Flatpak）/Docker 部署。⭐5.2k
+  tags: ["视频处理", "AI", "开源", "客户端"]
 

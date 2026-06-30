@@ -1,6 +1,30 @@
+- name: RPG存档在线修改器
+  url: https://www.saveeditonline.com/
+  img: https://www.saveeditonline.com/favicon.ico
+  description: 在线游戏存档编辑器，支持RPG Maker系列（MV/VX Ace/XP等）、Unreal Engine、Unity3D、Ren'Py等多种引擎的存档修改。
+  tags: ["游戏存档修改","在线","多引擎"]
+
+- name: seiya-saiga
+  url: https://seiya-saiga.com/save.html
+  img: /images/favicon.ico
+  description: 日区PC游戏存档下载站（誠也の部屋），主要为视觉小说/GalGame提供CG/回想100%解锁的存档文件，按五十音索引。
+  tags: ["游戏存档下载","日区","视觉小说"]
+
+- name: 游戏下载
+  url: https://www.gamer520.com/
+  img: /images/favicon.ico
+  description: Gamer520，提供各类PC单机游戏的免费下载，包含全DLC中文版及修改器（Trainer）资源。
+  tags: ["游戏下载","免费","在线"]
+
+- name: 游戏修改器的下载器
+  url: https://github.com/dyang886/Game-Cheats-Manager/releases
+  img: /images/logos/github.png
+  description: 开源游戏修改器管理工具，支持自动搜索、下载和更新游戏修改器（Trainer）。
+  tags: ["游戏修改器","开源","客户端"]
+
 - name: blue_archive_auto_script
   url: https://github.com/pur1fying/blue_archive_auto_script
   img: /images/logos/github.png
-  description: 支持按轴凹总力战, 无缝制造三解, 用于实现蔚蓝档案自动化的程序(
+  description: 支持按轴凹总力战, 无缝制造三解, 用于实现蔚蓝档案自动化的程序
   tags: ["蔚蓝档案自动化","开源","客户端"]
 

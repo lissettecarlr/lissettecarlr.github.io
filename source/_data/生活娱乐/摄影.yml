@@ -35,10 +35,3 @@
   description: 摄影作品分享平台，精选全球顶级摄影师的艺术级照片。
   tags: ["艺术摄影"]
 
-
-
-- name: Pinterest
-  url: https://www.pinterest.com/
-  img: https://www.pinterest.com/favicon.ico
-  description: 图片分享平台，可以用来参考风格和摆姿
-  tags: ["图片分享"]

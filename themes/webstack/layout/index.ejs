@@ -2,6 +2,13 @@
 <% const setting = isChildPage ? Object.assign({}, theme, page) : theme %>
 <%# console.log(page.path) %>
 <body class="page-body">
+
+<!-- 响应式侧边栏折叠控件 -->
+<button id="sidebar-hamburger" title="展开/收起菜单" aria-label="菜单">
+  <i class="fas fa-bars"></i>
+</button>
+<div id="sidebar-overlay"></div>
+
 <div class="page-container">
 <%- partial('common/header', {setting:setting}) %>
 

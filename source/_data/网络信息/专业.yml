@@ -1,8 +1,8 @@
 - name: examcoo
   url: https://www.examcoo.com/index/ku
   img: https://www.examcoo.com/favicon.ico
-  description: 考试酷-免费的考试信息，能开不能下
-  tags: ["考试","在线","国内"]
+  description: 考试酷，免费在线考试与电子作业系统，题库涵盖学历、职业资格、外语、计算机等12大类，超350万份试卷。
+  tags: ["在线考试","题库","免费","国内"]
 
 - name: oalib
   url: https://www.oalib.com/
@@ -19,32 +19,32 @@
 - name: 奇客资讯网
   url: https://www.solidot.org/
   img: https://www.solidot.org/favicon.ico
-  description: 
+  description: Solidot，面向中文读者的科技资讯网站，聚焦硬科技、开源、隐私与信息安全领域。
   tags: ["技术新闻"]
 
 - name: 科技爱好者周刊
   url: https://github.com/ruanyf/weekly
   img: /images/logos/github.png
-  description: 每周五更新的技术周刊
-  tags: ["技术新闻"]
+  description: 阮一峰主理的技术周刊，每周五更新，涵盖科技文章、工具推荐与行业动态。
+  tags: ["技术新闻","周刊"]
 
 - name: Hacker News
   url: https://news.ycombinator.com/
   img: /images/favicon.ico
-  description: 专注于科技、创业、编程、互联网等领域新闻和讨论的社交新闻网站
-  tags: ["技术新闻"]
+  description: Y Combinator 旗下科技社交新闻网站，聚焦创业、编程、AI等领域的高质量讨论。
+  tags: ["技术新闻","英文"]
 
 - name: V2EX
   url: https://www.v2ex.com/
   img: https://www.v2ex.com/static/favicon.ico
-  description: 一个关于分享和探索创意的社区
-  tags: ["技术论坛"]
+  description: 国内知名技术社区，涵盖编程、设计、创业等话题，以程序员为主要用户群体。
+  tags: ["技术论坛","国内"]
 
 - name: LINUX DO
   url: https://linux.do/
   img: /images/favicon.ico
-  description: 一个关于分享和探索创意的社区
-  tags: ["技术论坛"]
+  description: 以 Linux 和开源技术为核心的中文技术社区，涵盖运维、编程、开源项目等讨论。
+  tags: ["技术论坛","Linux","开源"]
 
 - name: chinese-independent-developer
   url: https://github.com/1c7/chinese-independent-developer

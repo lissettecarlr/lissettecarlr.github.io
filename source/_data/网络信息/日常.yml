@@ -1,8 +1,8 @@
 - name: 城市租房手册
   url: https://zufang.ababtools.com/guide
   img: /images/favicon.ico
-  description: 城市租房手册
-  tags: ["租房","在线"]
+  description: 《城市租房生存指南》，涵盖租前准备、看房要点、合同签订、入住管理及退租等全流程实用攻略。
+  tags: ["租房","攻略","在线"]
 
 - name: web.archive
   url: https://web.archive.org/

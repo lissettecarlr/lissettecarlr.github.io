@@ -4,3 +4,9 @@
   description: mp3歌曲下载
   tags: ["音乐","下载"]
 
+- name: Suno
+  url: https://suno.com/
+  img: https://suno.com/favicon.ico
+  description: AI音乐生成平台，通过文字描述即可生成含人声、歌词和编曲的完整歌曲，每日免费生成10首，付费版支持商业授权与干声分离。
+  tags: ["AI音乐","音乐生成","在线"]
+

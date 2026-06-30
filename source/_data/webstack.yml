@@ -41,8 +41,8 @@ menu:
       - name: 图片工具
         icon: fas fa-image
         config: 媒体工具/图片工具
-      - name: 文本工具
-        icon: fas fa-file
+      - name: 翻译与文档
+        icon: fas fa-file-alt
         config: 媒体工具/文本工具
 
   - name: 网络工具
@@ -51,25 +51,30 @@ menu:
       - name: 信息查询
         icon: fas fa-search
         config: 网络工具/信息搜索
-      - name: 数据传输
+      - name: 网络测试
         icon: fas fa-exchange-alt
         config: 网络工具/数据传输
       - name: 代理
         icon: fas fa-network-wired
         config: 网络工具/代理
-
+      - name: 隐私工具
+        icon: fas fa-user-secret
+        config: 网络工具/隐私工具
+      - name: 网络安全
+        icon: fas fa-shield-alt
+        config: 网络工具/网络安全
 
   - name: 软件与云
     icon: fas fa-cloud
     submenu:
-      - name: 云编辑器
+      - name: 在线工具
         icon: fas fa-code
         config: 软件与云/云编辑器
-      - name: 云存储
-        icon: fas fa-cloud
+      - name: 图床
+        icon: fas fa-images
         config: 软件与云/云存储
       - name: 云服务商
-        icon: fas fa-cloud
+        icon: fas fa-server
         config: 软件与云/云服务商
       - name: 系统软件
         icon: fas fa-desktop
@@ -78,15 +83,21 @@ menu:
   - name: 生活娱乐
     icon: fas fa-heart
     submenu:
-      - name: ACG
-        icon: fas fa-gamepad
+      - name: 动漫
+        icon: fas fa-dragon
         config: 生活娱乐/ACG
+      - name: 壁纸
+        icon: fas fa-image
+        config: 生活娱乐/壁纸
       - name: 摄影
         icon: fas fa-camera
         config: 生活娱乐/摄影
       - name: 影视剧
         icon: fas fa-film
         config: 生活娱乐/影视剧
+      - name: 游戏
+        icon: fas fa-gamepad
+        config: 生活娱乐/游戏
       - name: 直播源
         icon: fas fa-video
         config: 生活娱乐/直播源
@@ -97,10 +108,10 @@ menu:
   - name: 网络信息
     icon: fas fa-network-wired
     submenu:
-      - name: 专业
+      - name: 技术社区
         icon: fas fa-microscope
         config: 网络信息/专业
-      - name: 日常
+      - name: 实用工具
         icon: fas fa-globe
         config: 网络信息/日常
       - name: 交易购物
@@ -170,7 +181,6 @@ js:
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
 
 css:
-  hclonely: /css/hclonely.css
   fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
   linecons: /css/fonts/linecons/css/linecons.min.css
   fontawesome: /css/fonts/fontawesome/css/all.min.css
@@ -179,3 +189,4 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+  hclonely: /css/hclonely.css

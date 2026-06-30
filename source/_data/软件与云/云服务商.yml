@@ -1,132 +1,132 @@
 - name: 阿里云
   url: https://home.console.aliyun.com/#/
   img: /images/favicon.ico
-  description: 
+  description: 国内领先的云计算服务平台，提供ECS云服务器、RDS数据库、OSS对象存储等全栈云服务。
   tags: ["云服务商","国内"]
 
 - name: 腾讯云
   url: https://console.cloud.tencent.com/cvm/instance/index
   img: /images/favicon.ico
-  description: 
+  description: 腾讯旗下云计算平台，提供云服务器、数据库、CDN等全栈云服务，国内节点丰富。
   tags: ["云服务商","国内"]
 
 - name: 华为云
   url: https://activity.huaweicloud.com
   img: /images/favicon.ico
-  description:
+  description: 华为旗下企业级云计算平台，提供云服务器、AI、大数据等综合云服务。
   tags: ["云服务商","国内"]
 
 - name: 搬瓦工
   url: https://bandwagonhost.com/services
   img: /images/favicon.ico
-  description: 目前使用这家，稳定便宜
-  tags: ["云服务商","国外"]
+  description: 老牌美国VPS服务商，提供CN2 GIA等优质线路，国内访问速度较快，性价比高。
+  tags: ["云服务商","国外","VPS"]
 
 - name: dmit
   url: https://www.dmit.io/
   img: /images/favicon.ico
-  description: 听说比搬瓦工能好，等打折的时候试试
-  tags: ["云服务商","国外"]
+  description: 高性能VPS服务商，主打中港CN2/CMIN2优质线路，延迟低，适合对网络质量有要求的用户。
+  tags: ["云服务商","国外","VPS"]
 
 - name: aws
   url: https://aws.amazon.com/cn/
   img: https://a0.awsstatic.com/libra-css/images/site/fav/favicon.ico
-  description:
+  description: Amazon旗下全球最大的云计算平台，提供200+类云服务，覆盖全球数十个数据中心。
   tags: ["云服务商","国外"]
 
 - name: linode
   url: https://www.linode.com/zh/pricing/
   img: /images/favicon.ico
-  description: 被Akamai收购的国外云服务商
-  tags: ["云服务商","国外"]
+  description: 已被Akamai收购的老牌VPS服务商，全球多机房，价格透明，适合开发者使用。
+  tags: ["云服务商","国外","VPS"]
 
 - name: digitalocean
   url: https://www.digitalocean.com/
   img: /images/favicon.ico
-  description: 国外云服务商，传闻性价比高
-  tags: ["云服务商","国外"]
+  description: 面向开发者的云服务商，提供Droplets VPS、托管数据库、App Platform等，界面简洁，文档完善。
+  tags: ["云服务商","国外","VPS"]
 
 - name: conoha
   url: https://www.conoha.jp/
   img: /images/favicon.ico
-  description: 日本的云服务，注册需要绑定信用卡
-  tags: ["云服务商","国外"]
+  description: 日本GMO旗下云服务商，提供日本节点VPS，延迟低，注册需要绑定信用卡。
+  tags: ["云服务商","国外","日本","VPS"]
 
 - name: kamatera
   url: https://console.kamatera.com/
   img: /images/favicon.ico
-  description: 一个按小时收费的VPS云服务器主机商
-  tags: ["云服务商","国外"]
+  description: 按小时计费的弹性云服务器，支持全球多机房，按需扩容，适合短期或弹性负载场景。
+  tags: ["云服务商","国外","VPS"]
 
 - name: akkocloud
   url: https://www.akkocloud.com/cart.php
   img: /images/favicon.ico
-  description: 二次元国人商家
-  tags: ["云服务商","国内"]
+  description: 国人运营的VPS服务商，提供香港、日本等亚太节点，界面友好，中文客服。
+  tags: ["云服务商","国内","VPS"]
 
 - name: vultr
   url: https://my.vultr.com/
   img: /images/favicon.ico
-  description: 14年成立的的VPS提供商。最开始使用的一家，用来搭梯子，然后被频繁封IP了- -
-  tags: ["云服务商","国外"]
+  description: 成立于2014年的全球VPS服务商，覆盖20+机房，支持按小时计费，价格实惠。
+  tags: ["云服务商","国外","VPS"]
 
 - name: ucloud
   url: https://www.ucloud.cn/site/about/intro/
   img: /images/favicon.ico
-  description: 优刻得，国内云计算服务服务商
+  description: 优刻得，国内独立上市的云计算服务商，提供云主机、CDN、数据库等企业级服务。
   tags: ["云服务商","国内"]
 
 - name: hostman
   url: https://hostman.com/
   img: /images/favicon.ico
-  description: 部署 Web 应用程序的托管平台
-  tags: ["云服务商","国外"]
+  description: 面向开发者的云托管平台，支持一键部署Web应用和数据库，提供自动化CI/CD。
+  tags: ["云服务商","国外","托管"]
 
 - name: cloudcone
   url: https://cloudcone.com/vps/#pricingtitle
   img: /images/favicon.ico
-  description: VPS。圣诞节9.5美元买了个1CPU-0.5GB，部署了个代码，状态时好时坏，当主代理故障时，临时用用还是行
-  tags: ["云服务商","国外"]
+  description: 美国洛杉矶VPS服务商，价格实惠，适合预算有限的轻量用户，偶有促销活动。
+  tags: ["云服务商","国外","VPS"]
 
 - name: railway
   url: https://railway.app/account/billing
   img: /images/favicon.ico
-  description: 帮助快速构建应用的云服务。我之前是用来当作云数据库，有5美元免费额度，后来AI火了后很多项目应用也是有这个的部署示例
-  tags: ["云服务商","国外"]
+  description: 面向开发者的云部署平台，支持快速部署应用与云数据库，有免费额度，适合小型项目。
+  tags: ["云服务商","国外","托管"]
 
 - name: PlanetScale
   url: https://planetscale.com/
   img: /images/favicon.ico
-  description: MySQL云数据库
-  tags: ["云服务商","国外"]
+  description: 兼容MySQL的Serverless云数据库平台，支持分支化数据库工作流，适合弹性扩展场景。
+  tags: ["云服务商","国外","数据库"]
 
 - name: vercel
   url: https://vercel.com/dashboard
   img: /images/favicon.ico
-  description: web应用托管平台
-  tags: ["云服务商","国外"]
+  description: 前端应用托管平台，支持自动CI/CD部署，对Next.js项目有深度优化，免费额度慷慨。
+  tags: ["云服务商","国外","托管","前端"]
 
 - name: godaddy
   url: https://www.godaddy.com/
   img: /images/favicon.ico
-  description: 云服务器
-  tags: ["云服务商","国外"]
+  description: 全球知名域名注册商，同时提供虚拟主机、SSL证书等服务，域名市场份额领先。
+  tags: ["云服务商","国外","域名"]
 
 
 - name: spartanhost
   url: https://spartanhost.org/vps
   img: /images/favicon.ico
-  description: 美国VPS
-  tags: ["云服务商","国外"]
+  description: 美国VPS服务商，提供西雅图等机房节点，支持Linux/Windows系统。
+  tags: ["云服务商","国外","VPS"]
 
 - name: racknerd
   url: https://my.racknerd.com/cart.php?a=view
   img: /images/favicon.ico
-  description: vps。2C3G每年28美元，便宜是便宜，但国内基本没法用，卡爆。试着用国外服务器访问则还行
-  tags: ["云服务商","国外"]
+  description: 美国低价VPS服务商，年付套餐价格极低，适合挂机或海外访问使用，国内延迟较高。
+  tags: ["云服务商","国外","VPS"]
 
 - name: alwyzon
   url: https://www.alwyzon.com/en
   img: /images/favicon.ico
-  description: 奥地利服务器。听说很快没试过
-  tags: ["云服务商","国外"] 
+  description: 奥地利VPS服务商，欧洲节点，网络质量稳定，适合欧洲业务部署。
+  tags: ["云服务商","国外","VPS","欧洲"]

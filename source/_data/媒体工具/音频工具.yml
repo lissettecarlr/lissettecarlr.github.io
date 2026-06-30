@@ -3,15 +3,15 @@
 - name: vocalremover
   url: https://vocalremover.org/
   img: https://vocalremover.org/favicon.ico
-  description: 在线音频编辑器，功能挺丰富的。
-  tags: ["音频编辑", "在线"]
+  description: AI人声分离工具，可将歌曲中的人声与伴奏分离，生成无人声（卡拉OK）版本或纯人声版，免费在线使用。
+  tags: ["人声分离", "AI", "在线", "免费"]
 
 
 - name: audiotrimmer
   url: https://audiotrimmer.com/cn/
   img: https://audiotrimmer.com/images/favicon.ico
-  description: 音频变速放大等在线工具
-  tags: ["音频编辑", "在线"]
+  description: 在线音频剪辑与裁剪工具，支持MP3等13种音频格式，可精确截取片段或制作手机铃声，免费使用。
+  tags: ["音频剪辑", "在线", "铃声制作", "免费"]
 
 
 - name: ncmdump

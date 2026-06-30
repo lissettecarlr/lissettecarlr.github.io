@@ -16,18 +16,6 @@
   description: 动画磁链下载，多个套皮网之一
   tags: ["动漫下载","种子站"]
 
-- name: wallhaven
-  url: https://wallhaven.cc/
-  img: https://wallhaven.cc/images/layout/logo.png
-  description: 一个壁纸网，能够下载多种大小的图片
-  tags: ["壁纸"]
-
-- name: wallhaven
-  url: https://www.2dwallpapers.com/
-  img: https://www.2dwallpapers.com/favicon.ico
-  description: 一个由动漫文化爱好者运营的免费壁纸共享平台。
-  tags: ["壁纸"]
-
 
 - name: 蜜柑计划
   url: https://mikanime.tv/
@@ -38,7 +26,7 @@
 - name: 次元狗
   url: https://www.acgndog.com/
   img: https://www.acgndog.com/wp-content/uploads/2017/11/439c8112e53379d73724e80c93eccd0c-32x32.png
-  description: 一个综合资源下载网，挺方便的。
+  description: 次元狗，ACG综合资源社区，提供动漫、漫画、轻小说、GalGame及单机游戏的网盘下载链接，资源持续更新。
   tags: ["动漫下载","漫画下载","轻小说下载","网盘"]
 
 - name: Kazumi
@@ -49,80 +37,54 @@
 
 - name: AGE动漫
   url: https://github.com/agefanscom/website
-  img: /images/favicon.ico
-  description: 高清动漫，资源较全。没用过，现收藏。
+  img: /images/logos/github.png
+  description: 高清动漫在线观看平台，资源覆盖较全，更新及时。
   tags: ["番剧","在线"]
 
 - name: 233动漫
   url: https://www.233dm.com/
   img: /images/favicon.ico
-  description: 超清无广/有弹幕/特摄片。没用过，现收藏。
-  tags: ["番剧","在线"]
+  description: 超清无广告动漫网站，支持弹幕，含特摄片资源。
+  tags: ["番剧","在线","无广告"]
 
 - name: 风铃动漫
   url: https://www.aafun.cc/
   img: /images/favicon.ico
-  description: 超清无广/有弹幕/番剧，没用过，现收藏。
-  tags: ["番剧","在线"]
+  description: 超清无广告番剧在线观看网站，支持弹幕功能。
+  tags: ["番剧","在线","无广告"]
 
 - name: 路漫漫
   url: https://i.qg50.com/
   img: /images/favicon.ico
-  description: 高清国产动漫/日本动漫。没用过，现收藏。
+  description: 高清国产动漫与日本动漫在线观看平台，内容较全。
   tags: ["番剧","在线"]
 
 
 - name: 萌道动漫
   url: https://www.mengdaow.org/
   img: /images/favicon.ico
-  description: 超清画质/专注国外动漫。没用过，现收藏。
-  tags: ["番剧","在线"]
+  description: 超清画质动漫网站，专注国外动漫资源，更新较快。
+  tags: ["番剧","在线","国外动漫"]
 
 - name: E站弹幕网
   url: https://www.ezdmw.site/
   img: /images/favicon.ico
-  description: 超清画质/注入B站弹幕。没用过，现收藏。
-  tags: ["番剧","在线"]  
+  description: 超清画质动漫在线观看，支持注入B站弹幕，观看体验佳。
+  tags: ["番剧","在线","弹幕"]  
   
 
 - name: AnFuns动漫
   url: https://www.anfuns.org/
   img: /images/favicon.ico
-  description: 超清画质/秒播/少量蓝光。没用过，现收藏。
-  tags: ["番剧","在线"]
-
-
-- name: RPG存档在线修改器
-  url: https://www.saveeditonline.com/
-  img: https://www.saveeditonline.com/favicon.ico
-  description: 一个RPG存档在线修改器
-  tags: ["RPG存档修改","在线"]
-
-
-- name: seiya-saiga
-  url: https://seiya-saiga.com/save.html
-  img: /images/favicon.ico
-  description: 游戏存档搜索。
-  tags: ["游戏存档搜索","在线","日区"]
-
-- name: 游戏下载
-  url: https://www.gamer520.com/
-  img: /images/favicon.ico
-  description: 没用过，先收藏。
-  tags: ["游戏下载","在线"]
-
-- name: 游戏修改器的下载器
-  url: https://github.com/dyang886/Game-Cheats-Manager/releases
-  img: /images/favicon.ico
-  description: 一个开源的修改器下载器，也没用过，先收藏。
-  tags: ["游戏修改器","开源","客户端"]
+  description: 超清画质动漫网站，秒播流畅，部分资源提供蓝光画质。
+  tags: ["番剧","在线","蓝光"]
 
 
 - name: mox
   url: https://mox.moe/
   img: /images/favicon.ico
-  description: 漫画下载网，需要会员和月费
-  tags: ["漫画下载","在线"]
+  description: Kmoe（原mox.moe），提供日本漫画Kindle/epub格式电子书，内容由网友上传共享，支持移动端阅读器导入。
+  tags: ["漫画下载","epub","kindle","在线"]
 
 
 - name: 动漫表情包
@@ -138,11 +100,6 @@
   description: 视觉小说翻译器
   tags: ["GAL游戏翻译","客户端","开源"]
 
-- name: 鬼才琪露诺
-  url: https://afdian.net/@AdventCirno
-  img: https://static.afdiancdn.com/favicon.ico
-  description: 鬼才琪露诺的翻译引擎。目前日式RPG的云汉化基本全是用这个软件。
-  tags: ["RPG游戏翻译", "客户端"]
 
 - name: 团子翻译器
   url: https://translator.dango.cloud/

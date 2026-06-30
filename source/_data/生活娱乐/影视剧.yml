@@ -28,23 +28,6 @@
   description: 网盘资源搜索下载
   tags: ["网盘", "搜索", "下载"]
 
-- name: 网盘资源
-  url: https://news.bqrdh.com/wp
-  img: https://news.bqrdh.com/favicon.ico
-  description: 网盘资源搜索下载
-  tags: ["网盘", "搜索", "下载"]
-
-- name: 网盘资源
-  url: https://news.bqrdh.com/wp
-  img: https://news.bqrdh.com/favicon.ico
-  description: 网盘资源搜索下载
-  tags: ["网盘", "搜索", "下载"]
-
-- name: 即刻盘
-  url: https://jikepan.xyz
-  img: https://jikepan.xyz/favicon.ico
-  description: 网盘资源搜索下载
-  tags: ["影视", "下载", "电影", "电视剧"]
 
 - name: boju
   url: https://www.boju.cc/
@@ -118,17 +101,6 @@
   description: 海量高清视频免费观看
   tags: ["影视", "在线", "高清", "电影", "电视剧"]
 
-- name: 星空影视
-  url: https://www.xkvvv.com/
-  img: /images/favicon.ico
-  description: 高清画质/有冷门港剧
-  tags: ["影视", "在线", "高清", "港剧", "电影", "电视剧"]
-
-- name: FreeHD
-  url: https://www.freehd1.vip/
-  img: /images/favicon.ico
-  description: 超清线路无广
-  tags: ["影视", "在线", "高清", "电影", "电视剧"]
 
 - name: 修罗影视
   url: https://xlys.me/
@@ -146,10 +118,4 @@
   url: https://www.zhenlang.cc/
   img: /images/favicon.ico
   description: 超清画质/热门影视/速度快
-  tags: ["影视", "在线","电影", "电视剧"]
-
-- name: 耐看点播
-  url: https://nkvod.me/
-  img: /images/favicon.ico
-  description: 超清画质/播放速度快
   tags: ["影视", "在线","电影", "电视剧"]

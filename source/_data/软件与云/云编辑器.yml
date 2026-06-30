@@ -1,14 +1,14 @@
 - name: tldraw
   url: https://github.com/tldraw/tldraw
   img: /images/logos/github.png
-  description: 
+  description: 开源无限画布协作绘图工具，支持在线使用、链接分享与自托管部署。
   tags: ["白板绘图","在线","部署","开源"]
 
 - name: excalidraw
   url: https://excalidraw.com/
   img: https://excalidraw.com/favicon.ico
-  description: 
-  tags: ["白板绘图","在线"]
+  description: 开源手绘风格在线白板，支持实时多人协作，图形简洁直观。
+  tags: ["白板绘图","在线","协作","开源"]
 
 - name: desmos
   url: https://www.desmos.com/calculator?lang=zh-CN
@@ -31,14 +31,20 @@
 - name: drawio
   url: https://app.diagrams.net/
   img: https://app.diagrams.net/favicon.ico
-  description: 在线流程图工具，能够保存到本地或加载本地文件。
-  tags: ["流程图","在线"]
+  description: draw.io，免费在线绘图工具，支持流程图、UML、ER图、网络拓扑、BPMN等多种图表类型，可导入 Visio/Gliffy 文件，支持保存到本地或云端。
+  tags: ["流程图","在线","免费"]
 
 - name: pythononlinecompiler
   url: https://pythononlinecompiler.com/
   img: https://pythononlinecompiler.com/favicon.ico
-  description: 在线python编译器
+  description: 在线 Python 编译器，支持 Python 2.7 至 3.10 多版本，内置 NumPy/Pandas/Matplotlib 等 75+ 常用库，支持 pip 安装、文件管理及代码链接分享。
   tags: ["python编译器","在线"]
+
+- name: open-lovable
+  url: https://github.com/firecrawl/open-lovable
+  img: /images/logos/github.png
+  description: 开源 AI 应用构建工具，通过对话即可生成 React 应用，或输入任意网址一键克隆重建为现代 React 项目，由 Firecrawl 团队出品，可自部署。⭐27.2k
+  tags: ["AI编程", "React", "开源", "部署"]
 
 
 

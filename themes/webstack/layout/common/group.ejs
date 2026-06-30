@@ -6,7 +6,25 @@
     <div class="xe-widget xe-conversations box2 label-info bookmark-card" onclick="window.open('<%= url_for(menu.url) %>', '_blank')" data-toggle="tooltip" data-placement="bottom" title="<%= menu.description %>" data-original-title="<%= url_for(menu.url) %>" data-category="<%= e.name %>" data-name="<%= menu.name %>" <% if (menu.tags) { %>data-tags="<%= Array.isArray(menu.tags) ? menu.tags.join(',') : menu.tags %>"<% } %>>
       <div class="xe-comment-entry">
         <a class="xe-user-img">
-          <img data-src="<%= url_for(menu.img) %>" class="lozad img-circle" width="50" alt="<%= menu.name %>">
+          <%
+            var _imgSrc, _imgFallback;
+            try {
+              var _domain = new URL(menu.url).hostname;
+              var _ddg = 'https://icons.duckduckgo.com/ip3/' + _domain + '.ico';
+              if (menu.img) {
+                _imgSrc = url_for(menu.img);
+                _imgFallback = _ddg;
+              } else {
+                _imgSrc = _ddg;
+                _imgFallback = url_for('/images/favicon.ico');
+              }
+            } catch(e) {
+              _imgSrc = menu.img ? url_for(menu.img) : url_for('/images/favicon.ico');
+              _imgFallback = url_for('/images/favicon.ico');
+            }
+          %>
+          <img data-src="<%= _imgSrc %>" class="lozad img-circle" width="50" alt="<%= menu.name %>"
+               onerror="if(!this._fb){this._fb=true;this.src='<%= _imgFallback %>';}">
         </a>
         <div class="xe-comment">
           <div class="xe-user-name-fixed">

@@ -3,15 +3,15 @@
 - name: clipdrop
   url: https://clipdrop.co/relight
   img: https://clipdrop.co/favicon.ico
-  description: 图片光影变化。
+  description: AI图片重新打光工具（Relight），可在照片拍摄后自由调整光源位置和强度，提升人像及绘画作品的光影效果。
   tags: ["图片光影修改", "在线", "AI"]
 
 
 - name: tinypng
   url: https://tinypng.com/
   img: /images/favicon.ico
-  description: 在线图片压缩。使用过效果很好。
-  tags: ["图片压缩", "在线"]
+  description: 在线智能图片压缩，支持PNG/JPG/WebP格式，压缩率高达85%且视觉无损失，提供API接口和WordPress插件。
+  tags: ["图片压缩", "在线", "API"]
 
 - name: squoosh
   url: https://squoosh.app/editor
@@ -61,10 +61,10 @@
   tags: ["二维码生成", "在线"]
 
 
-- name: removebg
+- name: twogether
   url: https://twogether.ai/
   img: /images/favicon.ico
-  description: 通过AI生成与名人的合照
+  description: 通过 AI 合成技术生成与名人的合照，上传照片即可一键生成。
   tags: ["照片合成", "在线","AI"]
 
 
@@ -101,5 +101,11 @@
 - name: bgsweep
   url: https://bgsweep.com/zh
   img: https://bgsweep.com/favicon.ico
-  description: 免费在线AI批量背景去除工具 - 无需登录
-  tags: ["图片背景去除","在线"]
+  description: 免费在线AI批量背景去除工具，支持最多20张图片批量处理，无需登录，导出透明PNG或自定义背景色。
+  tags: ["图片背景去除","AI","在线","免费"]
+
+- name: remove.bg
+  url: https://www.remove.bg/zh
+  img: https://www.remove.bg/favicon.ico
+  description: 在线AI抠图工具，5秒内全自动去除图片背景，生成透明PNG或替换背景，提供API接口和Photoshop插件，功能完善。
+  tags: ["图片背景去除","AI","在线","API"]

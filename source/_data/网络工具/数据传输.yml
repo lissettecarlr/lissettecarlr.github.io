@@ -8,8 +8,8 @@
 - name: ping.pe
   url: https://ping.pe/
   img: /images/favicon.ico
-  description: 输入目标地址，能够查看不同地方能否连通。
-  tags: ["连通性测试","在线"]
+  description: 多节点网络测试工具，支持从全球各地发起Ping/MTR/Traceroute/TCP端口检测及DNS查询，支持IPv4/IPv6。
+  tags: ["连通性测试","多节点","在线"]
 
 
 - name: ipip
@@ -54,8 +54,14 @@
 - name: wormhole
   url: https://wormhole.app/
   img: https://wormhole.app/favicon.ico
-  description: 文件快传。最大支持10G
-  tags: ["文件快传","在线"]
+  description: 端对端加密文件快传工具，支持最大10GB，链接自动过期，保护文件隐私。
+  tags: ["文件快传","加密","在线"]
+
+- name: LinkSwift
+  url: https://github.com/hmjz100/LinkSwift
+  img: /images/logos/github.png
+  description: 油猴脚本，支持百度网盘/阿里云盘/夸克/UC/迅雷/移动云盘/天翼/123云盘九大网盘的直链地址获取，可推送至 IDM/Aria2/比特彗星等下载器。⭐17.3k
+  tags: ["网盘直链","油猴脚本","开源"]
 
 - name: send.vis.ee
   url: https://send.vis.ee/
@@ -67,8 +73,8 @@
 - name: itdog
   url: https://www.itdog.cn/
   img: https://www.itdog.cn/favicon.ico
-  description: 多功能的网络传输测试工具箱
-  tags: ["传输测试合集","在线"]
+  description: ITDOG，多功能网络测试平台，支持多地节点在线Ping/Tcping、网站测速、路由追踪/MTR、DNS查询，覆盖IPv4/IPv6。
+  tags: ["传输测试合集","多节点","在线"]
 
 
 - name: reqable
@@ -77,11 +83,17 @@
   description: 一款跨平台的专业HTTP开发和调试工具，适合开发、测试、网络、安全、爬虫
   tags: ["抓包","客户端"]
 
+- name: ProxyPin
+  url: https://github.com/wanghongenpin/proxypin
+  img: /images/logos/github.png
+  description: 开源免费 HTTP(S) 流量抓包工具，支持 Windows/Mac/Linux/Android/iOS 全平台，基于 Flutter 开发，支持脚本、请求重写、域名过滤、请求阻断等功能，可替代 Charles/Fiddler。⭐13.4k
+  tags: ["抓包","开源","客户端","全平台"]
+
 
 - name: localsend
   url: https://github.com/localsend/localsend
   img: /images/logos/github.png
-  description: 开源跨平台传输工具。我目前将ipad数据导到电脑上就是用它，挺方便的。
+  description: 开源跨平台局域网文件传输工具，无需互联网，支持 Windows/macOS/Linux/iOS/Android，操作简单快速。
   tags: ["局域网传输","开源","客户端"]
 
 - name: sniffnet
