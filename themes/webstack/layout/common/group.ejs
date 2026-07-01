@@ -11,12 +11,13 @@
             try {
               var _domain = new URL(menu.url).hostname;
               var _ddg = 'https://icons.duckduckgo.com/ip3/' + _domain + '.ico';
-              if (menu.img) {
-                _imgSrc = url_for(menu.img);
-                _imgFallback = _ddg;
-              } else {
+              var _isPlaceholder = !menu.img || menu.img === '/images/favicon.ico';
+              if (_isPlaceholder) {
                 _imgSrc = _ddg;
                 _imgFallback = url_for('/images/favicon.ico');
+              } else {
+                _imgSrc = url_for(menu.img);
+                _imgFallback = _ddg;
               }
             } catch(e) {
               _imgSrc = menu.img ? url_for(menu.img) : url_for('/images/favicon.ico');
