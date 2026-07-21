@@ -1,0 +1,141 @@
+- name: "字幕共享计划"
+  url: "https://github.com/foxofice/sub_share"
+  img: "/images/logos/github.png"
+  description: "以动画字幕为主的开源字幕数据库及检索工具，支持条件和类 SQL 查询。"
+  tags:
+    - "动漫字幕"
+    - "字幕数据库"
+    - "高级检索"
+    - "开源"
+
+- name: "动漫花园"
+  url: "https://share.dmhy.org"
+  img: "https://share.dmhy.org/favicon.ico"
+  description: "动画字幕组资源及 BitTorrent 种子索引站。"
+  tags:
+    - "动漫资源"
+    - "字幕组"
+    - "BT种子"
+
+- name: "ACG.RIP"
+  url: "https://acgrip.art"
+  img: "/images/favicon.ico"
+  description: "ACG 动画资源与 BitTorrent 发布索引站。"
+  tags:
+    - "动漫资源"
+    - "字幕组"
+    - "BT种子"
+
+- name: "Comicat"
+  url: "https://www.comicat.org"
+  img: "/images/favicon.ico"
+  description: "动画 BitTorrent 资源索引站；本次核验地址返回 404，可能存在地区或入口变更。"
+  tags:
+    - "动漫资源"
+    - "BT种子"
+    - "资源索引"
+
+- name: "蜜柑计划"
+  url: "https://mikanime.tv/"
+  img: "https://mikanani.me/images/favicon.ico"
+  description: "按季度和星期组织番剧更新，并提供字幕组资源订阅与下载索引。"
+  tags:
+    - "番剧"
+    - "字幕组"
+    - "RSS订阅"
+    - "BT种子"
+
+- name: "次元狗动漫"
+  url: "https://www.acgndog.com/"
+  img: "https://www.acgndog.com/wp-content/uploads/2017/11/439c8112e53379d73724e80c93eccd0c-32x32.png"
+  description: "ACG 资源社区，索引动画、漫画、轻小说及游戏的网盘资源。"
+  tags:
+    - "动漫资源"
+    - "漫画"
+    - "轻小说"
+    - "网盘资源"
+
+- name: "Kazumi"
+  url: "https://github.com/Predidit/Kazumi"
+  img: "/images/logos/github.png"
+  description: "基于自定义采集规则的开源番剧应用，支持流媒体播放、弹幕和实时超分辨率。"
+  tags:
+    - "番剧应用"
+    - "弹幕"
+    - "超分辨率"
+    - "开源"
+
+- name: "AGE动漫网址发布页"
+  url: "https://github.com/agefanscom/website"
+  img: "/images/logos/github.png"
+  description: "AGE 动漫官方网址发布 GitHub 仓库，不是直接播放平台。"
+  tags:
+    - "AGE动漫"
+    - "网址发布"
+    - "GitHub"
+
+- name: "233动漫"
+  url: "https://www.233dm.com/"
+  img: "/images/favicon.ico"
+  description: "提供日漫、国漫、剧场版及特摄内容的动漫观看站。"
+  tags:
+    - "番剧"
+    - "国漫"
+    - "日漫"
+    - "特摄"
+
+- name: "风铃动漫"
+  url: "https://www.aafun.cc/"
+  img: "/images/favicon.ico"
+  description: "番剧观看站；当前访问需要通过浏览器环境安全检查。"
+  tags:
+    - "番剧"
+    - "动漫播放"
+    - "浏览器验证"
+
+- name: "路漫漫"
+  url: "https://i.qg50.com/"
+  img: "/images/favicon.ico"
+  description: "国产及日本动漫观看平台；本次请求受访问控制限制。"
+  tags:
+    - "番剧"
+    - "国漫"
+    - "日漫"
+
+- name: "萌道动漫"
+  url: "https://www.mengdaow.org/"
+  img: "/images/favicon.ico"
+  description: "国外动漫资源观看站；本次请求受访问控制限制。"
+  tags:
+    - "番剧"
+    - "国外动漫"
+    - "动漫播放"
+
+- name: "E站弹幕网"
+  url: "https://www.ezdmw.site/"
+  img: "/images/favicon.ico"
+  description: "番剧观看与动漫社区平台，提供番剧更新、弹幕、图集及社区内容。"
+  tags:
+    - "番剧"
+    - "弹幕"
+    - "动漫社区"
+    - "图集"
+
+- name: "AnFuns动漫"
+  url: "https://www.anfuns.org/"
+  img: "/images/favicon.ico"
+  description: "动漫观看站；本次核验服务器返回临时异常，具体内容待复核。"
+  tags:
+    - "番剧"
+    - "动漫播放"
+    - "蓝光资源"
+
+- name: "Kmoe"
+  url: "https://mox.moe/"
+  img: "/images/favicon.ico"
+  description: "网友上传的日文漫画电子书平台，提供 Kindle、EPUB 等格式。"
+  tags:
+    - "漫画"
+    - "EPUB"
+    - "Kindle"
+    - "电子书"

@@ -4,9 +4,15 @@
   "private": true,
   "scripts": {
     "build": "hexo generate",
+    "check-links": "node check-sites.mjs",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "validate": "node scripts/validate-data.mjs",
+    "verify": "npm run validate && npm run clean && npm run build"
+  },
+  "engines": {
+    "node": ">=20.6"
   },
   "hexo": {
     "version": "7.2.0"
@@ -21,6 +27,6 @@
     "hexo-renderer-marked": "^6.0.0",
     "hexo-renderer-stylus": "^3.0.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-landscape": "^1.0.0"
+    "js-yaml": "^4.1.0"
   }
 }

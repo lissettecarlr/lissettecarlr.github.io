@@ -1,0 +1,20 @@
+- name: "Desmos 图形计算器"
+  url: "https://www.desmos.com/calculator?lang=zh-CN"
+  img: "https://www.desmos.com/favicon.ico"
+  description: "浏览器图形计算器，可绘制函数、表格、参数方程及数据图形。"
+  tags:
+    - "网页应用"
+    - "免费"
+    - "数学"
+    - "图形计算器"
+    - "函数绘图"
+
+- name: "考试酷"
+  url: "https://www.examcoo.com/index/ku"
+  img: "https://www.examcoo.com/favicon.ico"
+  description: "免费考试与电子作业平台，提供学历、职业资格、外语和计算机等分类题库及组卷功能。"
+  tags:
+    - "考试"
+    - "题库"
+    - "电子作业"
+    - "免费"

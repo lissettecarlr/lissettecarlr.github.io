@@ -4,7 +4,7 @@
 <body class="page-body">
 
 <!-- 响应式侧边栏折叠控件 -->
-<button id="sidebar-hamburger" title="展开/收起菜单" aria-label="菜单">
+<button id="sidebar-hamburger" type="button" title="展开菜单" aria-label="展开菜单" aria-expanded="false" aria-controls="sidebar-drawer">
   <i class="fas fa-bars"></i>
 </button>
 <div id="sidebar-overlay"></div>
@@ -34,28 +34,21 @@
     <% } %>
     </nav>
     <% if(setting.search){ %>
-    <section class="sousuo">
-      <div class="search">
-        <div class="search-box">
-          <span class="search-icon" style="background: url(<%= url_for('/images/search_icon.png') %>) 0px 0px; opacity: 1;"></span>
-          <input type="text" id="txt" class="search-input" autocomplete="off" placeholder="请输入关键字，按回车 / Enter 搜索">
-          <button class="search-btn" id="search-btn"><i class="fa fa-search"></i></button>
-        </div>
-        <!-- 搜索热词 -->
-        <div class="box search-hot-text" id="box" style="display: none;">
-          <ul></ul>
-        </div>
-        <!-- 搜索引擎 -->
-        <div class="search-engine" style="display: none;">
-          <div class="search-engine-head">
-            <strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
-            <div class="search-engine-tool">搜索热词： <span id="hot-btn" style="background-image: url(<%= url_for('/images/off_on.png') %>);"></span></div>
-          </div>
-          <ul class="search-engine-list search-engine-list_zmki_ul">
-          </ul>
-        </div>
+    <section class="bookmark-search" role="search">
+      <div class="bookmark-search-box">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <input
+          type="search"
+          id="bookmark-search-input"
+          autocomplete="off"
+          placeholder="搜索站点、说明或标签"
+          aria-label="搜索本站书签">
+        <button type="button" id="bookmark-search-clear" aria-label="清空搜索" hidden>
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div id="bookmark-search-status" aria-live="polite"></div>
     </section>
-    <script>search('<%= url_for('/images/search_icon.png') %>')</script>
   <% } %>
   <% if(is_home() || isChildPage){ %>
   <% const menuSetting = isChildPage ? page : theme; %>

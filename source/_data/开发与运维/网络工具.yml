@@ -1,0 +1,138 @@
+- name: "Screen Sharing"
+  url: "https://screensharing.net/"
+  img: "https://screensharing.net/favicon.ico"
+  description: "基于浏览器的即时屏幕共享服务，无需安装客户端。"
+  tags:
+    - "屏幕共享"
+    - "远程协作"
+    - "浏览器工具"
+
+- name: "Chrome 远程桌面"
+  url: "https://remotedesktop.google.com/support"
+  img: "https://remotedesktop.google.com/favicon.ico"
+  description: "Google 提供的跨设备远程访问和临时远程支持服务。"
+  tags:
+    - "远程桌面"
+    - "远程支持"
+    - "屏幕共享"
+    - "跨平台"
+
+- name: "LinkChecker"
+  url: "https://link-checker.itea.dev/"
+  img: "https://link-checker.itea.dev/favicon.ico"
+  description: "抓取网页链接并检查响应状态，支持内外链分类、域名统计及失效链接定位。"
+  tags:
+    - "链接检测"
+    - "死链检查"
+    - "网站分析"
+
+- name: "站长工具"
+  url: "https://tool.chinaz.com/"
+  img: "https://csstools.chinaz.com/favicon.ico"
+  description: "站长之家提供的综合站长工具平台，包含域名、SEO、IP、DNS、测速及网站检测工具。"
+  tags:
+    - "站长工具"
+    - "域名查询"
+    - "SEO"
+    - "网站检测"
+
+- name: "Speedtest"
+  url: "https://www.speedtest.net/"
+  img: "https://www.speedtest.net/favicon.ico"
+  description: "Ookla 提供的互联网连接测速服务，可测试下载、上传速度和延迟。"
+  tags:
+    - "网速测试"
+    - "延迟测试"
+    - "上传速度"
+    - "下载速度"
+
+- name: "Ping.pe"
+  url: "https://ping.pe/"
+  img: "/images/favicon.ico"
+  description: "从多个地区节点执行 Ping、MTR、Traceroute、TCP 端口和 DNS 测试。"
+  tags:
+    - "连通性测试"
+    - "多节点"
+    - "路由追踪"
+    - "DNS"
+
+- name: "IPIP.net 路由追踪"
+  url: "https://tools.ipip.net/traceroute.php"
+  img: "https://tools.ipip.net/favicon.ico"
+  description: "从国内不同地区和运营商节点执行路由追踪，分析目标地址的网络路径。"
+  tags:
+    - "路由追踪"
+    - "多节点"
+    - "运营商"
+    - "网络诊断"
+
+- name: "Test IPv6"
+  url: "https://test-ipv6.com/index.html.zh_CN"
+  img: "https://test-ipv6.com/images/favicon.ico"
+  description: "检测当前网络的 IPv6 连通性、DNS 支持及双栈配置情况。"
+  tags:
+    - "IPv6"
+    - "连通性测试"
+    - "DNS"
+    - "网络诊断"
+
+- name: "Tailscale"
+  url: "https://tailscale.com/docs/concepts/what-is-tailscale"
+  img: "https://tailscale.com/favicon.png"
+  description: "基于 WireGuard 的组网服务，为设备建立加密的点对点覆盖网络。"
+  tags:
+    - "组网"
+    - "Mesh VPN"
+    - "WireGuard"
+    - "远程访问"
+
+- name: "ITDOG"
+  url: "https://www.itdog.cn/"
+  img: "https://www.itdog.cn/favicon.ico"
+  description: "多节点网络测试平台，提供 Ping、TCPing、网站测速、路由追踪、MTR 和 DNS 查询。"
+  tags:
+    - "多节点"
+    - "网络测速"
+    - "路由追踪"
+    - "DNS"
+
+- name: "OpenTrace"
+  url: "https://github.com/Archeb/opentrace"
+  img: "/images/logos/github.png"
+  description: "跨平台可视化 Traceroute 客户端，用地图展示网络路由节点。"
+  tags:
+    - "路由追踪"
+    - "网络路径"
+    - "可视化"
+    - "开源"
+
+- name: "Trojan 管理脚本"
+  url: "https://github.com/Jrohy/trojan"
+  img: "/images/logos/github.png"
+  description: "Trojan 服务端安装与管理脚本，支持多用户管理及 Docker 部署。"
+  tags:
+    - "Trojan"
+    - "代理服务端"
+    - "Docker"
+    - "开源"
+
+- name: "v2rayN"
+  url: "https://github.com/2dust/v2rayN"
+  img: "/images/logos/github.png"
+  description: "桌面代理客户端，支持 Xray、sing-box、v2fly 等核心及多种代理协议。"
+  tags:
+    - "代理客户端"
+    - "Xray"
+    - "sing-box"
+    - "跨平台"
+    - "开源"
+
+- name: "v2rayNG"
+  url: "https://github.com/2dust/v2rayNG"
+  img: "/images/logos/github.png"
+  description: "Android 代理客户端，支持 Xray、v2fly 核心和订阅配置导入。"
+  tags:
+    - "代理客户端"
+    - "Android"
+    - "Xray"
+    - "开源"

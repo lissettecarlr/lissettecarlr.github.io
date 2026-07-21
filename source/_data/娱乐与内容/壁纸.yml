@@ -1,0 +1,18 @@
+- name: "wallhaven"
+  url: "https://wallhaven.cc/"
+  img: "https://wallhaven.cc/images/layout/logo.png"
+  description: "高质量壁纸搜索、浏览与下载社区。"
+  tags:
+    - "壁纸"
+    - "图片搜索"
+    - "高清图片"
+
+- name: "2DWallpapers"
+  url: "https://www.2dwallpapers.com/"
+  img: "https://www.2dwallpapers.com/favicon.ico"
+  description: "免费动漫及游戏壁纸站，无需登录且图片无水印。"
+  tags:
+    - "壁纸"
+    - "动漫"
+    - "游戏"
+    - "免费下载"

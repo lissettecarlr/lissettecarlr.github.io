@@ -1,0 +1,67 @@
+- name: "ColorMatch by Polarr"
+  url: "https://colormatch.polarr.com/"
+  img: "https://colormatch.polarr.com/assets/favicon-32x32-DGC-q7zH.png"
+  description: "从参考图片提取色彩风格，并生成可用于照片调色的匹配结果或 Lightroom 预设。"
+  tags:
+    - "色彩匹配"
+    - "配色提取"
+    - "照片调色"
+    - "Lightroom"
+    - "AI"
+
+- name: "World Press Photo"
+  url: "https://www.worldpressphoto.org/"
+  img: "https://www.worldpressphoto.org/favicon.ico"
+  description: "世界新闻摄影基金会官网，发布年度摄影赛事、获奖作品、展览和教育项目。"
+  tags:
+    - "新闻摄影"
+    - "纪实摄影"
+    - "摄影比赛"
+    - "摄影展览"
+
+- name: "蜂鸟摄影论坛"
+  url: "https://bbs.fengniao.com/jinghua-101.html#p=2"
+  img: "https://bbs.fengniao.com/favicon.ico"
+  description: "蜂鸟网人像摄影精华作品浏览与摄影交流板块。"
+  tags:
+    - "摄影论坛"
+    - "人像摄影"
+    - "作品交流"
+    - "摄影社区"
+
+- name: "500px"
+  url: "https://500px.com/"
+  img: "https://500px.com/favicon.ico"
+  description: "全球摄影师作品展示、发现与交流平台。"
+  tags:
+    - "摄影社区"
+    - "作品展示"
+    - "摄影师"
+
+- name: "图虫人像摄影"
+  url: "https://portrait.tuchong.com/"
+  img: "/images/favicon.ico"
+  description: "图虫网人像摄影精选作品浏览与分享页面。"
+  tags:
+    - "人像摄影"
+    - "摄影作品"
+    - "作品分享"
+
+- name: "1x"
+  url: "https://1x.com/"
+  img: "https://1x.com/favicon.ico"
+  description: "人工策展的高质量摄影社区，提供作品评选、摄影师主页及照片销售。"
+  tags:
+    - "艺术摄影"
+    - "人工策展"
+    - "摄影社区"
+    - "作品展示"
+
+- name: "Camarts"
+  url: "https://camarts.app/"
+  img: "https://camarts.app/favicon.ico"
+  description: "提供摄影作品库和作品发现功能的摄影平台。"
+  tags:
+    - "摄影作品"
+    - "图片发现"
+    - "作品收藏"

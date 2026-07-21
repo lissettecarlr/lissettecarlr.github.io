@@ -1,0 +1,29 @@
+- name: "PanSou"
+  url: "https://github.com/fish2018/pansou"
+  img: "/images/logos/github.png"
+  description: "高性能网盘资源搜索 API，聚合多个搜索来源并支持插件化扩展。"
+  tags:
+    - "网盘搜索"
+    - "资源检索"
+    - "API"
+    - "开源"
+
+- name: "中国独立开发者项目列表"
+  url: "https://github.com/1c7/chinese-independent-developer"
+  img: "/images/logos/github.png"
+  description: "收集并展示中国独立开发者及其产品的社区维护项目列表，便于发现项目和开发者。"
+  tags:
+    - "独立开发"
+    - "项目展示"
+    - "产品目录"
+    - "中国开发者"
+
+- name: "HelloGitHub"
+  url: "https://github.com/521xueweihan/HelloGitHub/tree/master"
+  img: "/images/logos/github.png"
+  description: "以月刊形式分享有趣、入门级的开源项目、开源书籍、实战项目和企业级项目。"
+  tags:
+    - "开源项目"
+    - "项目推荐"
+    - "月刊"
+    - "入门资源"

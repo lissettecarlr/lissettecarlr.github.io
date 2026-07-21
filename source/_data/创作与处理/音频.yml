@@ -1,0 +1,72 @@
+- name: "Vocal Remover"
+  url: "https://vocalremover.org/"
+  img: "https://vocalremover.org/favicon.ico"
+  description: "使用 AI 将音乐分离为人声和伴奏，并提供音调、速度等辅助音频工具。"
+  tags:
+    - "人声分离"
+    - "伴奏提取"
+    - "AI音频"
+    - "免费"
+
+- name: "AudioTrimmer"
+  url: "https://audiotrimmer.com/cn/"
+  img: "https://audiotrimmer.com/images/favicon.ico"
+  description: "浏览器音频裁剪工具，支持常见格式、淡入淡出及铃声制作。"
+  tags:
+    - "音频剪辑"
+    - "音频裁剪"
+    - "铃声制作"
+    - "免费"
+
+- name: "ncmdump"
+  url: "https://github.com/lissettecarlr/ncmdump"
+  img: "/images/logos/github.png"
+  description: "将网易云音乐 NCM 文件转换为 FLAC 等常规音频格式的开源工具。"
+  tags:
+    - "NCM转换"
+    - "音频转换"
+    - "网易云音乐"
+    - "开源"
+
+- name: "Retrieval-based Voice Conversion WebUI"
+  url: "https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI"
+  img: "/images/logos/github.png"
+  description: "基于检索增强与深度学习的实时语音转换框架，提供训练和推理 WebUI。"
+  tags:
+    - "语音转换"
+    - "变声"
+    - "模型训练"
+    - "WebUI"
+    - "开源"
+
+- name: "GPT-SoVITS"
+  url: "https://github.com/RVC-Boss/GPT-SoVITS"
+  img: "/images/logos/github.png"
+  description: "支持少样本和零样本语音克隆的文本转语音项目，提供训练与推理 WebUI。"
+  tags:
+    - "语音克隆"
+    - "文本转语音"
+    - "少样本"
+    - "WebUI"
+    - "开源"
+
+- name: "Meetily"
+  url: "https://github.com/Zackriya-Solutions/meetily"
+  img: "/images/logos/github.png"
+  description: "隐私优先的本地 AI 会议助手，支持实时转写、说话人区分及 Ollama 会议总结。"
+  tags:
+    - "会议转写"
+    - "会议纪要"
+    - "本地处理"
+    - "说话人识别"
+    - "开源"
+
+- name: "Suno"
+  url: "https://suno.com/"
+  img: "https://suno.com/favicon.ico"
+  description: "AI 音乐创作平台，可生成完整歌曲并提供编辑、重混、音轨分离及商业授权方案。"
+  tags:
+    - "AI音乐"
+    - "音乐生成"
+    - "音频编辑"
+    - "音轨分离"

@@ -1,0 +1,19 @@
+- name: "Panelook"
+  url: "https://www.panelook.cn/"
+  img: "https://www.panelook.cn/favicon.ico"
+  description: "显示面板产品数据库与采购平台，可查询液晶和 OLED 面板的型号、参数、厂商及供应信息。"
+  tags:
+    - "显示面板"
+    - "产品参数"
+    - "供应商"
+    - "采购"
+
+- name: "eBay"
+  url: "https://www.ebay.com/"
+  img: "https://www.ebay.cn/favicon.ico"
+  description: "全球电子商务交易平台，支持个人和商家发布、购买商品以及跨境交易。"
+  tags:
+    - "电子商务"
+    - "跨境购物"
+    - "商品交易"
+    - "国际"

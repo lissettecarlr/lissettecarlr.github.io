@@ -1,0 +1,90 @@
+- name: "NameBeta"
+  url: "https://namebeta.com/"
+  img: "https://namebeta.com/favicon.ico"
+  description: "比较域名在不同注册商的注册、续费和转入价格。"
+  tags:
+    - "域名价格"
+    - "注册商比较"
+    - "域名注册"
+
+- name: "Receive-SMSS"
+  url: "https://receive-smss.com/"
+  img: "/images/favicon.ico"
+  description: "提供多个国家和地区的公共共享号码，用于接收公开显示的短信。"
+  tags:
+    - "短信接收"
+    - "公共号码"
+    - "临时号码"
+    - "多国号码"
+
+- name: "SMS-Activate"
+  url: "https://sms-activate.org/cn"
+  img: "/images/favicon.ico"
+  description: "付费虚拟号码服务，提供多国家和多平台的短信激活、租号及 API 接口。"
+  tags:
+    - "短信接收"
+    - "虚拟号码"
+    - "付费服务"
+    - "API"
+    - "多国号码"
+
+- name: "SMS-Man"
+  url: "https://sms-man.com/cn"
+  img: "/images/favicon.ico"
+  description: "提供一次性短信激活和较长期号码租用的付费虚拟号码服务。"
+  tags:
+    - "短信接收"
+    - "虚拟号码"
+    - "号码租用"
+    - "付费服务"
+    - "API"
+
+- name: "Grizzly SMS"
+  url: "https://grizzlysms.com/cn/countries/japan"
+  img: "/images/favicon.ico"
+  description: "提供多国家虚拟号码，用于接收网站和应用的注册验证短信。"
+  tags:
+    - "短信接收"
+    - "虚拟号码"
+    - "付费服务"
+    - "多国号码"
+
+- name: "Tiger SMS"
+  url: "https://tiger-sms.com/#howitworks"
+  img: "/images/favicon.ico"
+  description: "按次购买虚拟号码并接收平台验证码的付费短信激活服务。"
+  tags:
+    - "短信接收"
+    - "虚拟号码"
+    - "付费服务"
+    - "API"
+
+- name: "EIZO Monitor Test"
+  url: "https://www.eizo.be/monitor-test/"
+  img: "/images/favicon.ico"
+  description: "浏览器显示器测试工具，可检测坏点、均匀度、色阶、锐度、视角、Gamma 和响应时间。"
+  tags:
+    - "网页工具"
+    - "免费"
+    - "显示器测试"
+    - "坏点检测"
+    - "色彩测试"
+
+- name: "城市租房手册"
+  url: "https://zufang.ababtools.com/guide"
+  img: "/images/favicon.ico"
+  description: "面向城市租房者的全流程指南，涵盖租前准备、看房、合同签订、入住管理和退租注意事项。"
+  tags:
+    - "租房"
+    - "生活指南"
+    - "合同"
+    - "住房"
+
+- name: "快捷键备忘录"
+  url: "https://hotkeycheatsheet.com/zh"
+  img: "/images/favicon.ico"
+  description: "按应用和场景整理常用键盘快捷键的中文速查工具，便于快速检索和记忆。"
+  tags:
+    - "快捷键"
+    - "速查表"
+    - "效率工具"

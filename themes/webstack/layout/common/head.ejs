@@ -10,10 +10,8 @@
   <%- css(Object.values(setting.css)) %>
   <%- js(setting.js.jquery) %>
   <script>
-    var userDefinedSearchData = <%- JSON.stringify(setting.userDefinedSearchData || {}) %>;
     var expandAll = <%- setting.expandAll ? 'true' : 'false' %>;
   </script>
-  <%- js(setting.js.header) %>
   <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!--[if lt IE 9]>
         <%- js(setting.js.html5shiv) %>

@@ -1,0 +1,40 @@
+- name: "HerbertHe/iptv-sources"
+  url: "https://github.com/HerbertHe/iptv-sources"
+  img: "/images/logos/github.png"
+  description: "自动更新 IPTV 直播源的开源聚合项目。"
+  tags:
+    - "IPTV"
+    - "直播源"
+    - "自动更新"
+    - "开源"
+
+- name: "joevess/IPTV"
+  url: "https://github.com/joevess/IPTV"
+  img: "/images/logos/github.png"
+  description: "自动抓取、整合并筛选分辨率及速度较优 IPTV 流的项目。"
+  tags:
+    - "IPTV"
+    - "直播源"
+    - "自动抓取"
+    - "开源"
+
+- name: "fanmingming/live"
+  url: "https://github.com/fanmingming/live"
+  img: "/images/logos/github.png"
+  description: "可直连的电视及广播台标库与相关工具项目，支持 IPv4/IPv6。"
+  tags:
+    - "电视直播"
+    - "广播"
+    - "台标"
+    - "IPv6"
+    - "开源"
+
+- name: "Famelack"
+  url: "https://tv.garden/"
+  img: "https://tv.garden/assets/favicons/favicon.svg"
+  description: "通过 3D 地球、国家和类别浏览全球电视及广播流的免注册聚合平台。"
+  tags:
+    - "网络电视"
+    - "网络广播"
+    - "全球频道"
+    - "免注册"

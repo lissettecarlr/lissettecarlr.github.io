@@ -428,6 +428,18 @@ body.night .go-up a:hover {
     overflow: hidden;
 }
 
+.bookmark-card,
+.bookmark-card:hover,
+.bookmark-card:focus {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bookmark-card:focus-visible {
+    outline: 3px solid rgba(33, 136, 255, 0.45);
+    outline-offset: 2px;
+}
+
 .xe-widget.xe-conversations:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
@@ -484,6 +496,10 @@ body.night .go-up a:hover {
 }
 
 /* 分类标题优化 */
+.category-section {
+    margin-bottom: 28px;
+}
+
 h4.text-gray {
     position: relative;
     padding: 20px 0 15px 0;
@@ -510,36 +526,111 @@ h4.text-gray i {
     font-size: 18px;
 }
 
-/* =============================================
-   响应式网格 —— 计入侧边栏 280px 宽度
-   实际可用宽 = 视口 - 280px
-   1440px → 可用 1160px → 4列 (25%)  ← 框架默认
-   1024px → 可用  744px → 2列 (50%)
-    820px → 可用  540px → 1列 (100%)
-    768px → 移动端折叠侧边栏 → 全宽 1列
-   ============================================= */
+/* 本站书签搜索 */
+.bookmark-search {
+    max-width: 720px;
+    margin: 20px auto 28px;
+}
 
-/* ≤ 1440px：切换到 2 列，避免 4 列过于拥挤 */
+.bookmark-search-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-height: 48px;
+    padding: 0 16px;
+    background: #fff;
+    border: 1px solid #dfe4ea;
+    border-radius: 10px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.bookmark-search-box:focus-within {
+    border-color: #2196F3;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.12);
+}
+
+.bookmark-search-box > i {
+    color: #9aa4af;
+}
+
+#bookmark-search-input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: #333;
+    font-size: 14px;
+}
+
+#bookmark-search-input::-webkit-search-cancel-button {
+    display: none;
+}
+
+#bookmark-search-clear {
+    padding: 6px;
+    border: 0;
+    background: transparent;
+    color: #9aa4af;
+    cursor: pointer;
+}
+
+#bookmark-search-clear[hidden] {
+    display: none;
+}
+
+#bookmark-search-status {
+    min-height: 20px;
+    padding-top: 6px;
+    color: #6c757d;
+    font-size: 12px;
+    text-align: center;
+}
+
+body.night .bookmark-search-box {
+    background: rgba(44, 46, 47, 0.9);
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+body.night #bookmark-search-input {
+    color: #ecf0f1;
+}
+
+/* 使用 Flex 网格，避免不同卡片高度造成浮动空位 */
+.bookmark-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bookmark-grid::before,
+.bookmark-grid::after {
+    display: none;
+}
+
+.bookmark-grid > .bookmark-item {
+    float: none;
+    display: flex;
+}
+
+.bookmark-grid .bookmark-card {
+    width: 100%;
+}
+
+/* 书签网格：大屏 4 列、平板 2 列、移动端 1 列 */
+.bookmark-grid > .bookmark-item {
+    width: 25%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
 @media (max-width: 1440px) {
-    .col-sm-3 {
+    .bookmark-grid > .bookmark-item {
         width: 50%;
-        padding: 0 10px;
-        margin-bottom: 20px;
     }
 }
 
-/* ≤ 1100px（可用宽 ≤ 820px）：切换到 1 列 */
-@media (max-width: 1100px) {
-    .col-sm-3 {
-        width: 100%;
-        padding: 0 6px;
-        margin-bottom: 14px;
-    }
-}
-
-/* ≤ 768px：移动端，侧边栏收起，恢复 1 列 */
 @media (max-width: 768px) {
-    .col-sm-3 {
+    .bookmark-grid > .bookmark-item {
         width: 100%;
         padding: 0 5px;
         margin-bottom: 12px;
@@ -572,6 +663,46 @@ h4.text-gray i {
     padding: 12px 16px;
 }
 
+.sidebar-menu .main-menu li > .submenu-toggle {
+    display: block;
+    width: calc(100% - 16px);
+    margin: 2px 8px;
+    padding: 12px 16px;
+    border: 0;
+    border-radius: 8px;
+    background: transparent;
+    /* button 不会继承主题给 a 的侧栏浅色，必须显式设置 */
+    color: #979898;
+    cursor: pointer;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu .main-menu li > .submenu-toggle .title,
+.sidebar-menu .main-menu li > .submenu-toggle > i {
+    color: inherit;
+}
+
+.sidebar-menu .main-menu li > .submenu-toggle:hover,
+.sidebar-menu .main-menu li > .submenu-toggle:focus-visible {
+    background-color: rgba(33, 136, 255, 0.1);
+    color: #2196F3;
+    outline: 0;
+}
+
+.sidebar-menu .main-menu li:hover > .submenu-toggle {
+    color: #2196F3;
+}
+
+.submenu-indicator {
+    float: right;
+    transition: transform 0.2s ease;
+}
+
+.has-sub.expanded > .submenu-toggle .submenu-indicator {
+    transform: rotate(180deg);
+}
+
 .sidebar-menu .main-menu li > a:hover {
     background-color: rgba(33, 136, 255, 0.1);
     color: #2196F3;
@@ -589,8 +720,8 @@ h4.text-gray i {
     color: #2196F3;
 }
 
-/* 页面加载动画 */
-.row {
+/* 只为书签网格添加页面加载动画 */
+.bookmark-grid {
     animation: fadeInUp 0.6s ease-out;
 }
 
@@ -605,40 +736,6 @@ h4.text-gray i {
     }
 }
 
-@keyframes ripple {
-    to {
-        transform: scale(4);
-        opacity: 0;
-    }
-}
-
-/* 快速筛选标签 */
-.quick-filter {
-    margin: 20px 0;
-    text-align: center;
-}
-
-.filter-tag {
-    display: inline-block;
-    padding: 8px 16px;
-    margin: 4px;
-    background: rgba(33, 136, 255, 0.1);
-    color: #2196F3;
-    border: 1px solid rgba(33, 136, 255, 0.3);
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    font-size: 12px;
-}
-
-.filter-tag:hover,
-.filter-tag.active {
-    background: #2196F3;
-    color: white;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(33, 136, 255, 0.3);
-}
-
 /* 分类切换动画 */
 .bookmark-grid {
     transition: opacity 0.3s ease;
@@ -650,15 +747,24 @@ h4.text-gray i {
 
 /* 分类切换按钮优化 */
 .category-toggle {
+    float: right;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 15px;
+    background: rgba(33, 136, 255, 0.1);
+    color: inherit;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.2s ease, transform 0.2s ease;
     user-select: none;
     -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
 }
 
-.category-toggle:hover {
-    opacity: 1 !important;
-    transform: scale(1.1) !important;
+.category-toggle:hover,
+.category-toggle:focus-visible {
+    opacity: 1;
+    outline: 2px solid rgba(33, 136, 255, 0.45);
+    transform: scale(1.05);
 }
 
 /* 平滑滚动 */
@@ -700,25 +806,16 @@ body.night .xe-widget.xe-conversations:hover .xe-comment p {
     color: #ecf0f1;
 }
 
-body.night .filter-tag {
-    background: rgba(100, 181, 246, 0.2);
-    color: #64B5F6;
-    border-color: rgba(100, 181, 246, 0.3);
-}
-
-body.night .filter-tag:hover,
-body.night .filter-tag.active {
-    background: #64B5F6;
-    color: #1a1a1a;
-}
-
 /* 书签标签样式 */
 .bookmark-tags {
-    margin-top: 8px;
+    flex-shrink: 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
-    align-items: center;
+    gap: 5px;
+    align-items: flex-start;
+    min-height: 22px;
+    margin: 0 0 8px;
+    overflow: hidden;
 }
 
 .tag-item {
@@ -735,10 +832,11 @@ body.night .filter-tag.active {
     cursor: pointer;
 }
 
-.tag-item:hover {
+.tag-item:hover,
+.tag-item:focus-visible {
     background: rgba(33, 136, 255, 0.2);
     border-color: rgba(33, 136, 255, 0.4);
-    transform: scale(1.05);
+    outline: 0;
 }
 
 .tag-more {
@@ -768,24 +866,6 @@ body.night .tag-more {
     color: #bdc3c7;
 }
 
-/* 响应式标签显示 */
-@media (max-width: 768px) {
-    .bookmark-tags {
-        margin-top: 6px;
-        gap: 3px;
-    }
-    
-    .tag-item {
-        padding: 1px 6px;
-        font-size: 10px;
-    }
-    
-    .tag-more {
-        padding: 1px 4px;
-        font-size: 9px;
-    }
-}
-
 /* 修改后的书签卡片布局样式 */
 .xe-comment {
     display: flex;
@@ -812,19 +892,6 @@ body.night .tag-more {
     font-weight: 600;
 }
 
-.bookmark-tags {
-    flex-shrink: 0;
-    margin-top: 0;
-    margin-bottom: 8px; /* 增加底部间距 */
-    min-height: 22px; /* 增加最小高度 */
-    max-height: 44px; /* 增加最大高度，允许最多2行标签 */
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px; /* 增加标签间距 */
-    align-items: flex-start;
-    overflow: hidden;
-}
-
 .xe-comment-description {
     flex: 1;
     overflow: hidden;
@@ -848,7 +915,9 @@ body.night .tag-more {
 
 /* 确保卡片高度一致 */
 .xe-widget.xe-conversations {
-    height: 140px; /* 等比例放大卡片高度 */
+    height: 140px !important;
+    min-height: 140px;
+    padding: 0 !important;
     display: flex;
     flex-direction: column;
 }
@@ -873,7 +942,8 @@ body.night .tag-more {
 /* 响应式调整 */
 @media (max-width: 768px) {
     .xe-widget.xe-conversations {
-        height: 120px; /* 移动端也等比例放大 */
+        height: 120px !important;
+        min-height: 120px;
     }
     
     .xe-comment-entry {
@@ -902,7 +972,6 @@ body.night .tag-more {
     .bookmark-tags {
         margin-bottom: 6px;
         min-height: 20px;
-        max-height: 40px; /* 移动端标签区域等比例放大 */
         gap: 4px;
     }
     
@@ -958,19 +1027,6 @@ body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
     align-items: flex-start;
 }
 
-/* 覆盖 .box2 高度，使用最小高度保证一致性，避免被 nav.min.css 的 86px 限制压扁 */
-.xe-widget.xe-conversations.box2 {
-    height: auto !important;
-    min-height: 140px !important;
-    padding: 0 !important;
-}
-
-@media (max-width: 768px) {
-    .xe-widget.xe-conversations.box2 {
-        min-height: 120px !important;
-    }
-}
-
 /* 文本长词换行，防止溢出撑破布局 */
 .xe-comment,
 .xe-comment a,
@@ -990,7 +1046,12 @@ body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
     padding: 14px 18px !important;
 }
 
-.sidebar-menu .main-menu li > a .title {
+.sidebar-menu .main-menu li > .submenu-toggle {
+    padding: 14px 18px !important;
+}
+
+.sidebar-menu .main-menu li > a .title,
+.sidebar-menu .main-menu li > .submenu-toggle .title {
     font-size: 15px !important;
     line-height: 1.6 !important;
 }
@@ -999,6 +1060,13 @@ body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
     font-size: 18px !important;
     width: 22px !important;
     min-width: 22px !important;
+}
+
+.sidebar-menu .main-menu li > .submenu-toggle > i:first-child {
+    width: 22px;
+    min-width: 22px;
+    font-size: 18px;
+    text-align: center;
 }
 
 /* 子菜单稍降一级视觉权重，并增加缩进 */
@@ -1027,13 +1095,22 @@ body.night .xe-widget.xe-conversations:hover .xe-comment-description p {
 }
 
 /* 夜间模式：避免字体偏灰导致显小的错觉 */
-body.night .sidebar-menu .main-menu li > a .title {
+body.night .sidebar-menu .main-menu li > a .title,
+body.night .sidebar-menu .main-menu li > .submenu-toggle,
+body.night .sidebar-menu .main-menu li > .submenu-toggle .title {
     color: #e6e6e6 !important;
+}
+
+body.night .sidebar-menu .main-menu li > .submenu-toggle:hover,
+body.night .sidebar-menu .main-menu li > .submenu-toggle:focus-visible,
+body.night .sidebar-menu .main-menu li:hover > .submenu-toggle {
+    color: #64B5F6 !important;
 }
 
 /* 窄屏适配：略微回调字号，保持层级对比 */
 @media (max-width: 992px) {
-    .sidebar-menu .main-menu li > a .title {
+    .sidebar-menu .main-menu li > a .title,
+    .sidebar-menu .main-menu li > .submenu-toggle .title {
         font-size: 14px !important;
     }
     .sidebar-menu .main-menu li ul li > a .title {
@@ -1079,6 +1156,10 @@ body.night .sidebar-menu .main-menu li > a .title {
     backdrop-filter: blur(2px);
 }
 #sidebar-overlay.active { display: block; }
+
+body.sidebar-scroll-locked {
+    overflow: hidden;
+}
 
 @media (max-width: 1100px) {
     /* 显示汉堡按钮 */
@@ -1131,13 +1212,6 @@ body.night .sidebar-menu .main-menu li > a .title {
         width: 100% !important;
         min-width: 0 !important;
         padding-top: 60px !important;
-    }
-
-    /* 卡片：单列 */
-    .col-sm-3 {
-        width: 100% !important;
-        padding: 0 6px !important;
-        margin-bottom: 14px !important;
     }
 
     /* 隐藏 Xenon 原有的两个侧边栏切换按钮，避免与汉堡按钮重复 */

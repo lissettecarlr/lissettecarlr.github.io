@@ -1,0 +1,57 @@
+- name: "Enclosed"
+  url: "https://github.com/CorentinTh/enclosed"
+  img: "/images/logos/github.png"
+  description: "可自托管的私密消息分享应用，支持端到端加密及阅后或到期销毁。"
+  tags:
+    - "加密消息"
+    - "临时分享"
+    - "自托管"
+    - "开源"
+
+- name: "Chitchatter"
+  url: "https://chitchatter.im/"
+  img: "https://chitchatter.im/favicon.ico"
+  description: "无需账户的点对点加密聊天应用，支持直接使用或自行部署。"
+  tags:
+    - "加密聊天"
+    - "点对点"
+    - "无需注册"
+    - "自托管"
+
+- name: "Wormhole"
+  url: "https://wormhole.app/"
+  img: "https://wormhole.app/favicon.ico"
+  description: "使用端到端加密传输文件，分享链接会自动过期并支持较大文件。"
+  tags:
+    - "文件快传"
+    - "端到端加密"
+    - "临时链接"
+
+- name: "LinkSwift"
+  url: "https://github.com/hmjz100/LinkSwift"
+  img: "/images/logos/github.png"
+  description: "用户脚本，可提取多个网盘的下载地址并发送至 IDM、Aria2 等下载器。"
+  tags:
+    - "网盘下载"
+    - "用户脚本"
+    - "Aria2"
+    - "开源"
+
+- name: "Send"
+  url: "https://send.vis.ee/"
+  img: "https://send.vis.ee/favicon-32x32.93522728.png"
+  description: "基于 Firefox Send 的临时文件分享服务，支持加密传输及过期控制。"
+  tags:
+    - "文件快传"
+    - "临时分享"
+    - "加密传输"
+
+- name: "LocalSend"
+  url: "https://github.com/localsend/localsend"
+  img: "/images/logos/github.png"
+  description: "开源跨平台局域网文件传输工具，无需外部服务器或互联网连接。"
+  tags:
+    - "局域网传输"
+    - "文件分享"
+    - "跨平台"
+    - "开源"

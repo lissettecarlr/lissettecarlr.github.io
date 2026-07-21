@@ -1,0 +1,29 @@
+- name: "Solidot"
+  url: "https://www.solidot.org/"
+  img: "https://www.solidot.org/favicon.ico"
+  description: "面向中文读者的科技资讯网站，报道开源、信息安全、互联网和硬科技等主题。"
+  tags:
+    - "科技资讯"
+    - "开源"
+    - "信息安全"
+    - "中文"
+
+- name: "科技爱好者周刊"
+  url: "https://github.com/ruanyf/weekly"
+  img: "/images/logos/github.png"
+  description: "阮一峰主理、每周五发布的科技周刊，汇集科技文章、开发工具、资源推荐和行业动态。"
+  tags:
+    - "科技资讯"
+    - "周刊"
+    - "工具推荐"
+    - "开源"
+
+- name: "Hacker News"
+  url: "https://news.ycombinator.com/"
+  img: "/images/favicon.ico"
+  description: "Y Combinator 运营的科技社交新闻站，内容聚焦编程、创业、科学和技术行业讨论。"
+  tags:
+    - "科技资讯"
+    - "创业"
+    - "编程"
+    - "英文"

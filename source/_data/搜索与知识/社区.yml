@@ -1,0 +1,19 @@
+- name: "V2EX"
+  url: "https://www.v2ex.com/"
+  img: "https://www.v2ex.com/static/favicon.ico"
+  description: "以分享与探索为主题的中文社区，设有编程、技术、创业、设计和生活等讨论节点。"
+  tags:
+    - "中文社区"
+    - "技术讨论"
+    - "程序员"
+    - "主题论坛"
+
+- name: "LINUX DO"
+  url: "https://linux.do/"
+  img: "/images/favicon.ico"
+  description: "中文互联网交流社区，讨论人工智能、软件开发、开发工具、开源项目和数字生活等话题。"
+  tags:
+    - "中文社区"
+    - "技术讨论"
+    - "人工智能"
+    - "开发者"

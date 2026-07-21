@@ -1,340 +1,280 @@
-/* ─── 响应式侧边栏折叠（≤ 1100px） ─── */
-(function () {
-  var BREAKPOINT = 1100;
+var SIDEBAR_BREAKPOINT = 1100;
+var sidebarController = (function () {
   var hamburger = document.getElementById('sidebar-hamburger');
-  var overlay   = document.getElementById('sidebar-overlay');
-  var sidebar   = document.querySelector('.sidebar-menu');
-  if (!hamburger || !overlay || !sidebar) return;
+  var overlay = document.getElementById('sidebar-overlay');
+  var sidebar = document.getElementById('sidebar-drawer');
 
-  function openSidebar() {
-    sidebar.classList.add('sidebar-open');
-    overlay.classList.add('active');
-    hamburger.innerHTML = '<i class="fas fa-times"></i>';
+  function setOpen(open) {
+    if (!hamburger || !overlay || !sidebar) return;
+    sidebar.classList.toggle('sidebar-open', open);
+    overlay.classList.toggle('active', open);
+    document.body.classList.toggle('sidebar-scroll-locked', open);
+    hamburger.setAttribute('aria-expanded', String(open));
+    hamburger.setAttribute('aria-label', open ? '关闭菜单' : '展开菜单');
+    hamburger.setAttribute('title', open ? '关闭菜单' : '展开菜单');
+    hamburger.innerHTML = open
+      ? '<i class="fas fa-times" aria-hidden="true"></i>'
+      : '<i class="fas fa-bars" aria-hidden="true"></i>';
   }
 
-  function closeSidebar() {
-    sidebar.classList.remove('sidebar-open');
-    overlay.classList.remove('active');
-    hamburger.innerHTML = '<i class="fas fa-bars"></i>';
+  if (hamburger && overlay && sidebar) {
+    hamburger.addEventListener('click', function () {
+      setOpen(!sidebar.classList.contains('sidebar-open'));
+    });
+    overlay.addEventListener('click', function () {
+      setOpen(false);
+    });
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > SIDEBAR_BREAKPOINT) setOpen(false);
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape' && sidebar.classList.contains('sidebar-open')) {
+        setOpen(false);
+        hamburger.focus();
+      }
+    });
   }
 
-  hamburger.addEventListener('click', function () {
-    sidebar.classList.contains('sidebar-open') ? closeSidebar() : openSidebar();
-  });
-
-  overlay.addEventListener('click', closeSidebar);
-
-  /* 侧边栏内导航链接点击后自动收起 */
-  sidebar.addEventListener('click', function (e) {
-    if (window.innerWidth <= BREAKPOINT && e.target.closest('a.smooth')) {
-      setTimeout(closeSidebar, 200);
+  return {
+    close: function () {
+      setOpen(false);
     }
-  });
+  };
+})();
 
-  /* 窗口放大超过断点时自动复位 */
-  window.addEventListener('resize', function () {
-    if (window.innerWidth > BREAKPOINT) {
-      sidebar.classList.remove('sidebar-open');
-      overlay.classList.remove('active');
-      hamburger.innerHTML = '<i class="fas fa-bars"></i>';
-    }
-  });
+function closeSidebar() {
+  sidebarController.close();
+}
+
+(function () {
+  function readNightCookie() {
+    return document.cookie.replace(/(?:(?:^|.*;\s*)night\s*=\s*([^;]*).*$)|^.*$/, '$1');
+  }
+
+  var savedNightMode = readNightCookie();
+  if (savedNightMode === '') {
+    savedNightMode = new Date().getHours() > 22 || new Date().getHours() < 6 ? '1' : '0';
+    document.cookie = 'night=' + savedNightMode + ';path=/';
+  }
+  document.body.classList.toggle('night', savedNightMode === '1');
+
+  window.switchNightMode = function () {
+    var enableNightMode = readNightCookie() !== '1';
+    document.body.classList.toggle('night', enableNightMode);
+    document.cookie = 'night=' + (enableNightMode ? '1' : '0') + ';path=/';
+  };
 })();
 
 $(document).ready(function () {
-  //img lazy loaded
-  const observer = lozad();
-  observer.observe();
+  if (typeof lozad === 'function') {
+    lozad().observe();
+  }
 
-  $(document).on('click', '.has-sub', function () {
-    var _this = $(this)
-    if (!$(this).hasClass('expanded')) {
-      setTimeout(function () {
-        _this.find('ul').attr("style", "")
-      }, 300);
+  var STORAGE_KEY = 'webstack-category-collapse-v1';
+  var $bookmarkSearch = $('#bookmark-search-input');
+  var $bookmarkSearchClear = $('#bookmark-search-clear');
+  var $bookmarkSearchStatus = $('#bookmark-search-status');
+  var collapseState = {};
+  var searchTimer;
 
-    } else {
-      $('.has-sub ul').each(function (id, ele) {
-        var _that = $(this)
-        if (_this.find('ul')[0] != ele && !expandAll) {
-          setTimeout(function () {
-            _that.attr("style", "")
-          }, 300);
-        }
-      })
-    }
-  })
-  $('.user-info-menu .hidden-sm').click(function () {
-    if ($('.sidebar-menu').hasClass('collapsed')) {
-      $('.has-sub.expanded > ul').attr("style", "")
-    } else {
-      $('.has-sub.expanded > ul').show()
-    }
-  })
-  $("#main-menu li ul li").click(function () {
-    $(this).siblings('li').removeClass('active'); // 删除其他兄弟元素的样式
-    $(this).addClass('active'); // 添加当前元素的样式
-  });
-  $("a.smooth").click(function (ev) {
-    ev.preventDefault();
+  try {
+    collapseState = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+  } catch (error) {
+    collapseState = {};
+  }
+  if (!collapseState || typeof collapseState !== 'object' || Array.isArray(collapseState)) {
+    collapseState = {};
+  }
 
-    public_vars.$mainMenu.add(public_vars.$sidebarProfile).toggleClass('mobile-is-visible');
-    ps_destroy();
-    $("html, body").animate({
-      scrollTop: $($(this).attr("href")).offset().top - 30
-    }, {
-      duration: 500,
-      easing: "swing"
-    });
-  });
-  return false;
-});
-
-var href = "";
-var pos = 0;
-$("a.smooth").click(function (e) {
-  $("#main-menu li").each(function () {
-    $(this).removeClass("active");
-  });
-  $(this).parent("li").addClass("active");
-  e.preventDefault();
-  href = $(this).attr("href");
-  pos = $(href).position().top - 30;
-});
-(function () {
-  if (document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === '') {
-    if (new Date().getHours() > 22 || new Date().getHours() < 6) {
-      document.body.classList.add('night');
-      document.cookie = "night=1;path=/";
-      console.log('夜间模式开启');
-    } else {
-      document.body.classList.remove('night');
-      document.cookie = "night=0;path=/";
-      console.log('夜间模式关闭');
-    }
-  } else {
-    var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-    if (night == '0') {
-      document.body.classList.remove('night');
-    } else if (night == '1') {
-      document.body.classList.add('night');
+  function saveCollapseState() {
+    try {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(collapseState));
+    } catch (error) {
+      // localStorage may be unavailable in privacy modes.
     }
   }
-})();
 
-// 交互增强功能
-$(document).ready(function() {
-  
-  // 添加卡片悬停效果增强
-  $('.xe-widget.xe-conversations').each(function(index) {
-    $(this).css('animation-delay', (index * 0.1) + 's');
-    
-    // 添加点击波纹效果
-    $(this).on('click', function(e) {
-      var $this = $(this);
-      var ripple = $('<div class="ripple"></div>');
-      var offset = $this.offset();
-      var size = Math.max($this.outerWidth(), $this.outerHeight());
-      var x = e.pageX - offset.left - size / 2;
-      var y = e.pageY - offset.top - size / 2;
-      
-      ripple.css({
-        position: 'absolute',
-        width: size + 'px',
-        height: size + 'px',
-        left: x + 'px',
-        top: y + 'px',
-        background: 'rgba(33, 136, 255, 0.3)',
-        borderRadius: '50%',
-        transform: 'scale(0)',
-        animation: 'ripple 0.6s ease-out',
-        pointerEvents: 'none',
-        zIndex: 1
-      });
-      
-      $this.css('position', 'relative').append(ripple);
-      
-      setTimeout(function() {
-        ripple.remove();
-      }, 600);
-    });
-  });
-  
-  // 实时搜索功能
-  var searchTimeout;
-  $('#txt').on('input', function() {
-    clearTimeout(searchTimeout);
-    var query = $(this).val();
-    
-    searchTimeout = setTimeout(function() {
-      performRealTimeSearch(query);
-    }, 300);
-  });
-  
-  // ESC 清除搜索
-  $('#txt').on('keydown', function(e) {
-    if (e.key === 'Escape') {
-      $(this).blur();
-      clearSearch();
+  function updateCategoryButton($section, collapsed) {
+    $section.find('.category-toggle').first()
+      .attr('aria-expanded', String(!collapsed))
+      .attr('title', collapsed ? '显示此分类' : '隐藏此分类')
+      .attr('aria-label', collapsed ? '显示此分类' : '隐藏此分类')
+      .html(collapsed
+        ? '<i class="fas fa-eye-slash" aria-hidden="true"></i>'
+        : '<i class="fas fa-eye" aria-hidden="true"></i>');
+  }
+
+  function setCategoryCollapsed($section, collapsed, persist, animate) {
+    var $grid = $section.find('.bookmark-grid').first();
+    var categoryId = $section.find('h4.text-gray').first().attr('id');
+    $grid.stop(true, true).toggleClass('category-hidden', collapsed);
+    if (animate) {
+      collapsed ? $grid.slideUp(200) : $grid.slideDown(200);
+    } else {
+      $grid.toggle(!collapsed);
     }
-  });
-  
-  // 快捷键支持
-  $(document).on('keydown', function(e) {
-    // Ctrl/Cmd + K 快速搜索
-    if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-      e.preventDefault();
-      $('#txt').focus().select();
+    updateCategoryButton($section, collapsed);
+    if (persist && categoryId) {
+      collapseState[categoryId] = collapsed;
+      saveCollapseState();
     }
-  });
-  
-  // 添加分类切换按钮
-  $('h4.text-gray').each(function() {
+  }
+
+  $('h4.text-gray').each(function (index) {
     var $category = $(this);
-    var $section = $category.parent();
-    var $bookmarkGrid = $section.find('.bookmark-grid, .row').first(); // 找到书签网格容器
-    var $toggleBtn = $('<span class="category-toggle"><i class="fas fa-eye"></i></span>');
-    
-    $toggleBtn.css({
-      'float': 'right',
-      'cursor': 'pointer',
-      'opacity': '0.6',
-      'transition': 'all 0.3s ease',
-      'padding': '5px 10px',
-      'border-radius': '15px',
-      'background': 'rgba(33, 136, 255, 0.1)'
-    });
-    
-    $toggleBtn.on('click', function() {
-      // 只隐藏书签网格，保持标题和按钮可见
-      var isHidden = $bookmarkGrid.hasClass('category-hidden');
-      
-      if (isHidden) {
-        $bookmarkGrid.removeClass('category-hidden').slideDown(300);
-        $(this).html('<i class="fas fa-eye"></i>');
-        $(this).attr('title', '隐藏此分类');
-      } else {
-        $bookmarkGrid.addClass('category-hidden').slideUp(300);
-        $(this).html('<i class="fas fa-eye-slash"></i>');
-        $(this).attr('title', '显示此分类');
+    var $section = $category.closest('.category-section');
+    var $grid = $section.find('.bookmark-grid').first();
+    var categoryId = $category.attr('id');
+    var gridId = 'bookmark-grid-' + index;
+    $grid.attr('id', gridId);
+    var $toggleButton = $('<button type="button" class="category-toggle" aria-controls="' + gridId + '"></button>');
+    $category.append($toggleButton);
+    setCategoryCollapsed($section, collapseState[categoryId] === true, false, false);
+  });
+
+  $(document).on('click', '.category-toggle', function () {
+    var $section = $(this).closest('.category-section');
+    var collapsed = !$section.find('.bookmark-grid').first().hasClass('category-hidden');
+    setCategoryCollapsed($section, collapsed, true, true);
+  });
+
+  function filterBookmarks(query) {
+    var keyword = $.trim(query).toLowerCase();
+    var visibleCount = 0;
+
+    $('.category-section').each(function () {
+      var $section = $(this);
+      var $grid = $section.find('.bookmark-grid').first();
+      var sectionHasMatch = false;
+
+      $section.find('.bookmark-item').each(function () {
+        var $item = $(this);
+        var $card = $item.find('.bookmark-card').first();
+        var searchableText = [
+          $card.attr('data-name') || '',
+          $card.attr('data-tags') || '',
+          $card.find('.xe-comment-description').text()
+        ].join(' ').toLowerCase();
+        var matches = !keyword || searchableText.indexOf(keyword) !== -1;
+        $item.toggle(matches);
+        if (matches) {
+          sectionHasMatch = true;
+          visibleCount++;
+        }
+      });
+
+      $section.toggle(sectionHasMatch);
+      if (keyword && sectionHasMatch) {
+        $grid.stop(true, true).removeClass('category-hidden').show();
+        updateCategoryButton($section, false);
+      } else if (!keyword) {
+        var categoryId = $section.find('h4.text-gray').first().attr('id');
+        setCategoryCollapsed($section, collapseState[categoryId] === true, false, false);
       }
     });
-    
-    $toggleBtn.on('mouseenter', function() {
-      $(this).css({'opacity': '1', 'transform': 'scale(1.1)'});
-    }).on('mouseleave', function() {
-      $(this).css({'opacity': '0.6', 'transform': 'scale(1)'});
-    });
-    
-    // 设置初始提示文字
-    $toggleBtn.attr('title', '隐藏此分类');
-    
-    $category.append($toggleBtn);
-  });
-  
-  // 添加快速筛选标签
-  if ($('.sousuo').length) {
-    var $filterContainer = $('<div class="quick-filter"></div>').html(
-      '<div class="filter-tag active" data-filter="all">全部</div>' +
-      '<div class="filter-tag" data-filter="media">媒体工具</div>' +
-      '<div class="filter-tag" data-filter="network">网络通信</div>' +
-      '<div class="filter-tag" data-filter="cloud">云服务</div>' +
-      '<div class="filter-tag" data-filter="security">安全</div>' +
-      '<div class="filter-tag" data-filter="entertainment">娱乐</div>'
-    );
-    
-    $('.sousuo').append($filterContainer);
-    
-    $('.filter-tag').on('click', function() {
-      $('.filter-tag').removeClass('active');
-      $(this).addClass('active');
-      filterByCategory($(this).data('filter'));
-    });
+
+    $bookmarkSearchClear.prop('hidden', !keyword);
+    $bookmarkSearchStatus.text(keyword ? '找到 ' + visibleCount + ' 个站点' : '');
   }
-  
-  // 搜索功能
-  function performRealTimeSearch(query) {
-    if (!query.trim()) {
-      clearSearch();
+
+  function clearSearch(focus) {
+    clearTimeout(searchTimer);
+    if (!$bookmarkSearch.length) return;
+    $bookmarkSearch.val('');
+    filterBookmarks('');
+    if (focus) $bookmarkSearch.focus();
+  }
+
+  $bookmarkSearch.on('input', function () {
+    var query = this.value;
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () {
+      filterBookmarks(query);
+    }, 150);
+  }).on('keydown', function (event) {
+    if (event.key === 'Enter') {
+      event.preventDefault();
+    } else if (event.key === 'Escape') {
+      clearSearch(false);
+      this.blur();
+    }
+  });
+
+  $bookmarkSearchClear.on('click', function () {
+    clearSearch(true);
+  });
+
+  $(document).on('keydown', function (event) {
+    if (!(event.ctrlKey || event.metaKey) || event.key.toLowerCase() !== 'k' || !$bookmarkSearch.length) return;
+    var $target = $(event.target);
+    var isEditing = $target.is('input, textarea, select') || $target.closest('[contenteditable="true"]').length > 0;
+    if (isEditing && !$target.is($bookmarkSearch)) return;
+    event.preventDefault();
+    $bookmarkSearch.focus().select();
+  });
+
+  function filterByTag(event) {
+    event.preventDefault();
+    event.stopPropagation();
+    if (!$bookmarkSearch.length) return;
+    var tag = $(event.currentTarget).text();
+    $bookmarkSearch.val(tag).focus();
+    clearTimeout(searchTimer);
+    filterBookmarks(tag);
+  }
+
+  $(document).on('click', '.tag-item', filterByTag);
+  $(document).on('keydown', '.tag-item', function (event) {
+    if (event.key === 'Enter' || event.key === ' ') filterByTag(event);
+  });
+
+  $(document).on('click', '.has-sub > .submenu-toggle', function (event) {
+    event.preventDefault();
+    event.stopPropagation();
+    var $toggle = $(this);
+    var $item = $toggle.parent('.has-sub');
+    var $submenu = $item.children('ul').first();
+    var willExpand = !$item.hasClass('expanded');
+
+    if (willExpand && !window.expandAll) {
+      $item.siblings('.has-sub.expanded').each(function () {
+        $(this).removeClass('expanded')
+          .children('.submenu-toggle').attr('aria-expanded', 'false');
+        $(this).children('ul').stop(true, true).slideUp(200);
+      });
+    }
+    $item.toggleClass('expanded', willExpand);
+    $toggle.attr('aria-expanded', String(willExpand));
+    willExpand ? $submenu.stop(true, true).slideDown(200) : $submenu.stop(true, true).slideUp(200);
+  });
+
+  $(document).on('click', 'a.smooth', function (event) {
+    event.preventDefault();
+    var href = this.getAttribute('href') || '';
+    if (href.charAt(0) !== '#') return;
+
+    var target;
+    try {
+      target = document.getElementById(decodeURIComponent(href.slice(1)));
+    } catch (error) {
       return;
     }
-    
-    var visibleCount = 0;
-    $('.xe-widget.xe-conversations').each(function() {
-      var $card = $(this);
-      var title = $card.find('.xe-user-name strong').text().toLowerCase();
-      var description = $card.find('.xe-comment p').text().toLowerCase();
-      var tags = $card.attr('data-tags') ? $card.attr('data-tags').toLowerCase() : '';
-      var searchQuery = query.toLowerCase();
-      
-      if (title.includes(searchQuery) || description.includes(searchQuery) || tags.includes(searchQuery)) {
-        $card.show();
-        $card.parent().show();
-        visibleCount++;
-      } else {
-        $card.hide();
-        $card.parent().hide();
-      }
-    });
-    
-    showSearchStats(visibleCount, query);
-  }
-  
-  function clearSearch() {
-    $('.xe-widget.xe-conversations').show();
-    $('.xe-widget.xe-conversations').parent().show();
-    $('.search-stats').remove();
-  }
-  
-  function showSearchStats(count, query) {
-    $('.search-stats').remove();
-    
-    var $statsElement = $('<div class="search-stats"></div>').css({
-      'text-align': 'center',
-      'padding': '10px',
-      'background': 'rgba(33, 136, 255, 0.1)',
-      'border-radius': '8px',
-      'margin': '20px auto',
-      'max-width': '717px',
-      'color': '#2196F3',
-      'font-size': '14px'
-    }).text('找到 ' + count + ' 个与 "' + query + '" 相关的结果');
-    
-    $('.main-content h4.text-gray').first().before($statsElement);
-  }
-  
-  function filterByCategory(category) {
-    $('h4.text-gray').each(function() {
-      var $section = $(this).parent();
-      var sectionName = $(this).text().toLowerCase();
-      
-      if (category === 'all') {
-        $section.show();
-      } else {
-        var keyword = getCategoryKeyword(category);
-        var shouldShow = sectionName.includes(keyword);
-        $section.toggle(shouldShow);
-      }
-    });
-  }
-  
-  function getCategoryKeyword(category) {
-    var keywords = {
-      'media': '媒体',
-      'network': '网络',
-      'cloud': '云',
-      'security': '安全',
-      'entertainment': '娱乐'
-    };
-    return keywords[category] || '';
-  }
-  
-  // 标签点击筛选功能
-  $(document).on('click', '.tag-item', function(e) {
-    e.stopPropagation(); // 阻止事件冒泡到卡片点击事件
-    var tagText = $(this).text();
-    $('#txt').val(tagText).trigger('input');
-    $('#txt').focus();
+    if (!target) return;
+
+    clearSearch(false);
+    var $target = $(target);
+    var $section = $target.closest('.category-section');
+    if ($section.length) {
+      $section.show();
+      setCategoryCollapsed($section, false, true, false);
+    }
+
+    $('#main-menu li').removeClass('active');
+    $(this).parent('li').addClass('active');
+    var offset = $target.offset();
+    if (offset && typeof offset.top === 'number') {
+      $('html, body').stop(true).animate({ scrollTop: offset.top - 30 }, 500, 'swing');
+    }
+    if (window.innerWidth <= SIDEBAR_BREAKPOINT) closeSidebar();
   });
-  
 });

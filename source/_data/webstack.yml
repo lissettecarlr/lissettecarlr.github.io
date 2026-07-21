@@ -12,118 +12,115 @@ logo:
 #     icon: flag-cn
 #     index: /index.html
 
-search: False
-
-userDefinedSearchData:
-  custom: false
-  thisSearch: https://www.baidu.com/s?wd=
-  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
-  hotStatus: true
-  data:
-    - name: 百度
-      img: url(https://www.baidu.com/favicon.ico)
-      url: https://www.baidu.com/s?wd=
-
+search: true
 
 expandAll: false # 是否将侧边栏全部展开
 # 侧边栏菜单设置
 # 图标：https://fontawesome.com/icons/video?f=classic&s=solid
 menu:
-  - name: 媒体工具
-    icon: fas fa-tools
+  - name: 搜索与知识
+    icon: fas fa-search
     submenu:
-      - name: 视频工具
-        icon: fas fa-video
-        config: 媒体工具/视频工具
-      - name: 音频工具
-        icon: fas fa-headphones
-        config: 媒体工具/音频工具
-      - name: 图片工具
-        icon: fas fa-image
-        config: 媒体工具/图片工具
-      - name: 翻译与文档
-        icon: fas fa-file-alt
-        config: 媒体工具/文本工具
-
-  - name: 网络工具
-    icon: fas fa-tools
-    submenu:
-      - name: 信息查询
+      - name: 信息搜索
         icon: fas fa-search
-        config: 网络工具/信息搜索
-      - name: 网络测试
-        icon: fas fa-exchange-alt
-        config: 网络工具/数据传输
-      - name: 代理
-        icon: fas fa-network-wired
-        config: 网络工具/代理
-      - name: 隐私工具
-        icon: fas fa-user-secret
-        config: 网络工具/隐私工具
-      - name: 网络安全
-        icon: fas fa-shield-alt
-        config: 网络工具/网络安全
+        config: 搜索与知识/信息搜索
+      - name: 公共数据
+        icon: fas fa-database
+        config: 搜索与知识/公共数据
+      - name: 学习与考试
+        icon: fas fa-graduation-cap
+        config: 搜索与知识/学习与考试
+      - name: 学术资源
+        icon: fas fa-book-open
+        config: 搜索与知识/学术资源
+      - name: 技术资讯
+        icon: fas fa-newspaper
+        config: 搜索与知识/技术资讯
+      - name: 社区
+        icon: fas fa-users
+        config: 搜索与知识/社区
+      - name: 翻译与文档
+        icon: fas fa-language
+        config: 搜索与知识/翻译与文档
+      - name: 项目发现
+        icon: fas fa-project-diagram
+        config: 搜索与知识/项目发现
 
-  - name: 软件与云
-    icon: fas fa-cloud
+  - name: 创作与处理
+    icon: fas fa-pencil-alt
     submenu:
-      - name: 在线工具
+      - name: 图片
+        icon: fas fa-image
+        config: 创作与处理/图片
+      - name: 摄影与素材
+        icon: fas fa-camera
+        config: 创作与处理/摄影与素材
+      - name: 文本
+        icon: fas fa-file-alt
+        config: 创作与处理/文本
+      - name: 视频
+        icon: fas fa-video
+        config: 创作与处理/视频
+      - name: 音频
+        icon: fas fa-headphones
+        config: 创作与处理/音频
+
+  - name: 开发与运维
+    icon: fas fa-code
+    submenu:
+      - name: 云与托管
+        icon: fas fa-cloud
+        config: 开发与运维/云与托管
+      - name: 存储与传输
+        icon: fas fa-exchange-alt
+        config: 开发与运维/存储与传输
+      - name: 开发工具
         icon: fas fa-code
-        config: 软件与云/云编辑器
-      - name: 图床
-        icon: fas fa-images
-        config: 软件与云/云存储
-      - name: 云服务商
-        icon: fas fa-server
-        config: 软件与云/云服务商
+        config: 开发与运维/开发工具
       - name: 系统软件
         icon: fas fa-desktop
-        config: 软件与云/系统软件
+        config: 开发与运维/系统软件
+      - name: 网络与安全
+        icon: fas fa-shield-alt
+        config: 开发与运维/网络与安全
+      - name: 网络工具
+        icon: fas fa-network-wired
+        config: 开发与运维/网络工具
 
-  - name: 生活娱乐
-    icon: fas fa-heart
+  - name: 娱乐与内容
+    icon: fas fa-film
     submenu:
       - name: 动漫
         icon: fas fa-dragon
-        config: 生活娱乐/ACG
+        config: 娱乐与内容/动漫
       - name: 壁纸
         icon: fas fa-image
-        config: 生活娱乐/壁纸
-      - name: 摄影
-        icon: fas fa-camera
-        config: 生活娱乐/摄影
-      - name: 影视剧
+        config: 娱乐与内容/壁纸
+      - name: 影视
         icon: fas fa-film
-        config: 生活娱乐/影视剧
+        config: 娱乐与内容/影视
       - name: 游戏
         icon: fas fa-gamepad
-        config: 生活娱乐/游戏
-      - name: 直播源
-        icon: fas fa-video
-        config: 生活娱乐/直播源
+        config: 娱乐与内容/游戏
+      - name: 直播
+        icon: fas fa-broadcast-tower
+        config: 娱乐与内容/直播
       - name: 音乐
         icon: fas fa-music
-        config: 生活娱乐/音乐
+        config: 娱乐与内容/音乐
 
-  - name: 网络信息
-    icon: fas fa-network-wired
+  - name: 生活与服务
+    icon: fas fa-concierge-bell
     submenu:
-      - name: 技术社区
-        icon: fas fa-microscope
-        config: 网络信息/专业
-      - name: 实用工具
-        icon: fas fa-globe
-        config: 网络信息/日常
-      - name: 交易购物
+      - name: 实用服务
+        icon: fas fa-concierge-bell
+        config: 生活与服务/实用服务
+      - name: 购物
         icon: fas fa-shopping-cart
-        config: 网络信息/交易购物
+        config: 生活与服务/购物
       - name: 金融
-        icon: fas fa-money-bill-alt
-        config: 网络信息/金融
-
-
-
-
+        icon: fas fa-chart-line
+        config: 生活与服务/金融
 
 myBlog:
   - name: kuon
@@ -165,7 +162,6 @@ custom:
     <!-- 可设置多行 -->
 
 js:
-  header: /js/header.js
   footer: /js/footer.js
   jquery: /js/jquery-1.11.1.min.js
   bootstrap: /js/bootstrap.min.js

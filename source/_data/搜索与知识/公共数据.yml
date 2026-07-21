@@ -1,0 +1,38 @@
+- name: "InfoSniper"
+  url: "https://www.infosniper.net"
+  img: "https://www.infosniper.net/favicon.ico"
+  description: "查询 IP 地址的大致地理位置、网络归属和 WHOIS 信息，并在地图中展示。"
+  tags:
+    - "IP查询"
+    - "地理定位"
+    - "WHOIS"
+
+- name: "WorldIP"
+  url: "https://worldip.io/zh"
+  img: "https://worldip.io/assets/images/logo.svg"
+  description: "查询 IP 地址的国家、地区、城市、运营商和 ASN 等归属信息。"
+  tags:
+    - "IP查询"
+    - "地理位置"
+    - "ASN"
+    - "运营商"
+
+- name: "ipdata"
+  url: "https://ipdata.co/"
+  img: "https://ipdata.co/favicon.ico"
+  description: "提供 IP 地理位置、ASN、代理识别和威胁情报数据的查询服务及 API。"
+  tags:
+    - "IP数据"
+    - "地理位置"
+    - "威胁情报"
+    - "API"
+
+- name: "世界银行公开数据"
+  url: "https://data.worldbank.org.cn/"
+  img: "/images/favicon.ico"
+  description: "免费开放的全球发展数据平台，可按经济体或指标浏览经济、教育、健康、贫困和环境等统计数据。"
+  tags:
+    - "开放数据"
+    - "发展指标"
+    - "宏观统计"
+    - "全球"

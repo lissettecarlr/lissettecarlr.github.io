@@ -1,0 +1,8 @@
+- name: "歌曲宝"
+  url: "https://www.gequbao.com/"
+  img: "https://www.gequbao.com/favicon.ico"
+  description: "MP3 歌曲搜索及下载服务；本次请求受访问控制限制。"
+  tags:
+    - "音乐搜索"
+    - "MP3"
+    - "音乐下载"

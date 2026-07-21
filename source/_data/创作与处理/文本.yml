@@ -1,0 +1,39 @@
+- name: "Caption2Text"
+  url: "https://f-loat.github.io/caption2text/"
+  img: "https://f-loat.github.io/caption2text/favicon.ico"
+  description: "从 SRT、ASS 等字幕文件中移除时间轴及格式标记，提取纯文本。"
+  tags:
+    - "字幕处理"
+    - "文本提取"
+    - "格式转换"
+    - "开源"
+
+- name: "33字幕"
+  url: "https://www.33subs.com/"
+  img: "https://www.33subs.com/favicon.ico"
+  description: "AI 字幕生成、语音转写及字幕翻译服务，支持视频、音频和播客。"
+  tags:
+    - "AI字幕"
+    - "语音转写"
+    - "字幕翻译"
+    - "多语言"
+
+- name: "iKaomoji"
+  url: "https://ikaomoji.com/"
+  img: "https://ikaomoji.com/favicon.ico"
+  description: "按情绪和主题分类的日式颜文字目录，支持点击复制。"
+  tags:
+    - "颜文字"
+    - "文本素材"
+    - "快速复制"
+
+- name: "LaTeXLive"
+  url: "https://www.latexlive.com/"
+  img: "https://latexlive-resourse.oss-cn-beijing.aliyuncs.com/img/favicon.png"
+  description: "LaTeX 公式编辑与识别工具，支持图片/PDF 识别，并可输出 LaTeX、Typst、MathML、SVG 和 Word。"
+  tags:
+    - "网页应用"
+    - "免费增值"
+    - "LaTeX"
+    - "公式编辑"
+    - "OCR"

@@ -1,0 +1,19 @@
+- name: "OALib"
+  url: "https://www.oalib.com/"
+  img: "https://www.oalib.com/favicon.ico"
+  description: "Open Access Library 提供开放获取学术文章检索，并展示期刊与出版相关入口。"
+  tags:
+    - "学术论文"
+    - "开放获取"
+    - "文献检索"
+    - "英文"
+
+- name: "arXiv"
+  url: "https://arxiv.org/"
+  img: "https://arxiv.org/static/browse/0.3.4/images/icons/favicon-32x32.png"
+  description: "开放获取的学术预印本存储库，覆盖物理、数学、计算机科学、统计学、经济学等领域。"
+  tags:
+    - "学术论文"
+    - "预印本"
+    - "开放获取"
+    - "科研"

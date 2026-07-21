@@ -1,0 +1,167 @@
+- name: "字幕库"
+  url: "https://zmk.pw/"
+  img: "https://zmk.pw/favicon.ico"
+  description: "影视字幕搜索、分享与下载平台，提供多语种 SRT、ASS/SSA、SUP 等字幕。"
+  tags:
+    - "字幕下载"
+    - "字幕搜索"
+    - "多语种"
+    - "影视资源"
+
+- name: "OpenSubtitles"
+  url: "https://www.opensubtitles.com/"
+  img: "https://www.opensubtitles.com/favicon.ico"
+  description: "多语种影视字幕数据库，支持按片名、IMDb 标识及语言搜索字幕。"
+  tags:
+    - "字幕下载"
+    - "字幕搜索"
+    - "多语种"
+    - "影视资源"
+
+- name: "播剧影视发布页"
+  url: "https://www.boju.cc/"
+  img: "/images/favicon.ico"
+  description: "播剧影视最新地址、备用线路及防失联说明页面。"
+  tags:
+    - "影视资源"
+    - "地址发布"
+    - "备用线路"
+
+- name: "厂长资源发布页"
+  url: "https://www.czzy77.com"
+  img: "/images/favicon.ico"
+  description: "厂长资源旧域名导航页，列出当前主地址和备用入口。"
+  tags:
+    - "影视资源"
+    - "地址发布"
+    - "备用域名"
+    - "4K"
+
+- name: "火车太堵"
+  url: "https://www.tdgo.shop/"
+  img: "/images/favicon.ico"
+  description: "蓝光影视观看平台；本次请求超时，具体可用性待复核。"
+  tags:
+    - "影视"
+    - "蓝光"
+    - "电影"
+    - "电视剧"
+
+- name: "4K影视"
+  url: "https://www.4kvm.tv/"
+  img: "/images/favicon.ico"
+  description: "提供 4K 及高清电影、电视剧内容的影视站。"
+  tags:
+    - "影视"
+    - "4K"
+    - "高清"
+    - "电影"
+    - "电视剧"
+
+- name: "海纳TV"
+  url: "https://www.hainatv.net/"
+  img: "/images/favicon.ico"
+  description: "聚合电视剧、综艺、短剧及纪录片内容的影视平台。"
+  tags:
+    - "影视"
+    - "电视剧"
+    - "综艺"
+    - "短剧"
+    - "纪录片"
+
+- name: "爱电影"
+  url: "http://ivdy.com/"
+  img: "/images/favicon.ico"
+  description: "电影和电视剧资源聚合站；本次请求超时。"
+  tags:
+    - "影视"
+    - "电影"
+    - "电视剧"
+
+- name: "爱看影视"
+  url: "https://www.akys.info/"
+  img: "/images/favicon.ico"
+  description: "原电影和电视剧资源站；本次核验显示域名出售页，可能存在临时停放或入口迁移。"
+  tags:
+    - "影视"
+    - "电影"
+    - "电视剧"
+
+- name: "魔法解析"
+  url: "https://wantwatch.me/"
+  img: "/images/favicon.ico"
+  description: "影视链接解析服务；本次请求超时，具体可用性待复核。"
+  tags:
+    - "影视解析"
+    - "视频解析"
+    - "影视工具"
+
+- name: "饺子影视"
+  url: "https://www.jiaozi.me/"
+  img: "/images/favicon.ico"
+  description: "原高清影视站；本次核验显示域名停放页，可能存在入口迁移。"
+  tags:
+    - "影视"
+    - "高清"
+    - "电影"
+    - "电视剧"
+
+- name: "奈飞工厂"
+  url: "https://www.netflixgc.com/"
+  img: "/images/favicon.ico"
+  description: "聚合 Netflix 等电影和电视剧资源的影视站。"
+  tags:
+    - "影视"
+    - "Netflix"
+    - "电影"
+    - "电视剧"
+
+- name: "看片狂人防迷路页"
+  url: "https://kuangren.us/"
+  img: "/images/favicon.ico"
+  description: "看片狂人最新地址获取及防失联页面。"
+  tags:
+    - "影视资源"
+    - "地址发布"
+    - "防失联"
+
+- name: "爱壹帆"
+  url: "https://www.iyf.lv/"
+  img: "/images/favicon.ico"
+  description: "聚合电影、剧集、综艺和动漫，并提供高清及 4K 内容的影视平台。"
+  tags:
+    - "影视"
+    - "电影"
+    - "电视剧"
+    - "综艺"
+    - "4K"
+
+- name: "雪落影视"
+  url: "https://xlys.me/"
+  img: "/images/favicon.ico"
+  description: "提供电影、剧集、动画、综艺及多地区剧集的影视平台。"
+  tags:
+    - "影视"
+    - "电影"
+    - "电视剧"
+    - "动画"
+    - "综艺"
+
+- name: "LIBVIO"
+  url: "https://libvio.app/"
+  img: "/images/favicon.ico"
+  description: "LIBVIO 永久发布页，用于获取当前影视站地址和备用线路。"
+  tags:
+    - "影视资源"
+    - "地址发布"
+    - "备用线路"
+
+- name: "真狼影视"
+  url: "https://www.zhenlang.cc/"
+  img: "/images/favicon.ico"
+  description: "提供电影和电视剧浏览观看的影视平台。"
+  tags:
+    - "影视"
+    - "电影"
+    - "电视剧"
+    - "高清"

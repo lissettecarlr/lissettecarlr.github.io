@@ -1,0 +1,49 @@
+- name: "TradingView"
+  url: "https://cn.tradingview.com/#main-market-summary"
+  img: "https://static.tradingview.com/static/images/favicon.ico"
+  description: "金融市场图表与分析平台，提供股票、外汇、加密资产等行情、技术指标和交易观点。"
+  tags:
+    - "金融市场"
+    - "行情"
+    - "技术分析"
+    - "图表"
+
+- name: "金十数据"
+  url: "https://www.jin10.com/"
+  img: "/images/favicon.ico"
+  description: "金融市场资讯与交易数据平台，提供实时快讯、财经日历、行情追踪和市场专题工具。"
+  tags:
+    - "财经资讯"
+    - "市场快讯"
+    - "财经日历"
+    - "行情"
+
+- name: "东方财富数据中心"
+  url: "https://data.eastmoney.com/"
+  img: "/images/favicon.ico"
+  description: "综合财经数据中心，提供资金流向、新股、沪深港通、公告、研报、财报、股东股本和经济数据。"
+  tags:
+    - "财经数据"
+    - "A股"
+    - "资金流向"
+    - "研究报告"
+
+- name: "OneKey Card"
+  url: "https://card.onekey.so/"
+  img: "https://asset.onekey-asset.com/card/_next/static/media/favicon-32x32.9bea6f4b.png"
+  description: "OneKey 提供的虚拟卡服务，用于数字资产相关的支付和消费场景。"
+  tags:
+    - "虚拟卡"
+    - "数字资产"
+    - "支付"
+    - "金融科技"
+
+- name: "OKX"
+  url: "https://www.okx.com/cn"
+  img: "https://www.okx.com/cdn/assets/imgs/226/EB771F0EE8994DD5.png"
+  description: "数字资产交易平台，提供现货、衍生品、策略交易、赚币和 Web3 钱包等服务。"
+  tags:
+    - "数字资产"
+    - "交易所"
+    - "加密货币"
+    - "金融服务"

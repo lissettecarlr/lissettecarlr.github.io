@@ -1,0 +1,128 @@
+- name: "Web-Check"
+  url: "https://web-check.xyz/"
+  img: "https://web-check.xyz/favicon.svg"
+  description: "开源网站情报与安全检查工具，可检测 DNS、TLS、端口、安全标头、技术栈及站点配置。"
+  tags:
+    - "网站检测"
+    - "安全分析"
+    - "DNS"
+    - "开源"
+
+- name: "DNSDumpster"
+  url: "https://dnsdumpster.com"
+  img: "https://dnsdumpster.com/favicon.ico"
+  description: "被动 DNS 侦察服务，用于发现域名关联的 DNS 记录、主机和网络结构。"
+  tags:
+    - "DNS侦察"
+    - "子域名发现"
+    - "OSINT"
+
+- name: "Subdomain Center"
+  url: "https://www.subdomain.center/"
+  img: "https://www.subdomain.center/images/logo.png"
+  description: "提供子域名发现和影子 IT 资产查询的数据平台。"
+  tags:
+    - "子域名查询"
+    - "资产发现"
+    - "影子IT"
+
+- name: "OSINT.SH"
+  url: "https://osint.sh/"
+  img: "https://osint.sh/img/favicon.png"
+  description: "集成子域名、DNS 历史、反向 IP、证书和 WHOIS 等查询能力的 OSINT 工具平台。"
+  tags:
+    - "OSINT"
+    - "情报收集"
+    - "DNS"
+    - "工具合集"
+
+- name: "BrowserScan"
+  url: "https://www.browserscan.net/zh"
+  img: "https://www.browserscan.net/favicon.ico"
+  description: "检查浏览器指纹、IP、WebRTC、DNS、时区及软硬件环境等可识别信息。"
+  tags:
+    - "浏览器指纹"
+    - "隐私检测"
+    - "IP检测"
+    - "WebRTC"
+
+- name: "Maigret"
+  url: "https://github.com/soxoj/maigret"
+  img: "/images/logos/github.png"
+  description: "开源用户名 OSINT 工具，可在大量网站中查找用户名关联的公开账户。"
+  tags:
+    - "用户名搜索"
+    - "OSINT"
+    - "账户发现"
+    - "开源"
+
+- name: "ProxyPin"
+  url: "https://github.com/wanghongenpin/proxypin"
+  img: "/images/logos/github.png"
+  description: "基于 Flutter 的跨平台 HTTP/HTTPS 抓包工具，支持请求重写、过滤、阻断和脚本。"
+  tags:
+    - "抓包"
+    - "HTTP代理"
+    - "请求重写"
+    - "跨平台"
+    - "开源"
+
+- name: "Sniffnet"
+  url: "https://github.com/GyulyVGC/sniffnet"
+  img: "/images/logos/github.png"
+  description: "跨平台网络流量监控应用，可按连接、协议和远端主机分析流量。"
+  tags:
+    - "流量监控"
+    - "网络分析"
+    - "跨平台"
+    - "开源"
+
+- name: "VirusTotal"
+  url: "https://www.virustotal.com/gui/home/upload"
+  img: "https://www.virustotal.com/gui/images/favicon.svg"
+  description: "使用多种安全引擎和情报源分析文件、URL、域名及 IP；提交内容可能与安全社区共享。"
+  tags:
+    - "恶意软件分析"
+    - "URL检测"
+    - "威胁情报"
+    - "文件检测"
+
+- name: "Have I Been Pwned"
+  url: "https://haveibeenpwned.com/"
+  img: "https://haveibeenpwned.com/favicon.ico"
+  description: "查询邮箱或电话号码是否出现在已收录的数据泄露事件中，并提供密码泄露检查。"
+  tags:
+    - "数据泄露"
+    - "邮箱检测"
+    - "密码检测"
+    - "隐私安全"
+
+- name: "Steganography"
+  url: "https://github.com/7thSamurai/steganography"
+  img: "/images/logos/github.png"
+  description: "C++ 图像隐写项目，使用最低有效位方法将文件数据隐藏在图像中。"
+  tags:
+    - "图像隐写"
+    - "LSB"
+    - "C++"
+    - "开源"
+
+- name: "MHDDoS"
+  url: "https://github.com/MatrixTM/MHDDoS"
+  img: "/images/logos/github.png"
+  description: "Python 网络压力测试及 DDoS 流量生成工具，包含多种应用层和传输层方法。"
+  tags:
+    - "压力测试"
+    - "DDoS"
+    - "Python"
+    - "开源"
+
+- name: "RustScan"
+  url: "https://github.com/bee-san/RustScan"
+  img: "/images/logos/github.png"
+  description: "使用 Rust 编写的高速端口扫描器，可发现开放端口并衔接 Nmap 扫描。"
+  tags:
+    - "端口扫描"
+    - "Nmap"
+    - "Rust"
+    - "开源"

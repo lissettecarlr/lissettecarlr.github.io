@@ -1,0 +1,83 @@
+- name: "IDCrawl"
+  url: "https://www.idcrawl.com"
+  img: "/images/favicon.ico"
+  description: "按姓名、用户名、邮箱或电话号码聚合搜索公开社交资料及网页信息。"
+  tags:
+    - "人物搜索"
+    - "用户名搜索"
+    - "社交资料"
+
+- name: "FaceCheck.ID"
+  url: "https://facecheck.id"
+  img: "/images/favicon.ico"
+  description: "通过上传人脸照片反向搜索公开网页和社交平台中的相似人脸结果。"
+  tags:
+    - "人脸搜索"
+    - "反向图片搜索"
+    - "人物检索"
+    - "AI"
+
+- name: "无极磁力"
+  url: "https://cili.st/"
+  img: "/images/favicon.ico"
+  description: "无极磁链的官方域名发布页，并非直接磁力搜索页面。"
+  tags:
+    - "磁力资源"
+    - "域名发布"
+    - "BT资源"
+
+- name: "磁力猫地址发布页"
+  url: "https://xn--vur557cbpe6y0c.lol/"
+  img: "/images/favicon.ico"
+  description: "磁力猫最新地址及备用域名发布页。"
+  tags:
+    - "磁力资源"
+    - "地址发布"
+    - "BT资源"
+
+- name: "AnyBT"
+  url: "https://anybt.eth.limo/"
+  img: "/images/favicon.ico"
+  description: "基于去中心化域名入口的磁力资源搜索应用。"
+  tags:
+    - "磁力搜索"
+    - "去中心化"
+    - "BT资源"
+    - "Web3"
+
+- name: "磁力狐"
+  url: "https://bt31.foxs.vip/"
+  img: "/images/favicon.ico"
+  description: "磁力资源搜索服务。"
+  tags:
+    - "磁力搜索"
+    - "BT资源"
+    - "资源索引"
+
+- name: "盘友圈"
+  url: "https://panyq.com"
+  img: "https://panyq.com/favicon.ico"
+  description: "网盘资源搜索与索引服务；本次核验服务器返回临时异常。"
+  tags:
+    - "网盘搜索"
+    - "资源索引"
+    - "网盘资源"
+
+- name: "Wayback Machine"
+  url: "https://web.archive.org/"
+  img: "/images/favicon.ico"
+  description: "Internet Archive 提供的网页存档服务，可按网址和时间查看网站的历史快照。"
+  tags:
+    - "网页存档"
+    - "历史快照"
+    - "互联网档案"
+
+- name: "科学辟谣"
+  url: "https://www.cdstm.cn/subjects/kxlyb/"
+  img: "/images/favicon.ico"
+  description: "中国数字科技馆的每月科学流言榜，围绕健康、生活和科技话题发布科学辟谣内容。"
+  tags:
+    - "科学辟谣"
+    - "科普"
+    - "事实核查"
+    - "国内"

@@ -1,0 +1,60 @@
+- name: "Sunshine"
+  url: "https://github.com/LizardByte/Sunshine"
+  img: "/images/logos/github.png"
+  description: "开源、自托管的低延迟游戏串流主机，可供 Moonlight 客户端连接。"
+  tags:
+    - "桌面应用"
+    - "跨平台"
+    - "开源"
+    - "自托管"
+    - "游戏串流"
+
+- name: "Save Editor"
+  url: "https://www.saveeditonline.com/"
+  img: "https://www.saveeditonline.com/favicon.ico"
+  description: "浏览器游戏存档编辑器，支持 RPG Maker、Unity、Unreal Engine、Ren'Py 等格式。"
+  tags:
+    - "存档编辑"
+    - "RPGMaker"
+    - "Unity"
+    - "UnrealEngine"
+
+- name: "誠也の部屋"
+  url: "https://seiya-saiga.com/save.html"
+  img: "/images/favicon.ico"
+  description: "日本 PC 游戏存档索引站，主要提供视觉小说及 GalGame 全解锁存档。"
+  tags:
+    - "游戏存档"
+    - "视觉小说"
+    - "GalGame"
+    - "日文资源"
+
+- name: "Gamer520 / Switch520"
+  url: "https://www.gamer520.com/"
+  img: "/images/favicon.ico"
+  description: "PC 单机游戏、DLC 和修改器资源发布站。"
+  tags:
+    - "PC游戏"
+    - "游戏下载"
+    - "单机游戏"
+    - "修改器"
+
+- name: "Game Cheats Manager"
+  url: "https://github.com/dyang886/Game-Cheats-Manager/releases"
+  img: "/images/logos/github.png"
+  description: "开源游戏修改器管理器，可搜索、下载、更新并启动 Trainer 和 Cheat Table。"
+  tags:
+    - "游戏修改器"
+    - "Trainer"
+    - "CheatTable"
+    - "开源"
+
+- name: "Blue Archive Auto Script"
+  url: "https://github.com/pur1fying/blue_archive_auto_script"
+  img: "/images/logos/github.png"
+  description: "蔚蓝档案自动化工具，支持总力战按轴操作、制造及 Steam 版本。"
+  tags:
+    - "蔚蓝档案"
+    - "游戏自动化"
+    - "Steam"
+    - "开源"

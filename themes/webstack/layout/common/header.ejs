@@ -1,13 +1,15 @@
-<div class="sidebar-menu toggle-others fixed">
+<div id="sidebar-drawer" class="sidebar-menu toggle-others fixed">
   <div class="sidebar-menu-inner">
     <header class="logo-env">
       <div class="logo">
         <a href="<%= url_for('/index.html') %>" class="logo-expanded">
           <img src="<%= url_for(setting.logo.expanded) %>" width="100%" alt="" />
         </a>
+        <% if (setting.logo.collapsed) { %>
         <a href="<%= url_for('/index.html') %>" class="logo-collapsed">
           <img src="<%= url_for(setting.logo.collapsed) %>" width="40" alt="" />
         </a>
+        <% } %>
       </div>
       <div class="mobile-menu-toggle visible-xs">
         <a href="#" data-toggle="user-info-menu">
@@ -20,17 +22,23 @@
     </header>
     <ul id="main-menu" class="main-menu">
       <% for( let e of setting.menu ) { %>
-      <li class="<%= (e.submenu && setting.expandAll) ? "expanded" : "" %>">
+      <% const submenuId = 'submenu-' + e.name.replace(/[^\w\u4e00-\u9fa5-]+/g, '-'); %>
+      <li class="<%= e.submenu ? "has-sub" : "" %><%= (e.submenu && setting.expandAll) ? " expanded" : "" %>">
         <% if (e.submenu) { %>
-        <a class="fas fa-angle-down" style="cursor: pointer;">
+        <button type="button" class="submenu-toggle" aria-expanded="<%= setting.expandAll ? 'true' : 'false' %>" aria-controls="<%= submenuId %>">
           <% } else { %>
           <a href="#<%= e.name.replace(/[\s]+/g, '-') %>" class="smooth">
             <% } %>
             <i class="<%= e.icon %>"></i>
             <span class="title"><%= e.name %></span>
-          </a>
           <% if (e.submenu) { %>
-          <ul style="display: <%= setting.expandAll ? "block" : "none" %>;">
+            <i class="fas fa-angle-down submenu-indicator" aria-hidden="true"></i>
+          </button>
+          <% } else { %>
+          </a>
+          <% } %>
+          <% if (e.submenu) { %>
+          <ul id="<%= submenuId %>" style="display: <%= setting.expandAll ? "block" : "none" %>;">
             <% e.submenu.forEach(function(e) { %>
             <li>
               <a href="#<%= e.name.replace(/[\s]+/g, '-') %>" class="smooth">
